@@ -24,9 +24,22 @@
             "twitter_general": "cta",
             "us_ntd_id": "50066",
             "wikidata_id": "Q117309"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-dp3-cta~rt",
+              "gtfs_agency_id": ""
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-dp3-cta~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://example.com/chicagotransitauthority"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
