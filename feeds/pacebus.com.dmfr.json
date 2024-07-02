@@ -24,6 +24,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "PACE"
+            },
+            {
+              "feed_onestop_id": "f-dp3-pace~rt",
+              "gtfs_agency_id": "PACE"
             }
           ],
           "tags": {
@@ -33,6 +37,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-dp3-pace~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://tmweb.pacebus.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "realtime_trip_updates": "https://tmweb.pacebus.com/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "realtime_alerts": "https://tmweb.pacebus.com/TMGTFSRealTimeWebService/Alert/Alerts.pb"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
