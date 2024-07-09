@@ -5,7 +5,7 @@
       "id": "f-dp3-pace",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://public.pacebus.com/gtfs/gtfs.zip"
+        "static_current": "https://www.pacebus.com/sites/default/files/2024-05/GTFS.zip"
       },
       "license": {
         "url": "http://www.pacebus.com/sub/about/data_services.asp",
