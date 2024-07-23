@@ -5,7 +5,7 @@
       "id": "f-9q5b-torrancetransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://transit.torranceca.gov/home/showpublisheddocument/16673/638089508813700000"
+        "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/main/torrance.zip"
       },
       "license": {
         "url": "https://transit.torranceca.gov/home/showpublisheddocument/6052/636308096437370000"
