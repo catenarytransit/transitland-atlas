@@ -5,7 +5,7 @@
       "id": "f-dpz8-ttc",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/OpenData_TTC_Schedules.zip"
+        "static_current": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/bd4809dd-e289-4de8-bbde-c5c00dafbf4f/resource/28514055-d011-4ed7-8bb0-97961dfe2b66/download/SurfaceGTFS.zip"
       },
       "license": {
         "url": "https://open.toronto.ca/dataset/ttc-routes-and-schedules/",
