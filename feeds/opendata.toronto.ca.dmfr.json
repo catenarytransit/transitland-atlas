@@ -22,6 +22,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "1"
+            },
+            {
+              "feed_onestop_id": "f-dpz8-ttc~rt"
             }
           ],
           "tags": {
@@ -30,6 +33,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-dpz8-ttc~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://bustime.ttc.ca/gtfsrt/vehicles",
+        "realtime_trip_updates": "https://bustime.ttc.ca/gtfsrt/trips",
+        "realtime_alerts": "https://bustime.ttc.ca/gtfsrt/alerts"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
