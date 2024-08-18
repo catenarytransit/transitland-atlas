@@ -91,6 +91,16 @@
       ]
     },
     {
+      "id": "f-clemson~university",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transloc.com/gtfs/clemson.zip",
+        "static_historic": [
+          "https://passio3.com/clemson/passioTransit/gtfs/google_transit.zip"
+        ]
+      }
+    },
+    {
       "id": "f-coldlake~ab~ca",
       "spec": "gtfs",
       "urls": {
@@ -198,23 +208,6 @@
             "twitter_general": "RideWithCAT",
             "us_ntd_id": "30036",
             "wikidata_id": "Q5086235"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-gary~public~transportation~in~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.transloc.com/gtfs/gptc.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-gary~public~transportation~in~us",
-          "name": "Gary Public Transportation Corporation",
-          "tags": {
-            "us_ntd_id": "50045",
-            "wikidata_id": "Q5525788"
           }
         }
       ]
