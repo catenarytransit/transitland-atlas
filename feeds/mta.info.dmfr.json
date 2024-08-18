@@ -164,10 +164,10 @@
       }
     },
     {
-      "id": "f-mta~nyc~rt~alerts",
+      "id": "f-mta~nyc~rt~subway~alerts",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fall-alerts"
+        "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts"
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
@@ -200,7 +200,8 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
-        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr"
+        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
+        "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Flirr-alerts"
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
@@ -216,7 +217,8 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
-        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr"
+        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
+        "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fmnr-alerts"
       },
       "license": {
         "url": "https://api.mta.info/#/DataFeedAgreement"
@@ -358,9 +360,6 @@
           "feed_onestop_id": "f-dr5-mtanyclirr"
         },
         {
-          "feed_onestop_id": "f-mta~nyc~rt~alerts"
-        },
-        {
           "feed_onestop_id": "f-mta~nyc~rt~lirr"
         }
       ],
@@ -400,9 +399,6 @@
           "feed_onestop_id": "f-dr72-mtanyctbusbronx"
         },
         {
-          "feed_onestop_id": "f-mta~nyc~rt~alerts"
-        },
-        {
           "feed_onestop_id": "f-mta~nyc~rt~bustime"
         },
         {
@@ -428,6 +424,9 @@
         },
         {
           "feed_onestop_id": "f-mta~nyc~rt~subway~sir"
+        },
+        {
+          "feed_onestop_id": "f-mta~nyc~rt~subway~alerts"
         }
       ],
       "tags": {
@@ -446,9 +445,6 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-dr7-mtanyc~metro~north"
-        },
-        {
-          "feed_onestop_id": "f-mta~nyc~rt~alerts"
         },
         {
           "feed_onestop_id": "f-mta~nyc~rt~mnr"
