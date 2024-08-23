@@ -27,31 +27,6 @@
       ]
     },
     {
-      "id": "f-dn5bpr-atlanticstationshuttle",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://www.arcgis.com/sharing/rest/content/items/61dca73994b746ac97eae8c0f83fdedc/data#Atlantic_Station_new-20200526T125751Z-4803f8a3-5b12-42f5-8f07-d7917af156d5-3ae3ebe9-4a54-46b9-9ff7-f93285129896",
-        "static_historic": [
-          "http://documents.atlantaregional.com/transitdata/gtfs_Atlantic.zip"
-        ]
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://opendata.atlantaregional.com/datasets/61dca73994b746ac97eae8c0f83fdedc/about",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "gtfs_data_exchange": "atlantic-station-shuttle"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dn5bpr-atlanticstationshuttle",
-          "name": "Atlantic Station Shuttle",
-          "website": "http://asap-plus.com"
-        }
-      ]
-    },
-    {
       "id": "f-dnh-grtaxpress",
       "spec": "gtfs",
       "urls": {
@@ -89,34 +64,6 @@
         "realtime_trip_updates": "https://myxpress2.xpressga.com/gtfsrt/trips",
         "realtime_alerts": "https://myxpress2.xpressga.com/gtfsrt/alerts"
       }
-    },
-    {
-      "id": "f-dnh08-bucshuttle",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://documents.atlantaregional.com/transitdata/gtfs_Buc.zip"
-      },
-      "license": {
-        "url": "http://atlantaregional.com/File%20Library/Transportation/Transit/Developers-Agreement-for-Web.pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dnh08-bucshuttle",
-          "name": "Buckhead Uptown Connection",
-          "short_name": "buc",
-          "website": "http://bucride.com",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "BUC"
-            }
-          ],
-          "tags": {
-            "twitter_general": "LBI30326"
-          }
-        }
-      ]
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"

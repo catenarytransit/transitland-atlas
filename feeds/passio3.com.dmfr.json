@@ -256,6 +256,9 @@
       "operators": [
         {
           "onestop_id": "o-dn5b-georgiatechtrolley~stingershuttles",
+          "supersedes_ids": [
+            "o-dn5b-georgiatechtrolley~stingershuttles"
+          ],
           "name": "Georgia Tech Stinger Bus",
           "website": "https://pts.gatech.edu/",
           "tags": {
@@ -654,6 +657,28 @@
       }
     },
     {
+      "id": "f-olean~area~transit~system",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/oats/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/datatools-511ny/public/Olean_Area_Transit_System.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dr2p-oleanareatransitsystem",
+          "name": "Olean Area Transit System",
+          "short_name": "OATS",
+          "website": "https://cityofolean.org/olean-area-transit-system/",
+          "tags": {
+            "twitter_general": "oatsolean",
+            "us_ntd_id": "2R02-20975"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-ozark~regional~transit",
       "spec": "gtfs",
       "urls": {
@@ -759,6 +784,28 @@
         "realtime_trip_updates": "https://passio3.com/towson/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/towson/passioTransit/gtfs/realtime/serviceAlerts"
       }
+    },
+    {
+      "id": "f-uga~ga~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/uga/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/uga-ga-us.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dnh9n-universityofgeorgia",
+          "name": "University of Georgia",
+          "short_name": "UGA",
+          "tags": {
+            "twitter_general": "UGA_TPS",
+            "us_ntd_id": "40180",
+            "wikidata_id": "Q7864605"
+          }
+        }
+      ]
     },
     {
       "id": "f-university~new~mexico",

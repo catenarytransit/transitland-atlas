@@ -2,6 +2,30 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
+      "id": "f-9qx5-suntran",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/suntran-st-george-ut-us.zip",
+        "static_historic": [
+          "http://www.fivecounty.utah.gov/transit/google_transit.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "suntran"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9qx5-suntran",
+          "name": "SunTran",
+          "tags": {
+            "twitter_general": "Cityofstgeorge",
+            "us_ntd_id": "80026",
+            "wikidata_id": "Q19878145"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-augusta~ga~us",
       "spec": "gtfs",
       "urls": {
@@ -80,6 +104,32 @@
       ]
     },
     {
+      "id": "f-dn5bpr-atlanticstationshuttle",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/atlantic-station-ga-us.zip",
+        "static_historic": [
+          "https://www.arcgis.com/sharing/rest/content/items/61dca73994b746ac97eae8c0f83fdedc/data#Atlantic_Station_new-20200526T125751Z-4803f8a3-5b12-42f5-8f07-d7917af156d5-3ae3ebe9-4a54-46b9-9ff7-f93285129896",
+          "http://documents.atlantaregional.com/transitdata/gtfs_Atlantic.zip"
+        ]
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "url": "https://opendata.atlantaregional.com/datasets/61dca73994b746ac97eae8c0f83fdedc/about",
+        "use_without_attribution": "no"
+      },
+      "tags": {
+        "gtfs_data_exchange": "atlantic-station-shuttle"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dn5bpr-atlanticstationshuttle",
+          "name": "Atlantic Station Shuttle",
+          "website": "http://asap-plus.com"
+        }
+      ]
+    },
+    {
       "id": "f-dnq5-greenwaypublictransportation",
       "spec": "gtfs",
       "urls": {
@@ -122,6 +172,36 @@
       ]
     },
     {
+      "id": "f-dqf3-shoretransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/shore-transit-md-us.zip",
+        "static_historic": [
+          "https://github.com/mobilityequity/maryland-local-gtfs/raw/master/Shore_GTFS.zip"
+        ]
+      },
+      "license": {
+        "url": "https://github.com/mobilityequity/maryland-local-gtfs/blob/master/README.md",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes",
+        "attribution_instructions": "when using MTI data or software in projects, maps, etc.; you agree to acknowledge MTI as a data source (https://mti.umd.edu/)."
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dqf3-shoretransit",
+          "name": "Shore Transit",
+          "website": "http://www.shoretransit.org/Home.aspx",
+          "tags": {
+            "twitter_general": "ShoreTransit",
+            "us_ntd_id": "30096",
+            "wikidata_id": "Q16984591"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-dubai~rta",
       "spec": "gtfs",
       "urls": {
@@ -132,30 +212,6 @@
       }
     },
     {
-      "id": "f-green~bay~wi~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/green-bay-wi-us.zip"
-      },
-      "license": {
-        "url": "https://greenbaywi.gov/496/Transit-Data-Developer",
-        "use_without_attribution": "yes",
-        "attribution_text": "Data provided under license granted by the City of Green Bay, Metro Transit.",
-        "attribution_instructions": "Licensee shall have the option, but not the obligation, to credit City for the Data. If the Licensee so chooses, the credit line should be placed as close to the actual Data information as reasonably possible."
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dpcm-greenbaymetro",
-          "name": "Green Bay Metro",
-          "tags": {
-            "twitter_general": "GBmetro",
-            "us_ntd_id": "50002",
-            "wikidata_id": "Q3116073"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-grtc~va",
       "spec": "gtfs",
       "urls": {
@@ -164,24 +220,6 @@
       "license": {
         "url": "http://ridegrtc.com/gtfs-files-developer-license-agreement-and-terms-of-use"
       }
-    },
-    {
-      "id": "f-jefferson~parish",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/f-jefferson~parish.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-jefferson~parish",
-          "name": "Jefferson Parish Transit",
-          "short_name": "The JeT,",
-          "tags": {
-            "us_ntd_id": "60088",
-            "wikidata_id": "Q6175697"
-          }
-        }
-      ]
     },
     {
       "id": "f-kanawha~valley~regional~transportation~authority",
@@ -399,39 +437,6 @@
               "gtfs_agency_id": "MTC"
             }
           ]
-        }
-      ]
-    },
-    {
-      "id": "f-uga~ga~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/uga-ga-us.zip"
-        ]
-      },
-      "license": {
-        "url": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/interline-gtfs-license.md",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "no",
-        "share_alike_optional": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dnh9n-universityofgeorgia",
-          "name": "University of Georgia",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1740"
-            }
-          ],
-          "tags": {
-            "twitter_general": "UGA_TPS",
-            "us_ntd_id": "40180",
-            "wikidata_id": "Q7864605"
-          }
         }
       ]
     },
