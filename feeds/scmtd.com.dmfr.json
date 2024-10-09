@@ -5,10 +5,10 @@
       "id": "f-9q9-scmtdcom",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://scmtd.com/google_transit/google_transit.zip"
+        "static_current": "https://developer.scmetro.org/gtfs.zip"
       },
       "license": {
-        "url": "https://scmtd.com/en/riders-guide/google-transit/gtfs-dev-data",
+        "url": "https://developer.scmetro.org/",
         "use_without_attribution": "no",
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
