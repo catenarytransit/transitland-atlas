@@ -246,10 +246,31 @@
       ]
     },
     {
-      "id": "f-rochester~institute~of~technology",
+      "id": "f-uc~irvine~anteater~express",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://api.transloc.com/gtfs/rit.zip"
+        "static_current": "https://api.transloc.com/gtfs/uci.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-uc~irvine~anteater~express",
+          "name": "University of California Irvine Shuttle",
+          "short_name": "UCI Anteater Express",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-uc~irvine~anteater~express~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-uc~irvine~anteater~express~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=vehicle",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=trip",
+        "realtime_service_alerts": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=alert"
       }
     },
     {
