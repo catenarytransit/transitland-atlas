@@ -56,7 +56,7 @@
     ],
     "operators": [
       {
-        "onestop_id": "o-tokyo-metro-jp",
+        "onestop_id": "o-tokyo~metro~jp",
         "name": "Tokyo Metro 東京メトロ",
         "short_name": "Tokyo Metro",
         "associated_feeds": [
@@ -66,7 +66,7 @@
         ]
       },
       {
-        "onestop_id": "o-toei-jp",
+        "onestop_id": "o-toei~jp",
         "name": "Tokyo Metropolitan Bureau of Transportation 東京都交通局",
         "short_name": "Toei 都営",
         "associated_feeds": [
@@ -79,7 +79,7 @@
         ]
       },
       {
-        "onestop_id": "o-kyoto-jp",
+        "onestop_id": "o-kyoto~jp",
         "name": "Kyoto Municipal Transportation Bureau 京都市交通局",
         "short_name": "Kyoto 京都",
         "associated_feeds": [
