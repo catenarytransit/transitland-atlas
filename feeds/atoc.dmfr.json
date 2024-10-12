@@ -1,0 +1,12 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+    "feeds": [
+        {
+            "id": "f-atoc",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://github.com/catenarytransit/uk-rail-gtfs-hosted/releases/download/main/gtfs_atoc.zip"
+            }
+        }
+    ]
+}
