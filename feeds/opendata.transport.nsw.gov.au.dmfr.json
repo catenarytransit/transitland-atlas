@@ -2,6 +2,37 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
+      "id": "f-r6-nsw~sydneytrains~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/sydneytrains",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/sydneytrains"
+      }
+    },
+    {
+      "id": "f-r6-nsw~sydneymetro~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/metro",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/metro"
+      }
+    },
+    {
+      "id": "f-r6-nsw~alerts~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/all"
+      }
+    },
+    {
+      "id": "f-r6-nsw~nswtrains~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/nswtrains",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/nswtrains"
+      }
+    },
+    {
       "id": "f-r6-nswtrainlink~sydneytrains~buswayswesternsydney~interlinebus",
       "spec": "gtfs",
       "urls": {
@@ -346,6 +377,12 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "X0000"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~nswtrains~rt"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~alerts~rt"
             }
           ]
         },
@@ -389,6 +426,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "x0001"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~sydneytrains~rt"
             }
           ]
         },
@@ -579,6 +619,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "LR"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~sydneymetro~rt"
             }
           ]
         },
