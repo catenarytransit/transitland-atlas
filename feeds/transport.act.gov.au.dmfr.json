@@ -35,10 +35,21 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "TC"
+            },
+            {
+              "feed_onestop_id": "f-r3dp-wwwactionactgovau~rt"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "f-r3dp-wwwactionactgovau~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "http://files.transport.act.gov.au/feeds/lightrail.pb",
+        "realtime_trip_updates": "http://files.transport.act.gov.au/feeds/lightrail.pb"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
