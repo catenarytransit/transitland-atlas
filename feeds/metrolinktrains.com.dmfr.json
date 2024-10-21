@@ -5,7 +5,7 @@
       "id": "f-9qh-metrolinktrains",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/refs/heads/main/metrolink-brosis-version.zip",
+        "static_current": "https://metrolinktrains.com/globalassets/about/gtfs/gtfs.zip",
         "static_historic": [
           "https://www.metrolinktrains.com/globalassets/about/mgtfs-may11-2018-sched-v2.zip"
         ]
