@@ -142,13 +142,6 @@
       }
     },
     {
-      "id": "f-bergen~bysykkel~gbfs",
-      "spec": "gbfs",
-      "urls": {
-        "gbfs_auto_discovery": "https://api.entur.io/mobility/v2/gbfs/v3/bergenbysykkel/gbfs"
-      }
-    },
-    {
       "id": "f-bergen~city~bike~gbfs",
       "spec": "gbfs",
       "urls": {
@@ -5697,6 +5690,13 @@
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://gbfs.nextbike.net/maps/gbfs/v2/nextbike_vw/gbfs.json"
+      }
+    },
+    {
+      "id": "f-voi~antwerp~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://api.voiapp.io/gbfs/be/7a4cb689-a2ee-409d-a5fe-49d2e8d50717/v2/gbfs.json"
       }
     },
     {
