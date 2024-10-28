@@ -5,14 +5,14 @@
       "id": "f-ez-renfecercanias",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.renfe.com/dataset/77525d66-f095-46d0-80c0-37f735d4342f/resource/6f1523c6-a9e3-48e3-9ace-bb107a762be6/download/fomento_transit.zip",
+        "static_current": "https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip",
         "static_historic": [
           "https://elchesemueve.com/renfe/gtfs.zip"
         ]
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
-        "url": "https://data.renfe.com/dataset/77525d66-f095-46d0-80c0-37f735d4342f/resource/6f1523c6-a9e3-48e3-9ace-bb107a762be6"
+        "url": "https://data.renfe.com/dataset/77525d66-f095-46d0-80c0-37f735d4342f"
       },
       "operators": [
         {
@@ -29,7 +29,7 @@
       "id": "f-ez-renfeoperadora",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.renfe.com/dataset/34be0058-3a3d-4ee1-89cd-512e1226f53f/resource/25d6b043-9e47-4f99-bd91-edd51d782450/download/google_transit.zip"
+        "static_current": "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip"
       },
       "license": {
         "url": "http://data.renfe.com/legal",
