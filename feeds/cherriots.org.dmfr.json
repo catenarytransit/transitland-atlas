@@ -33,6 +33,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-9rb-cherriots~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://live.cherriots.org/gtfs-rt/vehiclepositions",
+        "realtime_trip_updates": "https://live.cherriots.org/gtfs-rt/tripupdates",
+        "realtime_alerts": "https://live.cherriots.org/gtfs-rt/alerts"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
