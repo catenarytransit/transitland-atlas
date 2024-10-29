@@ -24,6 +24,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "cherriots-salem-or-us"
+            },
+            {
+              "feed_onestop_id": "f-9rb-cherriots~rt"
             }
           ],
           "tags": {
