@@ -5,9 +5,7 @@
       "id": "f-u05-tcl~systral",
       "spec": "gtfs",
       "urls": {
-        "static_historic": [
-          "https://download.data.grandlyon.com/files/rdata/tcl_sytral.tcltheorique/GTFS_TCL.ZIP"
-        ]
+        "static_current": "https://download.data.grandlyon.com/files/rdata/tcl_sytral.tcltheorique/GTFS_TCL.ZIP"
       },
       "license": {
         "url": "https://data.grandlyon.com/cgu",
