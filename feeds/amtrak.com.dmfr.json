@@ -21,6 +21,9 @@
             },
             {
               "feed_onestop_id": "f-amtrak~rt"
+          },
+            {
+              "feed_onestop_id": "f-amtrakvermonter~vt~us"
             }
           ],
           "tags": {
