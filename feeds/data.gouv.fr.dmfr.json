@@ -12,6 +12,18 @@
       }
     },
     {
+      "id": "f-autun~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/0fd67eb8-24a4-4ae0-b98b-b442f74244e1"
+      },
+      "license": {
+        "spdx_identifier": "ODbL-1.0",
+        "url": "https://transport.data.gouv.fr/datasets/arrets-lignes-regulieres-reseau-de-transport-urbain-a-autun",
+        "share_alike_optional": "no"
+      }
+    },
+    {
       "id": "f-chamonix~bus",
       "spec": "gtfs",
       "urls": {
@@ -67,6 +79,47 @@
       },
       "license": {
         "url": "https://transport.data.gouv.fr/datasets/reseau-karouest"
+      }
+    },
+    {
+      "id": "f-keolis~dijon~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/e0dbd217-15cd-4e28-9459-211a27511a34",
+        "static_historic": [
+          "https://data.explore.divia.fr/api/datasets/1.0/gtfs-divia-mobilites/attachments/gtfs_diviamobilites_current_zip"
+        ]
+      },
+      "license": {
+        "spdx_identifier": "ODbL-1.0",
+        "url": "https://transport.data.gouv.fr/datasets/gtfs-diviamobilites"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-keolis~dijon~fr",
+          "name": "Keolis Dijon Mobilités",
+          "short_name": "DiviaMobilités",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-keolis~dijon~fr~rt"
+            }
+          ],
+          "tags": {
+            "wikidata_id": "Q2361824"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-keolis~dijon~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/divia-dijon-gtfs-rt-vehicle-position",
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/divia-dijon-gtfs-rt-trip-update"
+      },
+      "license": {
+        "spdx_identifier": "ODbL-1.0",
+        "url": "https://transport.data.gouv.fr/datasets/gtfs-diviamobilites"
       }
     },
     {
@@ -182,23 +235,21 @@
       "id": "f-sp9x-libellus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/66eaf639-bef7-427b-821a-9e621322b535"
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/70c9f936-129e-41f4-940a-8e6f272535d1",
+        "static_historic": [
+          "https://www.data.gouv.fr/fr/datasets/r/66eaf639-bef7-427b-821a-9e621322b535"
+        ]
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
-        "url": "http://opendatacommons.org/licenses/odbl/summary/"
+        "url": "https://transport.data.gouv.fr/datasets/offre-de-transport-du-reseau-libellus-gtfs",
+        "share_alike_optional": "no"
       },
       "operators": [
         {
           "onestop_id": "o-sp9x-libellus",
           "name": "Libellus",
-          "short_name": "Libellus",
-          "website": "http://www.libellus.org/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1"
-            }
-          ]
+          "website": "http://www.libellus.org/"
         }
       ]
     },
@@ -598,6 +649,16 @@
         "spdx_identifier": "ODbL-1.0",
         "url": "https://transport.data.gouv.fr/datasets/donnees-tcat-troyes-champagne-metropole-1",
         "share_alike_optional": "no"
+      }
+    },
+    {
+      "id": "f-tuc~cambrai",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/d00d1684-6980-4f84-ac38-363b6f058a68"
+      },
+      "license": {
+        "url": "https://transport.data.gouv.fr/datasets/donnees-gtfs-reseau-tuc-communaute-dagglomeration-de-cambrai"
       }
     },
     {
