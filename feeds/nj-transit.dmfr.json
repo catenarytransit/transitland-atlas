@@ -44,7 +44,8 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://pcsdata.njtransit.com/api/GTFS/getvehiclepositions",
-        "realtime_alerts": "https://pcsdata.njtransit.com/api/GTFS/getalerts"
+        "realtime_alerts": "https://pcsdata.njtransit.com/api/GTFS/getalerts",
+        "realtime_trip_updates": "https://pcsdata.njtransit.com/api/GTFS/gettripupdates"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
