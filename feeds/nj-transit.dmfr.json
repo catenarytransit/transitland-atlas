@@ -28,6 +28,18 @@
       }
     },
     {
+      "id": "f-d45-nj~transit~rail~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://raildata.njtransit.com/api/GTFSRT/getVehiclePositions",
+        "realtime_trip_updates": "https://raildata.njtransit.com/api/GTFSRT/getTripUpdates",
+        "realtime_service_alerts": "https://raildata.njtransit.com/api/GTFSRT/getAlerts"
+      },
+      "license": {
+        "url": "https://www.njtransit.com/developer-tools"
+      }
+    },
+    {
       "id": "f-nj~transit~rt",
       "spec": "gtfs-rt",
       "urls": {
@@ -49,6 +61,9 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-dr5-nj~transit~rail"
+        },
+        {
+          "feed_onestop_id": "f-d45-nj~transit~rail~rt"
         }
       ]
     },
