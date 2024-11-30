@@ -645,7 +645,6 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://passio3.com/irvine/passioTransit/gtfs/realtime/vehiclePositions",
-        "realtime_trip_updates": "https://passio3.com/irvine/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/irvine/passioTransit/gtfs/realtime/serviceAlerts"
       }
     },
