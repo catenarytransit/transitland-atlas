@@ -19,8 +19,8 @@
     "operators": [
       {
         "onestop_id": "o-9mu-sctrolley",
-        "name": "Orange County Transportation Authority",
-        "short_name": "OCTA",
+        "name": "San Clemente Trolley",
+        "short_name": "SC Trolley",
         "associated_feeds": [
           {
             "feed_onestop_id": "f-9mu-sctrolley"
