@@ -2,7 +2,7 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
-      "id": "f-u09-paris~metro~bus~tram",
+      "id": "f-u09-île-de-france-mobilités",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/offre-horaires-tc-gtfs-idfm/files/a925e164271e4bca93433756d6a340d1",
