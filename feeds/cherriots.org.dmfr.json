@@ -16,7 +16,7 @@
       "tags": {
         "gtfs_data_exchange": "cherriots"
       },
-      "operators": [
+      "operators": [ 
         {
           "onestop_id": "o-9rb-cherriots",
           "name": "Cherriots",
