@@ -12,6 +12,7 @@
       "id": "f-belleville~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-belleville/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-belleville/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-belleville/alerts.pb"
       }
@@ -46,6 +47,7 @@
       "id": "f-cornwall~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-cornwall/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-cornwall/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-cornwall/alerts.pb"
       }
@@ -61,15 +63,9 @@
       "id": "f-kawartha~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-kawartha/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-kawartha/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-kawartha/alerts.pb"
-      }
-    },
-    {
-      "id": "f-metrolinx~gtfs~rt~vehicles",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-belleville/vehiclepositions.pb"
       }
     },
     {
@@ -83,6 +79,7 @@
       "id": "f-milton~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-milton/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-milton/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-milton/alerts.pb"
       }
@@ -91,6 +88,7 @@
       "id": "f-orangeville~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-orangeville/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-orangeville/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-orangeville/alerts.pb"
       }
@@ -119,6 +117,7 @@
       "id": "f-orillia~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-orillia/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-orillia/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-orillia/alerts.pb"
       }
@@ -150,6 +149,7 @@
       "id": "f-saultstemarie~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-saultstemarie/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-saultstemarie/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-saultstemarie/alerts.pb"
       }
@@ -165,6 +165,7 @@
       "id": "f-simcoe~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-simcoe/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-simcoe/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-simcoe/alerts.pb"
       }
@@ -180,6 +181,7 @@
       "id": "f-stratford~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-stratford/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-stratford/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-stratford/alerts.pb"
       }
@@ -195,6 +197,7 @@
       "id": "f-stthomas~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-stthomas/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-stthomas/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-stthomas/alerts.pb"
       }
@@ -210,6 +213,7 @@
       "id": "f-temiskaming~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-temiskaming/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-temiskaming/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-temiskaming/alerts.pb"
       }
@@ -225,6 +229,7 @@
       "id": "f-timmins~on~ca~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://metrolinx.tmix.se/gtfs-realtime-timmins/vehicleupdates.pb",
         "realtime_trip_updates": "https://metrolinx.tmix.se/gtfs-realtime-timmins/tripupdates.pb",
         "realtime_alerts": "https://metrolinx.tmix.se/gtfs-realtime-timmins/alerts.pb"
       }
@@ -241,9 +246,6 @@
         },
         {
           "feed_onestop_id": "f-belleville~on~ca~rt"
-        },
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
         }
       ]
     },
@@ -271,9 +273,6 @@
         },
         {
           "feed_onestop_id": "f-cornwall~on~ca~rt"
-        },
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
         }
       ]
     },
@@ -287,9 +286,6 @@
         },
         {
           "feed_onestop_id": "f-kawartha~on~ca~rt"
-        },
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
         }
       ]
     },
@@ -298,9 +294,6 @@
       "name": "Milton Transit",
       "website": "https://www.milton.ca/en/living-in-milton/transit.aspx",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
         {
           "feed_onestop_id": "f-milton~on~ca"
         },
@@ -315,9 +308,6 @@
       "website": "https://www.orangeville.ca/en/living-here/transit.aspx",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
-        {
           "feed_onestop_id": "f-orangeville~on~ca~rt"
         },
         {
@@ -330,9 +320,6 @@
       "name": "Orillia Transit",
       "website": "https://www.orillia.ca/en/transit.aspx",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
         {
           "feed_onestop_id": "f-orillia~on~ca"
         },
@@ -347,9 +334,6 @@
       "website": "https://www.sarnia.ca/living-here/getting-around/sarnia-transit/",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
-        {
           "feed_onestop_id": "f-sarnia~on~ca"
         },
         {
@@ -362,9 +346,6 @@
       "name": "Sault Ste. Marie Transit",
       "website": "https://saultstemarie.ca/Government/City-Departments/Community-Development-Enterprise-Services/Community-Services/Transit/Bus-Routes-and-Schedules.aspx",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
         {
           "feed_onestop_id": "f-saultstemarie~on~ca"
         },
@@ -380,9 +361,6 @@
       "website": "https://www.simcoe.ca/dpt/linx",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
-        {
           "feed_onestop_id": "f-simcoe~on~ca"
         },
         {
@@ -395,9 +373,6 @@
       "name": "Stratford Transit",
       "website": "https://www.stratford.ca/en/live-here/transit.aspx",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
         {
           "feed_onestop_id": "f-stratford~on~ca"
         },
@@ -412,9 +387,6 @@
       "website": "https://www.stthomas.ca/living_here/transit_system",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
-        {
           "feed_onestop_id": "f-stthomas~on~ca"
         },
         {
@@ -428,9 +400,6 @@
       "website": "https://www.temiskamingshores.ca/en/resident/transit.aspx",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
-        {
           "feed_onestop_id": "f-temiskaming~on~ca"
         },
         {
@@ -443,9 +412,6 @@
       "name": "Timmins Transit",
       "website": "https://www.timmins.ca/our_services/timmins_transit",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-metrolinx~gtfs~rt~vehicles"
-        },
         {
           "feed_onestop_id": "f-timmins~on~ca"
         },
