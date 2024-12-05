@@ -8,7 +8,39 @@
           "static_current": "https://api.odpt.org/api/v4/files/TokyoMetro/data/TokyoMetro-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
-          "url": "https://creativecommons.org/licenses/by/4.0/"
+          "url": "https://developer.odpt.org/terms"
+        }
+      },
+      {
+        "id": "f-twr~rinkai~line",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api.odpt.org/api/v4/files/TWR/data/TWR-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        },
+        "license": {
+          "url": "https://developer.odpt.org/terms"
+        },
+        "operators": [
+          {
+            "onestop_id": "o-tokyo~waterfront~area~rapid~transit~jp",
+            "name": "Tokyo Waterfront Area Rapid Transit 東京臨海高速鉄道",
+            "short_name": "TWR",
+            "associated_feeds": [
+              {
+                "feed_onestop_id": "f-twr~rinkai~line~rt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f-twr~rinkai~line~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        },
+        "license": {
+          "url": "https://developer.odpt.org/terms"
         }
       },
       {
@@ -18,7 +50,7 @@
           "static_current": "https://api-public.odpt.org/api/v4/files/Toei/data/Toei-Train-GTFS.zip"
         },
         "license": {
-          "url": "https://creativecommons.org/licenses/by/4.0/"
+          "url": "https://developer.odpt.org/terms"
         }
       },
       {
@@ -28,7 +60,7 @@
           "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=20240930&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
-          "url": "https://creativecommons.org/licenses/by/4.0/"
+          "url": "https://developer.odpt.org/terms"
         }
       },
       {
@@ -40,7 +72,7 @@
           "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
-          "url": "https://creativecommons.org/licenses/by/4.0/"
+          "url": "https://developer.odpt.org/terms"
         }
       },
       {
@@ -50,7 +82,7 @@
           "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=20240815&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
-          "url": "https://creativecommons.org/licenses/by/4.0/"
+          "url": "https://developer.odpt.org/terms"
         }
       }
     ],
