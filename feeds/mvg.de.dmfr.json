@@ -15,6 +15,9 @@
         "name": "Münchner Verkehrsgesellschaft",
         "short_name": "MVG",
         "associated_feeds": [
+          {
+            "feed_onestop_id": "f-münchner~verkehrsgesellschaft~mvg"
+          }
         ],
         "tags": {
           "wikidata_id": "Q456402"
