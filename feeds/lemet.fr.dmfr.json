@@ -2,6 +2,15 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
+      "id": "f-u0sr-lemet~proxis~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-vehicle-position",
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-trip-update",
+        "realtime_alerts": "https://proxy.transport.data.gouv.fr/resource/lemet-metz-gtfs-rt-service-alert"
+      }
+    },
+    {
       "id": "f-u0sr-lemet~proxis",
       "spec": "gtfs",
       "urls": {
@@ -21,6 +30,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "TAMM"
+            },
+            {
+              "feed_onestop_id": "f-u0sr-lemet~proxis~rt"
             }
           ]
         }
