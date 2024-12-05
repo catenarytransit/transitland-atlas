@@ -16,7 +16,12 @@
         "short_name": "NAH.SH",
         "tags": {
           "wikidata_id": "Q15825147"
-        }
+        },
+        "associated_feeds": [
+          {
+            "feed_onestop_id": "f-ahverkehrsverbund~schleswig-holstein~nah"
+          }
+        ]
       }
     ],
     "license_spdx_identifier": "CDLA-Permissive-1.0"
