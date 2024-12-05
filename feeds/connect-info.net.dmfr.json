@@ -2,7 +2,7 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
     "feeds": [
       {
-        "id": "f-ahverkehrsverbund~schleswig-holstein~nah",
+        "id": "f-ahverkehrsverbund~schleswig~holstein~nah",
         "spec": "gtfs",
         "urls": {
           "static_current": "https://www.connect-info.net/opendata/gtfs/nah.sh/xgkesphblz"
@@ -11,7 +11,7 @@
     ],
     "operators": [
       {
-        "onestop_id": "o-ahverkehrsverbund~schleswig-holstein~nah",
+        "onestop_id": "o-ahverkehrsverbund~schleswig~holstein~nah",
         "name": "Nahverkehrsverbund Schleswig-Holstein",
         "short_name": "NAH.SH",
         "tags": {
@@ -19,7 +19,7 @@
         },
         "associated_feeds": [
           {
-            "feed_onestop_id": "f-ahverkehrsverbund~schleswig-holstein~nah"
+            "feed_onestop_id": "f-ahverkehrsverbund~schleswig~holstein~nah"
           }
         ]
       }
