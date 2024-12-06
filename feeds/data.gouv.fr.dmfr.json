@@ -264,6 +264,14 @@
       ]
     },
     {
+      "id": "f-sp9x-normandie~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/atoumod-gtfs-rt-vehicle-position",
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/atoumod-gtfs-rt-trip-update"
+      }
+    },
+    {
       "id": "f-sp9x-normandie",
       "spec": "gtfs",
       "urls": {
