@@ -16,6 +16,7 @@
       "operators": [
         {
           "onestop_id": "o-ambmobilitat",
+          "name": "Autoritat del Transport Metropolità",
           "associated_feeds": [
             {
               "feed_onestop_id": "f-sp3e-amb~rt"
