@@ -1,0 +1,36 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+    "feeds": [
+      {
+        "id": "f-munster",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api.busradar.conterra.de/data/stadtwerke_feed.zip"
+        }
+      },
+      {
+        "id": "f-munster~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://api.busradar.conterra.de/data/vehicles.pbf",
+          "realtime_trip_updates": "https://api.busradar.conterra.de/data/tripupdates.pbf",
+          "realtime_service_alerts": "https://api.busradar.conterra.de/data/alertupdates.pbf"
+        }
+      }
+    ],
+    "operators": [
+      {
+        "onestop_id": "o-munster",
+        "name": "Stadtwerke Münster",
+        "associated_feeds": [
+          {
+            "feed_onestop_id": "f-munster"
+          },
+          {
+            "feed_onestop_id": "f-munster~rt"
+          }
+        ]
+      }
+    ],
+    "license_spdx_identifier": "CDLA-Permissive-1.0"
+  }
