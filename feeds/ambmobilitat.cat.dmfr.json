@@ -12,6 +12,24 @@
       },
       "license": {
         "url": "https://www.amb.cat/s/web/area-metropolitana/dades-obertes/condicions-d-us.html"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-ambmobilitat",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-sp3e-amb~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-sp3e-amb~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://www.ambmobilitat.cat/transit/alerts/alerts.bin",
+        "realtime_trip_updates": "https://www.ambmobilitat.cat/transit/trips-updates/trips.bin"
       }
     }
   ],
