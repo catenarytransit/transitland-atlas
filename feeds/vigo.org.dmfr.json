@@ -1,0 +1,16 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+    "feeds": [
+      {
+        "id": "f-ez-vigo~espana",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://datos.vigo.org/data/transporte/gtfs_vigo.zip"
+        },
+        "license": {
+          "url": "http://opendefinition.org/licenses/odc-by/"
+        }
+      }
+    ],
+    "license_spdx_identifier": "CDLA-Permissive-1.0"
+  }
