@@ -7,7 +7,7 @@
             "id": "f-salamanca~es",
             "spec": "gtfs",
             "urls": {
-                "static_current": "https://raw.githubusercontent.com/catenarytransit/gtfs-agency-file-tjmaxx/refs/heads/main/20241210_070212_Autobus_Salamanca.zip"
+                "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/main/20241210_070212_Autobus_Salamanca.zip"
             }
         }
     ],
