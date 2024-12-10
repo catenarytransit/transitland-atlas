@@ -5,7 +5,7 @@
       "id": "f-terrassa~es",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.terrassa.cat/dataset/b3e576c8-481f-4446-bafe-41258f7ec0ae/resource/f7340494-89f4-42ee-a7f4-7505d6e20735/download/google_transit.zip"
+        "static_current": "https://opendata.terrassa.cat/dataset/b3e576c8-481f-4446-bafe-41258f7ec0ae/resource/0002bb95-34cd-4e23-95c0-9c0747d66443/download/gtfs-tmsae_estiu.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
