@@ -9,6 +9,27 @@
       },
       "license": {
         "url": "https://www.flylax.com/flyaway-bus/faqs"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9mu-flyaway",
+          "name": "FlyAway",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-lax~flyaway~rt"
+            },
+            {
+              "feed_onestop_id": "f-lax~flyaway"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-lax~flyaway~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://ucirvine.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
       }
     }
   ],
