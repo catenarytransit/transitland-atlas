@@ -12,7 +12,7 @@
         "id": "f-dptrolley~rt",
         "spec": "gtfs-rt",
         "urls": {
-          "realtime_vehicle_positions": "https://dptrolley.com/routes/subdpriptions/gtfsrt/vehicles.aspx"
+          "realtime_vehicle_positions": "https://dptrolley.com/subscriptions/gtfsrt/vehicles.ashx"
         }
       }
     ],

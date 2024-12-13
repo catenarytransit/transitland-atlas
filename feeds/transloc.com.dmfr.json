@@ -246,9 +246,7 @@
       "id": "f-uc~irvine~anteater~express~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=vehicle",
-        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=trip",
-        "realtime_service_alerts": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-uc~irvine~anteater~express~rt&feed_type=alert"
+        "realtime_vehicle_positions": "https://ucirvine.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
       }
     },
     {
