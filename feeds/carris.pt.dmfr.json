@@ -21,9 +21,21 @@
           "website": "https://www.carris.pt/",
           "tags": {
             "wikidata_id": "Q1045108"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-carris~pt~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-carris~pt~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gateway.carris.pt/gateway/gtfs/api/v2.11/GTFS/realtime/vehiclepositions"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
