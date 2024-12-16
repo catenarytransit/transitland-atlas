@@ -2,7 +2,7 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
   "feeds": [
     {
-      "id": "f-u0-ouibus",
+      "id": "f-u0-blablacar",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://bus-api.blablacar.com/gtfs.zip",
