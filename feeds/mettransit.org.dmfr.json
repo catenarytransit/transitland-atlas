@@ -5,7 +5,7 @@
       "id": "f-met~transit~ia",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.mettransit.org/sites/default/files/GTFS_Transit_20241025.zip",
+        "static_current": "https://www.mettransit.org/sites/default/files/GTFS_Transit_20241025_0.zip",
         "static_historic": [
           "http://mettransit.org/sites/default/files/MET_Transit_GTFS.zip"
         ]
