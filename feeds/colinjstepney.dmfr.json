@@ -63,6 +63,13 @@
         "urls": {
           "static_current": "https://github.com/colinjstepney/Stepney-Transit-Consulting/blob/main/TRAILBUS_feed/feed-trailbus.zip"
         }
+      },
+      {
+        "id": "f-byron~bay~train",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://github.com/colinjstepney/Stepney-Transit-Consulting/raw/refs/heads/main/BYRONBAY_feed/feed-BYRON.zip"
+        }
       }
     ],
     "license_spdx_identifier": "CDLA-Permissive-1.0"
