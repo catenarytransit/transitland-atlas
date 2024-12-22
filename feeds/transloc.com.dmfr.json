@@ -250,6 +250,13 @@
       }
     },
     {
+      "id": "f-9muq-lagunabeach~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://lagunabeachtransit.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    },
+    {
       "id": "f-university~of~virginia",
       "spec": "gtfs",
       "urls": {
