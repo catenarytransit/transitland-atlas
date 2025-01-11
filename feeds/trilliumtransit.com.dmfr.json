@@ -46,6 +46,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "126"
+            },
+            {
+              "feed_onestop_id": "f-9muq-lagunabeach~ca~us~rt"
             }
           ],
           "tags": {
