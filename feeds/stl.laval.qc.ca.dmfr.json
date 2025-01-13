@@ -39,9 +39,9 @@
       "id": "f-f25e-societedetransportdelaval~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v2/VehiculePositions.pb",
-        "realtime_trip_updates": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v2/tripupdates.pb",
-        "realtime_alerts": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v2/ServiceAlerts.pb"
+        "realtime_vehicle_positions": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v3/VehiculePositions.pb",
+        "realtime_trip_updates": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v3/tripupdates.pb",
+        "realtime_alerts": "https://apps.stl.laval.qc.ca/googlefeedtempsreel/v3/ServiceAlerts.pb"
       }
     }
   ],
