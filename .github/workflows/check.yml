@@ -1,0 +1,25 @@
+name: Check validity of files
+
+on:
+  push:
+    branches: [ "*" ] 
+  pull_request:
+    branches: [ "*" ] 
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          profile: minimal
+          toolchain: stable
+          override: true
+
+      - name: Run Cargo Check
+        run: cargo run --bin check
