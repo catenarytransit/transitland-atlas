@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-r6-nsw~sydneytrains~rt",
@@ -48,6 +48,14 @@
         "create_derived_product": "yes",
         "attribution_text": "Transport for NSW"
       },
+<<<<<<< HEAD
+=======
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+>>>>>>> 9c0adf8eaebdb3b3c6af5ed0e1b897ac77caa04f
       "operators": [
         {
           "onestop_id": "o-r1vj-sunraysiabuslines",

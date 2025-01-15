@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9qx5-suntran",
@@ -411,23 +411,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "f-unh~nh~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/unh-nh-us.zip"
-        ]
-      },
-      "license": {
-        "url": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/blob/master/interline-gtfs-license.md",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "no",
-        "share_alike_optional": "yes"
-      }
     },
     {
       "id": "f-wcb4-cebu~dotc",
