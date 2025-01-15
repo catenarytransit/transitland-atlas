@@ -21,9 +21,23 @@
           "tags": {
             "us_ntd_id": "30070",
             "wikidata_id": "Q7235095"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-omniride~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-omniride~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gtfs-rt.prtc.vontascloud.com/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "realtime_trip_updates": "https://gtfs-rt.prtc.vontascloud.com/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "realtime_alerts": "https://gtfs-rt.prtc.vontascloud.com/TMGTFSRealTimeWebService/Alert/Alerts.pb"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
