@@ -18,6 +18,14 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-cerritos~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/cerritos/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_alerts": "https://passio3.com/cerritos/passioTransit/gtfs/realtime/serviceAlerts"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
