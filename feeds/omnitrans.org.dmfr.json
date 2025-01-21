@@ -1,5 +1,5 @@
 {
-  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.0.json",
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
       "id": "f-9qh-omnitrans",
@@ -21,9 +21,21 @@
             "wikidata_id": "Q7090404"
           },
           "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9qh-omnitrans~rt"
+            }
           ]
         }
       ]
+    },
+    {
+      "id": "f-9qh-omnitrans~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://webservices.umoiq.com/api/gtfs-rt/v1/vehicle-positions/omnitrans",
+        "realtime_trip_updates": "https://webservices.umoiq.com/api/gtfs-rt/v1/trip-updates/omnitrans",
+        "realtime_service_alerts": "https://webservices.umoiq.com/api/gtfs-rt/v1/service-alerts/omnitrans"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
