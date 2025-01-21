@@ -628,22 +628,6 @@
     ]
   },
   {
-    "id": "f-manchester~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/7841/MTA_GTFS_October_2023.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-manchester~transit~authority",
-        "name": "Manchester Transit Authority",
-        "tags": {
-          "us_ntd_id": "10002"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-massachusetts~bay~transportation~authority",
     "spec": "gtfs",
     "urls": {
@@ -1029,22 +1013,6 @@
         "name": "Green Mountain Transit Authority",
         "tags": {
           "us_ntd_id": "10066"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-northwestern~ct~transit~district",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://hosted-gtfs-feeds.s3.amazonaws.com/NWCTD/gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-northwestern~ct~transit~district",
-        "name": "Northwestern CT Transit District",
-        "tags": {
-          "us_ntd_id": "10131"
         }
       }
     ]
@@ -2449,118 +2417,6 @@
     ]
   },
   {
-    "id": "f-monroe~county~transportation~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://ponytracker.availtec.com/InfoPoint/gtfs-zip.ashx"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-monroe~county~transportation~authority",
-        "name": "Monroe County Transportation  Authority",
-        "tags": {
-          "us_ntd_id": "30137"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-mountain~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://mtawv.com/gtfs/mtawv_gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-mountain~transit~authority",
-        "name": "Mountain Transit Authority",
-        "tags": {
-          "us_ntd_id": "30140"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-potomac~valley~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://potomacvalleytransit.org/GTFS/feed.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-potomac~valley~transit~authority",
-        "name": "Potomac Valley Transit Authority",
-        "tags": {
-          "us_ntd_id": "30135"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-mid~county~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://tact.rideralerts.com/infopoint/gtfs-zip.ashx"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-mid~county~transit~authority",
-        "name": "Mid-County Transit Authority",
-        "tags": {
-          "us_ntd_id": "30194"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~suffolk",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.suffolkva.us/DocumentCenter/View/5568/Suffolk-Transit-GTFS"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~suffolk",
-        "name": "City of Suffolk",
-        "tags": {
-          "us_ntd_id": "30198"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~radford",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.radfordva.gov/1296/Radford-Transit"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~radford",
-        "name": "City of Radford",
-        "tags": {
-          "us_ntd_id": "30200"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~baltimore",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://transportation.baltimorecity.gov/files/ccc-gtfs-january-2024zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~baltimore",
-        "name": "City of Baltimore",
-        "tags": {
-          "us_ntd_id": "30201"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-metropolitan~transit~authority",
     "spec": "gtfs",
     "urls": {
@@ -3194,22 +3050,6 @@
         "name": "City of Spartanburg South Carolina ",
         "tags": {
           "us_ntd_id": "40101"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-indian~river~county",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://ftis.org/ftde/40104-IndianRiverTransit/gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-indian~river~county",
-        "name": "Indian River County",
-        "tags": {
-          "us_ntd_id": "40104"
         }
       }
     ]
@@ -4126,22 +3966,6 @@
     ]
   },
   {
-    "id": "f-city~of~evansville",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11867/METS_GTFS.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~evansville",
-        "name": "City of Evansville",
-        "tags": {
-          "us_ntd_id": "50043"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-south~bend~public~transportation~corporation",
     "spec": "gtfs",
     "urls": {
@@ -4309,54 +4133,6 @@
         "name": "Northeast Illinois Regional Commuter Railroad Corporation",
         "tags": {
           "us_ntd_id": "50118"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-detroit~transportation~corporation",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://hosted-gtfs-feeds.s3.amazonaws.com/DPM/gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-detroit~transportation~corporation",
-        "name": "Detroit Transportation Corporation",
-        "tags": {
-          "us_ntd_id": "50141"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-steel~valley~regional~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/5972/svrta_draft.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-steel~valley~regional~transit~authority",
-        "name": "Steel Valley Regional Transit Authority",
-        "tags": {
-          "us_ntd_id": "50142"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~kokomo",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11767/CityofKokomo_Transit.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~kokomo",
-        "name": "City of Kokomo",
-        "tags": {
-          "us_ntd_id": "50145"
         }
       }
     ]
@@ -5018,38 +4794,6 @@
     ]
   },
   {
-    "id": "f-city~of~alexandria",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11288/atrans_gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~alexandria",
-        "name": "City of Alexandria",
-        "tags": {
-          "us_ntd_id": "60025"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~lake~charles",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://america.usetransit.com/api/1/public/gtfs/31/gtfs.zip?token=0bcf57ebd588bd7749168808071d365973b45d1d8"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~lake~charles",
-        "name": "City of Lake Charles",
-        "tags": {
-          "us_ntd_id": "60023"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~albuquerque",
     "spec": "gtfs",
     "urls": {
@@ -5122,22 +4866,6 @@
     ]
   },
   {
-    "id": "f-city~of~monroe~",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://monroela.us/sites/default/files/gtfs_MTS.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~monroe~",
-        "name": "City of Monroe ",
-        "tags": {
-          "us_ntd_id": "60026"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-new~orleans~regional~transit~authority",
     "spec": "gtfs",
     "urls": {
@@ -5225,22 +4953,6 @@
         "name": "Rock Region Metropolitan Transit Authority",
         "tags": {
           "us_ntd_id": "60033"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~wichita~falls~",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11741/google_fallsridetransit.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~wichita~falls~",
-        "name": "City of Wichita Falls ",
-        "tags": {
-          "us_ntd_id": "60035"
         }
       }
     ]
@@ -5552,38 +5264,6 @@
     ]
   },
   {
-    "id": "f-terrebonne~parish~consolidated~government",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://america.usetransit.com/api/1/public/gtfs/7/gtfs.zip?token=987dbc22d5980a4be397675617103334454552804"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-terrebonne~parish~consolidated~government",
-        "name": "Terrebonne Parish Consolidated Government",
-        "tags": {
-          "us_ntd_id": "60080"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-st~bernard~parish",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11870/sbp_sburt_gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-st~bernard~parish",
-        "name": "St. Bernard Parish",
-        "tags": {
-          "us_ntd_id": "60058"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~longview",
     "spec": "gtfs",
     "urls": {
@@ -5643,38 +5323,6 @@
         "name": "Texarkana Urban Transit District",
         "tags": {
           "us_ntd_id": "60093"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-midland~odessa~urban~transit~district",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://nebula.wsimg.com/d1765d43782cc9d2d026c4925e8a189b?AccessKeyId=9E919CD400BCF69A0E80&disposition=0&alloworigin=1"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-midland~odessa~urban~transit~district",
-        "name": "Midland-Odessa Urban Transit District",
-        "tags": {
-          "us_ntd_id": "60097"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-midland~odessa~urban~transit~district",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://nebula.wsimg.com/d1765d43782cc9d2d026c4925e8a189b?AccessKeyId=9E919CD400BCF69A0E80&disposition=0&alloworigin=1"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-midland~odessa~urban~transit~district",
-        "name": "Midland-Odessa Urban Transit District",
-        "tags": {
-          "us_ntd_id": "60097"
         }
       }
     ]
@@ -6992,22 +6640,6 @@
     ]
   },
   {
-    "id": "f-archuleta~county",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11523/met_gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-archuleta~county",
-        "name": "Archuleta County",
-        "tags": {
-          "us_ntd_id": "80280"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-ute~tribe",
     "spec": "gtfs",
     "urls": {
@@ -7019,22 +6651,6 @@
         "name": "Ute Tribe",
         "tags": {
           "us_ntd_id": "88200"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-park~county",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11888/ParkCountyGTFS.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-park~county",
-        "name": "Park County",
-        "tags": {
-          "us_ntd_id": "88293"
         }
       }
     ]
@@ -8738,22 +8354,6 @@
     ]
   },
   {
-    "id": "f-city~of~carson",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11488/CTSGTSFFeedFiles(1.3.24).zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~carson",
-        "name": "City of Carson",
-        "tags": {
-          "us_ntd_id": "90258"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~cerritos",
     "spec": "gtfs",
     "urls": {
@@ -9177,22 +8777,6 @@
         "name": "Yavapai Regional Transit",
         "tags": {
           "us_ntd_id": "99419"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-gila~river~indian~community",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/5788/GoogleFeed.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-gila~river~indian~community",
-        "name": "Gila River Indian Community",
-        "tags": {
-          "us_ntd_id": "99436"
         }
       }
     ]
