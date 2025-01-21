@@ -83,13 +83,6 @@
       ]
     },
     {
-      "id": "f-alabama~am~university",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/aamu/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
       "id": "f-arcadia~ca~us",
       "spec": "gtfs",
       "urls": {
@@ -124,11 +117,21 @@
       }
     },
     {
-      "id": "f-audible",
+      "id": "f-bangor~me~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://passio3.com/audible/passioTransit/gtfs/google_transit.zip"
-      }
+        "static_current": "https://passio3.com/bangor/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-bangor~me~us",
+          "name": "Bangor Community Connector",
+          "website": "https://bangormaine.gov/634/Community-Connector",
+          "tags": {
+            "us_ntd_id": "10096"
+          }
+        }
+      ]
     },
     {
       "id": "f-beckley~wv~us",
@@ -228,6 +231,51 @@
       }
     },
     {
+      "id": "f-c2qft-udash~mt~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/montanau/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/udash-mt-us/udash-mt-us.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "mountain-line-mutd"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-c2qft-udash~universityofmontana",
+          "name": "University of Montana",
+          "short_name": "UDASH",
+          "website": "https://www.umt.edu/transportation-parking-services/bus/default.php",
+          "tags": {
+            "twitter_general": "udash",
+            "us_ntd_id": "80107"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-casper~wy~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/casper/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11555/CATTransit.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-casper~wy~us",
+          "name": "Casper Area Transit",
+          "website": "https://www.casperareatransit.org",
+          "tags": {
+            "us_ntd_id": "80013"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-chapman~university",
       "spec": "gtfs",
       "urls": {
@@ -291,6 +339,27 @@
       ]
     },
     {
+      "id": "f-cuats~tn~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/cuats/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://www.sethratransit.org/s/SETHRA_GTFS.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-cuats~tn~us",
+          "name": "Cleveland Urban Area Transit System",
+          "short_name": "CUATS",
+          "website": "https://www.sethratransit.org/about-cuats",
+          "tags": {
+            "us_ntd_id": "40989"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-dhvrs-bullrunner",
       "spec": "gtfs",
       "urls": {
@@ -306,29 +375,6 @@
           "website": "http://www.usf.edu/administrative-services/parking",
           "tags": {
             "twitter_general": "usfpts"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-dn5b-georgiatechtrolley~stingershuttles",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/gatech/passioTransit/gtfs/google_transit.zip",
-        "static_historic": [
-          "http://documents.atlantaregional.com/transitdata/gtfs_GT.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dn5b-georgiatechtrolley~stingershuttles",
-          "supersedes_ids": [
-            "o-dn5b-georgiatechtrolley~stingershuttles"
-          ],
-          "name": "Georgia Tech Stinger Bus",
-          "website": "https://pts.gatech.edu/",
-          "tags": {
-            "twitter_general": "gt_park_trans"
           }
         }
       ]
@@ -588,6 +634,26 @@
       "urls": {
         "static_current": "https://passio3.com/evms/passioTransit/gtfs/google_transit.zip"
       }
+    },
+    {
+      "id": "f-edmond~ok~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/edmond/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://www.edmondok.gov/DocumentCenter/View/9799/GTFS-1"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-edmond~ok~us",
+          "name": "Citylink Edmond",
+          "website": "https://www.edmondok.gov/205/Citylink-Edmond",
+          "tags": {
+            "us_ntd_id": "60118"
+          }
+        }
+      ]
     },
     {
       "id": "f-emory~hospital~midtown",
@@ -901,6 +967,23 @@
       ]
     },
     {
+      "id": "f-seneca~nation~of~indians",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/senecanation/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-seneca~nation~of~indians",
+          "name": "Seneca Nation of Indians",
+          "website": "https://senecatransit.com/",
+          "tags": {
+            "us_ntd_id": "22929"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-stevens~point~wi",
       "spec": "gtfs",
       "urls": {
@@ -934,6 +1017,31 @@
         "realtime_trip_updates": "https://passio3.com/towson/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/towson/passioTransit/gtfs/realtime/serviceAlerts"
       }
+    },
+    {
+      "id": "f-tracy~tracer",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/CityofTracy/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://www.cityoftracy.org/home/showpublisheddocument/17319/638442164296500000",
+          "https://www.cityoftracy.org/home/showpublisheddocument/16626/638342536313270000",
+          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9q9ws-tracer",
+          "name": "City of Tracy",
+          "short_name": "TRACER",
+          "website": "https://www.cityoftracy.org/our-city/departments/mobility-and-housing/transportation/tracer-bus-service",
+          "tags": {
+            "twitter_general": "cityoftracy",
+            "us_ntd_id": "90197",
+            "wikidata_id": "Q7831176"
+          }
+        }
+      ]
     },
     {
       "id": "f-tuscaloosa~county~parking~and~transit~authority",
@@ -976,13 +1084,6 @@
       ]
     },
     {
-      "id": "f-university~new~mexico",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/unm/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
       "id": "f-university~of~chicago",
       "spec": "gtfs",
       "urls": {
@@ -994,13 +1095,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://passio3.com/uconn/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
-      "id": "f-uw~milwaukee",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/milwaukee/passioTransit/gtfs/google_transit.zip"
       }
     },
     {

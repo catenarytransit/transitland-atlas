@@ -15,9 +15,22 @@
           "website": "http://www.cerritos.us/RESIDENTS/transportation.php",
           "tags": {
             "us_ntd_id": "90259"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-cerritos~ca~us~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-cerritos~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/cerritos/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_alerts": "https://passio3.com/cerritos/passioTransit/gtfs/realtime/serviceAlerts"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
