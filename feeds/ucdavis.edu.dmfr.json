@@ -24,9 +24,23 @@
             "twitter_general": "asucdunitrans",
             "us_ntd_id": "90142",
             "wikidata_id": "Q7893703"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9qc7-unitransdavis~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-9qc7-unitransdavis~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://webservices.umoiq.com/api/gtfs-rt/v1/vehicle-positions/unitrans",
+        "realtime_trip_updates": "https://webservices.umoiq.com/api/gtfs-rt/v1/trip-updates/unitrans",
+        "realtime_alerts": "https://webservices.umoiq.com/api/gtfs-rt/v1/service-alerts/unitrans"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
