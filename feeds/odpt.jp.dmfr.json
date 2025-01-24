@@ -2,6 +2,33 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": [
       {
+        "id": "f-izu~hakone",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api.odpt.org/api/v4/files/odpt/IzuhakoneBus/IZHB.zip?date=20250123&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        },
+        "operators": [
+          {
+            "name": "IZUHAKONE BUS CO.,LTD",
+            "onestop_id": "o-izuhakone~bus",
+            "associated_feeds": [
+              {
+                "feed_onestop_id": "f-izu~hakone~rt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f-izu~hakone~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+          "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        }
+      },
+      {
         "id": "f-tokyo~metro",
         "spec": "gtfs",
         "urls": {
@@ -9,6 +36,13 @@
         },
         "license": {
           "url": "https://developer.odpt.org/terms"
+        }
+      },
+      {
+        "id": "f-tokyo~metro~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         }
       },
       {
@@ -94,6 +128,9 @@
         "associated_feeds": [
           {
             "feed_onestop_id": "f-tokyometro"
+          },
+          {
+            "feed_onestop_id": "f-tokyo~metro~rt"
           }
         ]
       },
