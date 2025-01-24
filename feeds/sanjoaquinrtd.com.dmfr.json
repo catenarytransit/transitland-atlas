@@ -2,6 +2,14 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-9qc-sanjoaquinrtd~rtdirect",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://rtdgtfs.s3.us-west-1.amazonaws.com/VehiclePositions.pb",
+        "realtime_trip_updates": "https://rtdgtfs.s3.us-west-1.amazonaws.com/TripUpdates.pb"
+      }
+    },
+    {
       "id": "f-9qc-sanjoaquinrtd",
       "spec": "gtfs",
       "urls": {
@@ -29,6 +37,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-sanjoaquinrtd~rt"
+            },
+            {
+              "feed_onestop_id": "f-9qc-sanjoaquinrtd~rtdirect"
             }
           ],
           "tags": {
