@@ -2,6 +2,22 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": [
       {
+        "id": "f-amori~jp",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=20250101"
+        }
+      },
+      {
+        "id": "f-amori~jp~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_vehicle",
+          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_trip_update",
+          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_alert"
+        }
+      },
+      {
         "id": "f-izu~hakone",
         "spec": "gtfs",
         "urls": {
@@ -121,6 +137,18 @@
       }
     ],
     "operators": [
+      {
+        "onestop_id": "o-aomori~city~jp",
+        "name": "青森市営バス",
+        "associated_feeds": [
+          {
+            "feed_onestop_id": "f-amori~jp"
+          },
+          {
+            "feed_onestop_id": "f-amori~jp~rt"
+          }
+        ]
+      },
       {
         "onestop_id": "o-tokyo~metro~jp",
         "name": "Tokyo Metro 東京メトロ",
