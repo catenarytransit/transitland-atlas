@@ -33,7 +33,7 @@
         {
           "onestop_id": "o-rck-ritchiestransport",
           "name": "Ritchies Transport",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "RTH"
@@ -43,7 +43,7 @@
         {
           "onestop_id": "o-rckm-atmetro",
           "name": "AT Metro",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "AM"
@@ -59,7 +59,7 @@
         {
           "onestop_id": "o-rckm-gobus",
           "name": "Go Bus",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "GBT"
@@ -69,7 +69,7 @@
         {
           "onestop_id": "o-rckp-bayescoachlines",
           "name": "Bayes Coachlines",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "BAYES"
@@ -79,7 +79,7 @@
         {
           "onestop_id": "o-rckq-belaireferries",
           "name": "Belaire Ferries",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "BFL"
@@ -89,7 +89,7 @@
         {
           "onestop_id": "o-rckq-birkenheadtransport",
           "name": "Birkenhead Transport",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "BTL"
@@ -99,7 +99,7 @@
         {
           "onestop_id": "o-rckq-fullersferries",
           "name": "Fullers Ferries",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "FGL"
@@ -109,7 +109,7 @@
         {
           "onestop_id": "o-rckq-howickandeastern",
           "name": "Howick and Eastern",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "HE"
@@ -119,7 +119,7 @@
         {
           "onestop_id": "o-rckq-sealinkpineharbour",
           "name": "SeaLink Pine Harbour",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "SLPH"
@@ -129,7 +129,7 @@
         {
           "onestop_id": "o-rckqx-waihekebuscompany",
           "name": "Waiheke Bus Company",
-          "website": "http://www.aucklandtransport.govt.nz",
+          "website": "https://www.aucklandtransport.govt.nz",
           "associated_feeds": [
             {
               "gtfs_agency_id": "WBC"

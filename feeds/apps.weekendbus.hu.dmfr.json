@@ -5,13 +5,13 @@
       "id": "f-u2mw-weekendbus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://apps.weekendbus.hu/gtfs/google_transit.zip"
+        "static_current": "https://apps.weekendbus.hu/gtfs/google_transit.zip"
       },
       "operators": [
         {
           "onestop_id": "o-u2mw-weekendbus",
           "name": "Weekendbus",
-          "website": "http://www.weekendbus.hu",
+          "website": "https://www.weekendbus.hu",
           "associated_feeds": [
             {
               "gtfs_agency_id": "Weekendbus"
