@@ -47,6 +47,34 @@
       }
     },
     {
+      "id": "f-sete~agglopole~mobilite~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://drive.google.com/uc?export=download&id=1JPmGimO4tfQpzL8A0ixYnYrPDehYILWn"
+      },
+      "operators": [
+        {
+          "name": "Sète Agglopôle Mobilité",
+          "onestop_id": "o-sete~agglopole~mobilite~fr",
+          "website": "https://www.mobilite.agglopole.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-sete~agglopole~mobilite~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-sete~agglopole~mobilite~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://sete.ceccli.com/gtfs/TripUpdates.pb",
+        "realtime_vehicle_positions": "https://sete.ceccli.com/gtfs/VehiclePositions.pb",
+        "realtime_alerts": "https://sete.ceccli.com/gtfs/Alerts.pb"
+      }
+    },
+    {
       "id": "f-dunkerque~fr",
       "spec": "gtfs",
       "urls": {
