@@ -33,6 +33,14 @@
       }
     },
     {
+      "id": "f-r6-nsw~nswbuses~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses"
+      }
+    },
+    {
       "id": "f-r6-nswtrainlink~sydneytrains~buswayswesternsydney~interlinebus",
       "spec": "gtfs",
       "urls": {
@@ -413,6 +421,9 @@
             },
             {
               "gtfs_agency_id": "2439"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~nswbuses~rt"
             }
           ],
           "tags": {
@@ -675,6 +686,9 @@
             },
             {
               "gtfs_agency_id": "2449"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~nswbuses~rt"
             }
           ]
         },
@@ -801,6 +815,9 @@
             },
             {
               "gtfs_agency_id": "2450"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~nswbuses~rt"
             }
           ]
         },
@@ -821,6 +838,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "2447"
+            },
+            {
+              "feed_onestop_id": "f-r6-nsw~nswbuses~rt"
             }
           ]
         },
