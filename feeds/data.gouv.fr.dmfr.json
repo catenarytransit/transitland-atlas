@@ -50,7 +50,7 @@
       "id": "f-sete~agglopole~mobilite~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://drive.google.com/uc?export=download&id=1JPmGimO4tfQpzL8A0ixYnYrPDehYILWn"
+        "static_current": "https://sete.ceccli.com/gtfs/gtfs.zip"
       },
       "operators": [
         {
