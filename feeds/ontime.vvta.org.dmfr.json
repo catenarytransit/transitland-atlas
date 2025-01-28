@@ -1,0 +1,43 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+  "feeds": [
+    {
+      "id": "f-9qh-victorville~ca~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ontime.vvta.org/gtfs"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-3.0",
+        "url": "https://vvta.org/developers/"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9qh-victorvalleytransitauthority",
+          "name": "Victor Valley Transit Authority",
+          "short_name": "VVTA",
+          "website": "https://www.vvta.org",
+          "tags": {
+            "twitter_general": "VVTransit",
+            "us_ntd_id": "90148",
+            "wikidata_id": "Q7926418"
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9qh-victorville~ca~us~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-9qh-victorville~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://ontime.vvta.org/gtfs-rt/alerts",
+        "realtime_trip_updates": "https://ontime.vvta.org/gtfs-rt/tripupdates",
+        "realtime_vehicle_positions": "https://ontime.vvta.org/gtfs-rt/vehiclepositions"
+      }
+    }
+  ]
+}
