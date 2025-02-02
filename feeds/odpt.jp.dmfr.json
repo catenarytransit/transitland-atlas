@@ -2,6 +2,33 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": [
       {
+        "id": "f-hakodate~trams~jp",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=20241219"
+        },
+        "operators": [
+          {
+            "onestop_id": "o-hakodate~city~jp",
+            "name": "函館市企業局 / Hakodate City Tram",
+            "associated_feeds": [
+              {
+                "feed_onestop_id": "f-hakodate~trams~jp~rt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f-hakodate~trams~jp~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_vehicle",
+          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_trip_update",
+          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_alert"
+        }
+      },
+      {
         "id": "f-amori~jp",
         "spec": "gtfs",
         "urls": {
