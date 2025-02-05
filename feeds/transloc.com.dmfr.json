@@ -195,7 +195,7 @@
       "id": "f-uc~irvine~anteater~express",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://api.transloc.com/gtfs/uci.zip"
+        "static_current": "https://ucirvine.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
       },
       "operators": [
         {
@@ -216,6 +216,40 @@
       "urls": {
         "realtime_vehicle_positions": "https://ucirvine.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
       }
+    },
+    {
+      "id": "f-9muq-lagunabeach~ca~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://lagunabeachtransit.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "license": {
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes"
+      },
+      "tags": {
+        "feed_id": "lagunabeach-ca-us",
+        "gtfs_data_exchange": "laguna-beach-transit"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9muq-lagunabeachtransit",
+          "name": "Laguna Beach Transit",
+          "website": "https://www.visitlagunabeach.com/plan/transportation/trolley/",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "126"
+            },
+            {
+              "feed_onestop_id": "f-9muq-lagunabeach~ca~us~rt"
+            }
+          ],
+          "tags": {
+            "twitter_general": "lagunabeachgov",
+            "us_ntd_id": "90119"
+          }
+        }
+      ]
     },
     {
       "id": "f-9muq-lagunabeach~ca~us~rt",
