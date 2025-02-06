@@ -755,14 +755,14 @@
       "id": "f-u0f7d-pastelmavilleestbelle",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/43053be6-e26d-4b2c-b157-cb529c1bedeb",
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/42e3ea9d-251e-47c1-988d-f7227f0e2d0f",
         "static_historic": [
           "https://www.data.gouv.fr/fr/datasets/r/f360cebb-ce17-495b-aac6-05b4f52ea444",
           "http://buspastel.fr/google_transit.zip#google_transit"
         ]
       },
       "license": {
-        "url": "https://transport.data.gouv.fr/datasets/bus-pastel-saint-quentin-horaires-2024"
+        "url": "https://transport.data.gouv.fr/datasets/bus-pastel-saint-quentin"
       }
     },
     {
