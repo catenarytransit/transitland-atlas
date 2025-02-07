@@ -24,6 +24,9 @@
           },
             {
               "feed_onestop_id": "f-amtrakvermonter~vt~us"
+            },
+            {
+              "feed_onestop_id": "f-amtrak~sanjoaquin"
             }
           ],
           "tags": {
@@ -191,6 +194,13 @@
       "urls": {
         "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfsrt/amtrak/vehiclepositions",
         "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/amtrak/tripupdates"
+      }
+    },
+    {
+      "id": "f-amtrak~sanjoaquin",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://d34tiw64n5z4oh.cloudfront.net/wp-content/uploads/SJJPA_1242025.zip"
       }
     }
   ],
