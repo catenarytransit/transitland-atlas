@@ -951,7 +951,7 @@
       "id": "f-b01~buzen~nakatsu~jp",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/B01_Buzen_Nakatsu.zip"
+        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/101_BuzenNakatsu_gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -3278,7 +3278,7 @@
       "id": "f-m1~miho~jp",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/M1_Miho.zip"
+        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/102_Miho_gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -4191,7 +4191,7 @@
       "id": "f-snn01~nishimagusakouminkan~jp",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/SNN01_Nishimagusakouminkan.zip"
+        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/201_Nishimakusa_gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -4653,7 +4653,7 @@
       "id": "f-y060~ohshima~ifuku~jp",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/Y060_Ohshima_Ifuku.zip"
+        "static_current": "https://www.city-nakatsu.jp/doc/2019072300060/file_contents/422_OshimaIfuku_gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
