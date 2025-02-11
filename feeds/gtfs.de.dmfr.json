@@ -32,6 +32,9 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-tlms~rt"
+        },
+        {
+          "feed_onestop_id": "f-germany~rt"
         }
       ]
     },
@@ -43,6 +46,9 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-gtfs~de"
+        },
+        {
+          "feed_onestop_id": "f-germany~rt"
         }
       ]
     }
