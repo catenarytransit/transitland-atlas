@@ -2,6 +2,36 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-grand~dole",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/a8c743ee-e2d4-408c-ac4b-6434b6eaadf9"
+      },
+      "license": {
+        "url": "https://transport.data.gouv.fr/datasets/reseau-de-transport-du-grand-dole"
+      },
+      "operators": [
+        {
+          "name": "Grand Dole",
+          "onestop_id": "o-grand~dole~fr",
+          "website": "https://www.grand-dole.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-grand~dole~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-grand~dole~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-trip-update",
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-vehicle-position"
+      }
+    },
+    {
       "id": "f~agglo~creil~sud~oise~fr",
       "spec": "gtfs",
       "urls": {
