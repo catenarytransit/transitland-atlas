@@ -2,6 +2,33 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f~agglo~creil~sud~oise~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=AXO&dataFormat=GTFS&dataProfil=OPENDATA"
+      },
+      "operators": [
+        {
+          "onestop_id": "o~agglo~creil~sud~oise~fr",
+          "name": "Agglo Creil Sud Oise",
+          "website": "https://www.oise-mobilite.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f~agglo~creil~sud~oise~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f~agglo~creil~sud~oise~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
+        "realtime_vehicle_positions": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=AXO&dataFormat=gtfs-rt"
+      }
+    },
+    {
       "id": "f-capa~muvitarra~corse~fr",
       "spec": "gtfs",
       "urls": {
@@ -729,6 +756,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "TRANSURBAIN"
+            },
+            {
+              "feed_onestop_id": "f-sp9x-normandie~rt"
             }
           ]
         },
