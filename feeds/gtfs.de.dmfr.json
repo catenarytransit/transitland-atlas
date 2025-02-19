@@ -21,6 +21,14 @@
         "realtime_trip_updates": "https://realtime.gtfs.de/realtime-free.pb",
         "realtime_alerts": "https://realtime.gtfs.de/realtime-free.pb"
       }
+    },
+    {
+      "id": "f-tlms~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-tlms~rt&feed_type=vehicle",
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-tlms~rt&feed_type=trip"
+      }
     }
   ],
   "operators": [
