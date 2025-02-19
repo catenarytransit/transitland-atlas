@@ -2,6 +2,34 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-capa~muvitarra~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/3f08460c-8ec7-4b9e-a244-8855292b9e24"
+      }
+    },
+    {
+      "id": "f-a~balanina~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/97dffc79-5284-4da7-b4f0-6dcea3b53f01"
+      }
+    },
+    {
+      "id": "f-corsica~ferries~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/b95d6838-1143-4653-840f-eebc33c16fa7"
+      }
+    },
+    {
+      "id": "f-maritime~vignola~girolata~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/edabe706-150e-4320-a0cc-b68eed217495"
+      }
+    },
+    {
       "id": "f-chemain~de~fer~de~la~corse-fr",
       "spec": "gtfs",
       "operators": [
