@@ -29,6 +29,33 @@
       }
     },
     {
+      "id": "f~transurbain~evreux~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/ec78df83-2e60-4284-acc3-86a0baa76bf0",
+      },
+      "operators": [
+        {
+          "onestop_id": "o~transurbain~evreux~fr",
+          "name": "Transurbain (Evreux Portes de Normandie)",
+          "website": "https://www.transurbain.com/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f~transurbain~evreux~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f~transurbain~evreux~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/transurbain-evreux-gtfs-rt-trip-update",
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/transurbain-evreux-gtfs-rt-vehicle-position"
+      }
+    },
+    {
       "id": "f-capa~muvitarra~corse~fr",
       "spec": "gtfs",
       "urls": {
