@@ -2,6 +2,47 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-chemain~de~fer~de~la~corse-fr",
+      "spec": "gtfs",
+      "operators": [
+        {
+          "onestop_id": "o-chemain~de~fer~de~la~corse-fr",
+          "name": "Chemain de Fer de la Corse",
+          "website": "https://www.cf-corse.corsica/"
+        }
+      ],
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/0ccbfe4d-4e30-4aca-bde4-4ab2508c4b2f"
+      }
+    },
+    {
+      "id": "f-transport~regulier~corse~de~sud~fr",
+      "spec": "gtfs",
+      "operators": [
+        {
+          "onestop_id": "o-transport~regulier~corse~de~sud~fr",
+          "name": "Transport Régulier Corse de Sud",
+          "website": "http://www.isula.corsica",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-transport~regulier~corse~de~sud~fr~rt"
+            }
+          ]
+        }
+      ],
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/416261b8-016d-4639-bab5-39a588665fc7"
+      }
+    },
+    {
+      "id": "f-transport~regulier~corse~de~sud~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://ctc.plateforme-2cloud.com/api/gtfsrt/2.0/tripupdates/CTC-2298-2048-0876/bin",
+        "realtime_vehicle_positions": "https://ctc.plateforme-2cloud.com/api/gtfsrt/2.0/vehiclepositions/CTC-2298-2048-0876/bin"
+      }
+    },
+    {
       "id": "f-alternéo~reunion",
       "spec": "gtfs",
       "urls": {

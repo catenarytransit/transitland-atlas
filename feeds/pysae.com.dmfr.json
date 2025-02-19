@@ -13,6 +13,34 @@
       "license": {
         "url": "https://transport.data.gouv.fr/datasets/horaires-theoriques-au-format-gtfs-et-horaires-temps-reel-au-format-gtfs-rt-du-reseau-car-jaune-a-la-reunion"
       }
+    },
+    {
+      "id": "f-urbains~porto~vecchaiais",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://pysae.com/api/v2/groups/porto-vecchio/gtfs/pub"
+      },
+      "operators": [
+        {
+          "name": "Urbains Porto Vecchaiais",
+          "onestop_id": "o-urbains~porto~vecchaiais",
+          "website": "https://acitadina.porto-vecchio.corsica/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-urbains~porto~vecchaiais~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-urbains~porto~vecchaiais~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://pysae.com/api/v2/groups/porto-vecchio/gtfs-rt",
+        "realtime_trip_updates": "https://pysae.com/api/v2/groups/porto-vecchio/gtfs-rt",
+        "realtime_vehicle_positions": "https://pysae.com/api/v2/groups/porto-vecchio/gtfs-rt"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
