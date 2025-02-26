@@ -114,11 +114,11 @@
       }
     },
     {
-      "id": "f-chemain~de~fer~de~la~corse-fr",
+      "id": "f-chemain~de~fer~de~la~corse~fr",
       "spec": "gtfs",
       "operators": [
         {
-          "onestop_id": "o-chemain~de~fer~de~la~corse-fr",
+          "onestop_id": "o-chemain~de~fer~de~la~corse~fr",
           "name": "Chemain de Fer de la Corse",
           "website": "https://www.cf-corse.corsica/"
         }
