@@ -16,10 +16,22 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "RTC"
+            },
+            {
+              "feed_onestop_id": "f-rtcquebec~rt"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "f-rtcquebec~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-rtcquebec~rt&feed_type=vehicle",
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-rtcquebec~rt&feed_type=trip",
+        "realtime_alerts": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-rtcquebec~rt&feed_type=alert"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"

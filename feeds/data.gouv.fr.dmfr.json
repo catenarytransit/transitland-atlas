@@ -2,6 +2,159 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-grand~dole",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/a8c743ee-e2d4-408c-ac4b-6434b6eaadf9"
+      },
+      "license": {
+        "url": "https://transport.data.gouv.fr/datasets/reseau-de-transport-du-grand-dole"
+      },
+      "operators": [
+        {
+          "name": "Grand Dole",
+          "onestop_id": "o-grand~dole~fr",
+          "website": "https://www.grand-dole.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-grand~dole~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-grand~dole~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-trip-update",
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/tgd-dole-gtfs-rt-vehicle-position"
+      }
+    },
+    {
+      "id": "f~agglo~creil~sud~oise~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.oisemob.cityway.fr/dataflow/offre-tc/download?provider=AXO&dataFormat=GTFS&dataProfil=OPENDATA"
+      },
+      "operators": [
+        {
+          "onestop_id": "o~agglo~creil~sud~oise~fr",
+          "name": "Agglo Creil Sud Oise",
+          "website": "https://www.oise-mobilite.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f~agglo~creil~sud~oise~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f~agglo~creil~sud~oise~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.oisemob.cityway.fr/dataflow/horaire-tc-tr/download?provider=AXO&dataFormat=gtfs-rt",
+        "realtime_vehicle_positions": "https://api.oisemob.cityway.fr/dataflow/vehicule-tc-tr/download?provider=AXO&dataFormat=gtfs-rt"
+      }
+    },
+    {
+      "id": "f~transurbain~evreux~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/ec78df83-2e60-4284-acc3-86a0baa76bf0"
+      },
+      "operators": [
+        {
+          "onestop_id": "o~transurbain~evreux~fr",
+          "name": "Transurbain (Evreux Portes de Normandie)",
+          "website": "https://www.transurbain.com/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f~transurbain~evreux~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f~transurbain~evreux~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/transurbain-evreux-gtfs-rt-trip-update",
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/transurbain-evreux-gtfs-rt-vehicle-position"
+      }
+    },
+    {
+      "id": "f-capa~muvitarra~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/3f08460c-8ec7-4b9e-a244-8855292b9e24"
+      }
+    },
+    {
+      "id": "f-a~balanina~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/97dffc79-5284-4da7-b4f0-6dcea3b53f01"
+      }
+    },
+    {
+      "id": "f-corsica~ferries~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/b95d6838-1143-4653-840f-eebc33c16fa7"
+      }
+    },
+    {
+      "id": "f-maritime~vignola~girolata~corse~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/edabe706-150e-4320-a0cc-b68eed217495"
+      }
+    },
+    {
+      "id": "f-chemin~de~fer~de~la~corse~fr",
+      "spec": "gtfs",
+      "operators": [
+        {
+          "onestop_id": "o-chemin~de~fer~de~la~corse~fr",
+          "name": "Chemin de Fer de la Corse",
+          "website": "https://www.cf-corse.corsica/"
+        }
+      ],
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/0ccbfe4d-4e30-4aca-bde4-4ab2508c4b2f"
+      }
+    },
+    {
+      "id": "f-transport~regulier~corse~de~sud~fr",
+      "spec": "gtfs",
+      "operators": [
+        {
+          "onestop_id": "o-transport~regulier~corse~de~sud~fr",
+          "name": "Transport Régulier Corse de Sud",
+          "website": "http://www.isula.corsica",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-transport~regulier~corse~de~sud~fr~rt"
+            }
+          ]
+        }
+      ],
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/fr/datasets/r/416261b8-016d-4639-bab5-39a588665fc7"
+      }
+    },
+    {
+      "id": "f-transport~regulier~corse~de~sud~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://ctc.plateforme-2cloud.com/api/gtfsrt/2.0/tripupdates/CTC-2298-2048-0876/bin",
+        "realtime_vehicle_positions": "https://ctc.plateforme-2cloud.com/api/gtfsrt/2.0/vehiclepositions/CTC-2298-2048-0876/bin"
+      }
+    },
+    {
       "id": "f-alternéo~reunion",
       "spec": "gtfs",
       "urls": {
@@ -660,6 +813,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "TRANSURBAIN"
+            },
+            {
+              "feed_onestop_id": "f-sp9x-normandie~rt"
             }
           ]
         },
