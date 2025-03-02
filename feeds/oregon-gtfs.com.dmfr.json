@@ -824,39 +824,6 @@
       }
     },
     {
-      "id": "f-c20-wilsonville~or~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://oregon-gtfs.trilliumtransit.com/gtfs_data/wilsonville-or-us/wilsonville-or-us.zip"
-      },
-      "license": {
-        "url": "https://oregon-gtfs.trilliumtransit.com",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-c20-wilsonville~or~us",
-          "name": "South Metro Area Regional Transit",
-          "short_name": "SMART",
-          "website": "https://www.ridesmart.com/transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "101",
-              "feed_onestop_id": "f-c20-wilsonville~or~us"
-            },
-            {
-              "feed_onestop_id": "f-southmetroarearegionaltransit~rt"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "00046",
-            "wikidata_id": "Q7567940"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-c208u-woodburn~or~us",
       "spec": "gtfs",
       "urls": {
@@ -908,7 +875,7 @@
       "id": "f-c20c-sctd~or~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://oregon-gtfs.com/gtfs_data/sctd-or-us/sctd-or-us.zip",
+        "static_current": "https://oregon-gtfs.trilliumtransit.com/gtfs_data/sctd-or-us/sctd-or-us.zip",
         "static_historic": [
           "https://oregon-gtfs.trilliumtransit.com/gtfs_data/sctd-or-us/sctd-or-us.zip"
         ]
@@ -1083,26 +1050,6 @@
           "tags": {
             "twitter_general": "ClackCollege"
           }
-        }
-      ]
-    },
-    {
-      "id": "f-c20fb-ceic~or~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://oregon-gtfs.trilliumtransit.com/gtfs_data/ceic-or-us/ceic-or-us.zip"
-        ]
-      },
-      "license": {
-        "url": "https://oregon-gtfs.trilliumtransit.com",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-c20fb-wateravenueshuttle",
-          "name": "Water Avenue Shuttle"
         }
       ]
     },
