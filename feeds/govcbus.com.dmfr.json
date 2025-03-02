@@ -11,7 +11,7 @@
         "url": "https://gtfs-directory.syncromatics.com/"
       },
       "tags": {
-        "exclude_from_global_query": "true"
+        
       }
     },
     {
