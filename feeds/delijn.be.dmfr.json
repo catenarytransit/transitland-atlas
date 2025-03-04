@@ -34,6 +34,7 @@
       "id": "f-u1-delijn~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://api.delijn.be/gtfs/v3/realtime",
         "realtime_trip_updates": "https://api.delijn.be/gtfs/v3/realtime"
       },
       "license": {
