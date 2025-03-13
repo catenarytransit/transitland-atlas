@@ -40,6 +40,9 @@
             },
             {
               "feed_onestop_id": "f-u0-switzerland~rt"
+            },
+            {
+              "feed_onestop_id": "f-u0-switzerland~alerts~rt"
             }
           ]
         },
@@ -208,7 +211,14 @@
       "id": "f-u0-switzerland~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_trip_updates": "https://api.opentransportdata.swiss/gtfsrt2020"
+        "realtime_trip_updates": "https://api.opentransportdata.swiss/la/gtfs-rt"
+      }
+    },
+    {
+      "id": "f-u0-switzerland~alerts~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.opentransportdata.swiss/la/gtfs-sa"
       }
     }
   ],
