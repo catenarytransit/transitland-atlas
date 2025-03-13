@@ -5,11 +5,7 @@
       "id": "f-djwq-chathamareatransit",
       "spec": "gtfs",
       "urls": {
-<<<<<<< HEAD
-        "static_current": "https://catchacat.org/wp-content/uploads/CAT_GTFS_Files_2024-08-20.zip",
-=======
         "static_current": "https://catchacat.org/wp-content/uploads/GTFS.zip",
->>>>>>> 1558e890b6e7c78569e7f002c746fd23cae563ce
         "static_historic": [
           "https://catchacat.org/wp-content/uploads/March-2024-GTFS-3624.zip",
           "https://www.catchacat.org/wp-content/uploads/CAT_GTFS_Nov2023Pick.zip#GTFS/GTFSExport.zip",
