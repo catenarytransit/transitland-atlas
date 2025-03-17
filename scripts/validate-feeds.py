@@ -9,7 +9,7 @@ fail_the_build = False
 # load dmfr to database
 db_filename = 'feed-validation.db'
 os.system(f"rm -f {db_filename}")
-sync_command = f"transitland dmfr sync --hide-unseen --hide-unseen-operators -dburl=sqlite3://{db_filename} ../feeds/*.dmfr.json"
+sync_command = f"transitland sync --hide-unseen --hide-unseen-operators --dburl=sqlite3://{db_filename} ../feeds/*.dmfr.json"
 sync_log = subprocess.check_output(sync_command, shell=True)
 
 for log_line in sync_log.splitlines():
@@ -34,6 +34,8 @@ for row in onestop_ids:
   if dashcount == 0 or dashcount > 2:
     valid = False
   if len(osid) > 0 and osid[0] != "f":
+    valid = False
+  if osid != osid.lower():
     valid = False
   if not valid:
     print(f"ERROR: improperly formatted Feed Onestop ID: {osid}")
