@@ -5,7 +5,7 @@
       "id": "f-gtfs~de",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://download.gtfs.de/germany/free/latest.zip"
+        "static_current": "https://download.gtfs.de/academic/latest.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -18,7 +18,7 @@
       "id": "f-germany~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_trip_updates": "https://realtime.gtfs.de/realtime-free.pb",
+        "realtime_trip_updates": "https://realtime.gtfs.de/realtime-academic.pb",
         "realtime_alerts": "https://realtime.gtfs.de/realtime-free.pb"
       }
     },

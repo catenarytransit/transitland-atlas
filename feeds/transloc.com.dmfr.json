@@ -20,6 +20,31 @@
       ]
     },
     {
+      "id": "f-ride~lax",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ridelax.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-ride~lax",
+          "name": "Ride LAX",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-ride~lax~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-ride~lax~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://ridelax.com/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    },
+    {
       "id": "f-los~angeles~international~airport~shuttle~rt",
       "spec": "gtfs-rt",
       "urls": {
