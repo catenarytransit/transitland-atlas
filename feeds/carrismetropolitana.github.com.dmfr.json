@@ -28,8 +28,8 @@
       "id": "f-carris~metropolitana~pt~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://api.carrismetropolitana.pt/vehicles.pb",
-        "realtime_alerts": "http://api.carrismetropolitana.pt/alerts.pb"
+        "realtime_vehicle_positions": "https://api.carrismetropolitana.pt/vehicles.pb",
+        "realtime_alerts": "https://api.carrismetropolitana.pt/alerts.pb"
       },
       "license": {
         "url": "https://dados.gov.pt/pt/datasets/gtfs-carris-metropolitana/"

@@ -43,16 +43,16 @@
       "id": "f-corvallis~or~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
-        "realtime_trip_updates": "http://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
-        "realtime_alerts": "http://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/alert"
+        "realtime_vehicle_positions": "https://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+        "realtime_trip_updates": "https://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
+        "realtime_alerts": "https://www.corvallistransit.com/rtt/public/utility/gtfsrealtime.aspx/alert"
       }
     },
     {
       "id": "f-philomath~corvallis~or~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://www.corvallistransit.com/rtt/public/resource/gtfs_PC.zip",
+        "static_current": "https://www.corvallistransit.com/rtt/public/resource/gtfs_PC.zip",
         "static_historic": [
           "https://oregon-gtfs.trilliumtransit.com/gtfs_data/philomathconnection-or-us/philomathconnection-or-us.zip"
         ]

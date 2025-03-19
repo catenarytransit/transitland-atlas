@@ -49,9 +49,9 @@
       "id": "f-trimet~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://developer.trimet.org/ws/gtfs/VehiclePositions",
-        "realtime_trip_updates": "http://developer.trimet.org/ws/V1/TripUpdate",
-        "realtime_alerts": "http://developer.trimet.org/ws/V1/FeedSpecAlerts"
+        "realtime_vehicle_positions": "https://developer.trimet.org/ws/gtfs/VehiclePositions",
+        "realtime_trip_updates": "https://developer.trimet.org/ws/V1/TripUpdate",
+        "realtime_alerts": "https://developer.trimet.org/ws/V1/FeedSpecAlerts"
       },
       "authorization": {
         "type": "query_param",
