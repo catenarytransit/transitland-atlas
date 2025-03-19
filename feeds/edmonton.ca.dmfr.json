@@ -23,9 +23,9 @@
       "id": "f-ets~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
-        "realtime_trip_updates": "http://gtfs.edmonton.ca/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
-        "realtime_alerts": "http://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Alert/Alerts.pb"
+        "realtime_vehicle_positions": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Vehicle/VehiclePositions.pb",
+        "realtime_trip_updates": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/TripUpdate/TripUpdates.pb",
+        "realtime_alerts": "https://gtfs.edmonton.ca/TMGTFSRealTimeWebService/Alert/Alerts.pb"
       },
       "license": {
         "url": "https://www.edmonton.ca/transportation/Web-version2.1-OpenDataAgreement.pdf"
