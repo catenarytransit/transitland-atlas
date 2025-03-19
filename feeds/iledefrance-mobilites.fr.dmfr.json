@@ -5,7 +5,7 @@
       "id": "f-u09-île~de~france~mobilités",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.iledefrance-mobilites.fr/api/v2/catalog/datasets/offre-horaires-tc-gtfs-idfm/files/a925e164271e4bca93433756d6a340d1",
+        "static_current": "https://eu.ftp.opendatasoft.com/stif/GTFS/IDFM-gtfs.zip",
         "static_historic": [
           "https://opendata.stif.info/explore/dataset/offre-horaires-tc-gtfs-idf/files/73abe383c9dd51e1d78be6e672a2da3a/download/"
         ]
