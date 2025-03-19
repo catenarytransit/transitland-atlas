@@ -5,7 +5,7 @@
       "id": "f-9q5c-bigbluebus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://gtfs.bigbluebus.com/current.zip"
+        "static_current": "https://www.bigbluebus.com/gtfs/current.zip"
       },
       "license": {
         "url": "https://gtfs.bigbluebus.com/terms-and-conditions",
