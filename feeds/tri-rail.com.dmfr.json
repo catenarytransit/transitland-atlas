@@ -37,9 +37,9 @@
       "id": "f-dhx-tri~rail~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://gtfsr.tri-rail.com/download.aspx?file=position_updates.pb",
-        "realtime_trip_updates": "http://gtfsr.tri-rail.com/download.aspx?file=trip_updates.pb",
-        "realtime_alerts": "http://gtfsr.tri-rail.com/download.aspx?file=alerts.pb"
+        "realtime_vehicle_positions": "https://gtfsr.tri-rail.com/download.aspx?file=position_updates.pb",
+        "realtime_trip_updates": "https://gtfsr.tri-rail.com/download.aspx?file=trip_updates.pb",
+        "realtime_alerts": "https://gtfsr.tri-rail.com/download.aspx?file=alerts.pb"
       }
     }
   ],
