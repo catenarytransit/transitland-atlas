@@ -5,10 +5,10 @@
       "id": "f-9q5c-bigbluebus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://gtfs.bigbluebus.com/current.zip"
+        "static_current": "https://gtfs.bigbluebus.com/current.zip"
       },
       "license": {
-        "url": "http://gtfs.bigbluebus.com/terms-and-conditions",
+        "url": "https://gtfs.bigbluebus.com/terms-and-conditions",
         "use_without_attribution": "yes",
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
@@ -23,9 +23,9 @@
       "id": "f-bigbluebus~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://gtfs.bigbluebus.com/vehiclepositions.bin",
-        "realtime_trip_updates": "http://gtfs.bigbluebus.com/tripupdates.bin",
-        "realtime_alerts": "http://gtfs.bigbluebus.com/alerts.bin"
+        "realtime_vehicle_positions": "https://gtfs.bigbluebus.com/vehiclepositions.bin",
+        "realtime_trip_updates": "https://gtfs.bigbluebus.com/tripupdates.bin",
+        "realtime_alerts": "https://gtfs.bigbluebus.com/alerts.bin"
       },
       "license": {
         "url": "http://gtfs.bigbluebus.com/terms-and-conditions",
