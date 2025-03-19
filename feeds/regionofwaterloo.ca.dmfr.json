@@ -36,8 +36,8 @@
       "id": "f-grt~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "http://webapps.regionofwaterloo.ca/api/grt-routes/api/vehiclepositions",
-        "realtime_trip_updates": "http://webapps.regionofwaterloo.ca/api/grt-routes/api/tripupdates"
+        "realtime_vehicle_positions": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/vehiclepositions",
+        "realtime_trip_updates": "https://webapps.regionofwaterloo.ca/api/grt-routes/api/tripupdates"
       }
     }
   ],
