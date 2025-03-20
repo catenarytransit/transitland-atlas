@@ -962,7 +962,7 @@
       "id": "f-rénnes~metropole",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://eu.ftp.opendatasoft.com/star/gtfs/GTFS_1_20250312_20250316_20250312080736.zip"
+        "static_current": "https://eu.ftp.opendatasoft.com/star/gtfs/GTFS_1_20250318_20250418_20250318140629.zip"
       },
       "operators": [
         {
