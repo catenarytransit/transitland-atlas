@@ -5,8 +5,9 @@
       "id": "f-eyc-cp",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://publico.cp.pt/gtfs/gtfs.zip",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/pc_gtfs_pfaedle.zip",
         "static_historic": [
+          "https://publico.cp.pt/gtfs/gtfs.zip",
           "https://www.transporlis.pt/desktopmodules/trp_opendata/ajax/downloadFile.ashx?op=3&u=web",
           "http://www.transporlis.pt/Portals/0/OpenData/gtfs/zip/3/gtfs_3.zip"
         ]
