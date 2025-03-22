@@ -5,7 +5,7 @@
       "id": "f-u0-sncf~intercites",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://eu.ftp.opendatasoft.com/sncf/gtfs/export-intercites-gtfs-last.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/sncf_intercites_pfaedle.zip"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
