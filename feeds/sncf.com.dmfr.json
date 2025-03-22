@@ -66,7 +66,7 @@
       "spec": "gtfs",
       "urls": {
         "static_historic": [
-          "https://eu.ftp.opendatasoft.com/sncf/gtfs/export_gtfs_voyages.zip"
+          "https://eu.ftp.opendatasoft.com/sncf/plandata/export_gtfs_voyages.zip"
         ],
         "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/export_gtfs_voyages_pfaedle.zip"
       },
