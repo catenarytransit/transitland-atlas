@@ -29,7 +29,8 @@
       "id": "f-ez-renfeoperadora",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/renfe_operadora_pfaedle.zip",
+        "static_historic": ["https://ssl.renfe.com/gtransit/Fichero_AV_LD/google_transit.zip"]
       },
       "license": {
         "url": "http://data.renfe.com/legal",
