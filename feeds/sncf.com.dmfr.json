@@ -65,7 +65,10 @@
       "id": "f-u0-sncf~tgv",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://eu.ftp.opendatasoft.com/sncf/gtfs/export_gtfs_voyages.zip"
+        "static_historic": [
+          "https://eu.ftp.opendatasoft.com/sncf/gtfs/export_gtfs_voyages.zip"
+        ],
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/export_gtfs_voyages_pfaedle.zip"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
