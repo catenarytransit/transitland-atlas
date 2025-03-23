@@ -5,7 +5,7 @@
         "id": "f-sncb",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://sncb-opendata.hafas.de/gtfs/static/c21ac6758dd25af84cca5b707f3cb3de"
+          "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/sncb_gtfs_pfaedle.zip"
         },
         "license": {
           "url": "https://www.belgiantrain.be/fr/3rd-party-services/mobility-service-providers/public-data/use-our-data/"
