@@ -2,33 +2,6 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
-      "id": "f-u-nmbs~sncb",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://gtfs.irail.be/nmbs/gtfs/latest.zip",
-        "static_historic": [
-          "http://gtfs.irail.be/nmbs/nmbs-latest.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-u-nmbs~sncb",
-          "name": "Nationale Maatschappij der Belgische Spoorwegen/Société nationale des chemins de fer belges",
-          "short_name": "NMBS/SNCB",
-          "website": "http://www.belgianrail.be/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "0"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-u0g-tec",
       "spec": "gtfs",
       "urls": {
