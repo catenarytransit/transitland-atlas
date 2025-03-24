@@ -5,8 +5,9 @@
       "id": "f-u0-switzerland",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.opentransportdata.swiss/en/dataset/timetable-2025-gtfs2020/permalink",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/swiss_gtfs_pfaedle.zip",
         "static_historic": [
+          "https://data.opentransportdata.swiss/en/dataset/timetable-2025-gtfs2020/permalink",
           "https://opentransportdata.swiss/en/dataset/timetable-2024-gtfs2020/permalink",
           "https://opentransportdata.swiss/en/dataset/timetable-2023-gtfs2020/permalink",
           "https://opentransportdata.swiss/de/dataset/timetable-2022-gtfs2020/permalink"
