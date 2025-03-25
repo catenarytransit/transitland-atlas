@@ -15,14 +15,6 @@
       }
     },
     {
-      "id": "f-germany~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_trip_updates": "https://realtime.gtfs.de/realtime-academic.pb",
-        "realtime_alerts": "https://realtime.gtfs.de/realtime-free.pb"
-      }
-    },
-    {
       "id": "f-tlms~rt",
       "spec": "gtfs-rt",
       "urls": {
@@ -42,7 +34,7 @@
           "feed_onestop_id": "f-tlms~rt"
         },
         {
-          "feed_onestop_id": "f-germany~rt"
+          "feed_onestop_id": "f-gtfs~de"
         }
       ]
     },
@@ -54,9 +46,6 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-gtfs~de"
-        },
-        {
-          "feed_onestop_id": "f-germany~rt"
         }
       ]
     }

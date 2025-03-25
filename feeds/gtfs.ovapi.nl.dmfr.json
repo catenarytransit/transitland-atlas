@@ -5,7 +5,29 @@
       "id": "f-u-nl",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://gtfs.ovapi.nl/gtfs-nl.zip"
+        "static_current": "https://gtfs.ovapi.nl/gtfs-nl.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nederlandse~spoorwegen",
+          "name": "Nederlandse Spoorwegen",
+          "short_name": "NS",
+          "website": "https://ns.nl/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-u-nl-rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-u-nl-rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://gtfs.ovapi.nl/nl/tripUpdates.pb",
+        "realtime_vehicle_positions": "https://gtfs.ovapi.nl/nl/vehiclePositions.pb",
+        "realtime_alerts": "https://gtfs.ovapi.nl/nl/alerts.pb"
       }
     }
   ],
