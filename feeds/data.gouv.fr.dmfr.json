@@ -243,7 +243,7 @@
       "id": "f-eurostar",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://gtfs.eurostar.com/assets/gtfs.zip",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/eurostar-pfaedle.zip",
         "static_historic": [
           "https://gtfs.eurostar.com/assets/gtfs.zip",
           "https://s3.eu-west-2.amazonaws.com/feeds.planar.network/eurostar.zip"
