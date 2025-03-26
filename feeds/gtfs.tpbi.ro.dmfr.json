@@ -5,7 +5,7 @@
         "id": "f-tpbi~romania",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://gtfs.tpbi.ro/regional/timetables.zip"
+          "static_current": "https://gtfs.tpbi.ro/regional/202406-timetables.zip"
         },
         "license": {
           "url": "http://www.octa.net/News-and-Resources/Open-Data/Overview/"
