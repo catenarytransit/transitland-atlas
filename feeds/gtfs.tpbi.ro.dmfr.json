@@ -1,0 +1,44 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+      {
+        "id": "f-tpbi~romania",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://gtfs.tpbi.ro/regional/timetables.zip"
+        },
+        "license": {
+          "url": "http://www.octa.net/News-and-Resources/Open-Data/Overview/"
+        },
+        "tags": {
+          "gtfs_data_exchange": "orange-county-transportation-authority"
+        }
+      },
+      {
+        "id": "f-tpbi~romania~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://gtfs.tpbi.ro/api/gtfs-rt/vehiclePositions",
+          "realtime_trip_updates": "https://gtfs.tpbi.ro/api/gtfs-rt/tripUpdates",
+            "realtime_alerts": "https://gtfs.tpbi.ro/api/gtfs-rt/serviceAlerts"
+        }
+      }
+    ],
+    "operators": [
+      {
+        "onestop_id": "o-tpbi~romania",
+        "name": "Asociația de Dezvoltare Intercomunitară pentru Transport Public București",
+        "short_name": "TPBI",
+        "associated_feeds": [
+          {
+            "feed_onestop_id": "f-tpbi~romania"
+          },
+          {
+            "feed_onestop_id": "f-tpbi~romania~rt"
+          }
+        ]
+      }
+    ],
+    "license_spdx_identifier": "CDLA-Permissive-1.0"
+  }
+  
