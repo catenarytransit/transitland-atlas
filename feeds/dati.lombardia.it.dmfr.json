@@ -5,7 +5,7 @@
       "id": "f-u0n-trenord",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.dati.lombardia.it/download/3z4k-mxz9/application%2Fzip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/trenord-pfaedle.zip"
       },
       "license": {
         "url": "https://creativecommons.org/licenses/by/4.0/",
