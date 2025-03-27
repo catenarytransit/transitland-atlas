@@ -227,55 +227,6 @@
       ]
     },
     {
-      "id": "f-wdw-manila",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://github.com/sakayph/gtfs/archive/master.zip#gtfs-master"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-wdw-ltfrb",
-          "name": "LTFRB",
-          "website": "http://www.ltfrb.gov.ph/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "LTFRB"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-wdw4-manilametrorailtransitcorporation",
-          "name": "Manila Metro Rail Transit Corporation",
-          "website": "http://dotcmrt3.gov.ph",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "MRTC"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-wdw4-philippinenationalrailways",
-          "name": "Philippine National Railways",
-          "website": "http://www.pnr.gov.ph/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "PNR"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-wdw5-manilalightrailtransitauthority",
-          "name": "Manila Light Rail Transit Authority",
-          "website": "http://www.lrta.gov.ph/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "LRTA"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-wdw4-p2p",
       "spec": "gtfs",
       "urls": {
