@@ -171,7 +171,7 @@
       "id": "f-u8-romania~interregionalcalatori~regiotrans~cfrcălători~softrans~trans",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/vasile/data.gov.ro-gtfs-exporter/archive/master.zip#data.gov.ro-gtfs-exporter-master/gtfs-out"
+        "static_current": "https://github.com/catenarytransit/data.gov.ro-gtfs-exporter/releases/download/latest/ro-gtfs.zip"
       },
       "operators": [
         {
