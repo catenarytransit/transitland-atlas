@@ -13,7 +13,57 @@
         "use_without_attribution": "no",
         "create_derived_product": "yes",
         "attribution_text": "Contains data under the Norwegian licence for Open Government data (NLOD) distributed by Entur"
-      }
+      },
+      "operators": [
+        {
+          "name": "Entur",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-entur~akt~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~atb~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~fin~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~goa~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~kol~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~mor~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~nbu~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~rut~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~tel~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~tro~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~vot~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~vyb~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~vyg~rt"
+            },
+            {
+              "feed_onestop_id": "f-entur~vyx~rt"
+            }
+          ],
+          "onestop_id": "o-entur"
+        }
+      ]
     },
     {
       "id": "f-entur~akt~rt",
