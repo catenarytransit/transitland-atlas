@@ -21,7 +21,8 @@
             {
               "feed_onestop_id": "f-u-se~sl~vehicle~pos~rt"
             }
-          ]
+          ],
+          "onestop_id": "o-storstockholms~lokaltrafik"
         }
       ]
     },
