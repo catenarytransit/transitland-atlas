@@ -12,6 +12,24 @@
         "url": "https://www.trafiklab.se/api/trafiklab-apis/gtfs-sverige-2/licence/",
         "use_without_attribution": "yes",
         "create_derived_product": "yes"
+      },
+      "operators": [
+        {
+          "name": "Storstockholms Lokaltrafik",
+          "short_name": "SL",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-u-se~sl~vehicle~pos~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-u-se~sl~vehicle~pos~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://opendata.samtrafiken.se/gtfs-rt-sweden/sl/VehiclePositionsSweden.pb"
       }
     }
   ],
