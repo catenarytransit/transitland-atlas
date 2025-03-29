@@ -14,6 +14,132 @@
         "create_derived_product": "yes",
         "attribution_text": "Contains data under the Norwegian licence for Open Government data (NLOD) distributed by Entur"
       }
+    },
+    {
+      "id": "f-entur~akt~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=AKT",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=AKT",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=AKT"
+      }
+    },
+    {
+      "id": "f-entur~atb~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=ATB",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=ATB",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=ATB"
+      }
+    },
+    {
+      "id": "f-entur~fin~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=FIN",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=FIN",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=FIN"
+      }
+    },
+    {
+      "id": "f-entur~goa~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=GOA",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=GOA",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=GOA"
+      }
+    },
+    {
+      "id": "f-entur~kol~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=KOL",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=KOL",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=KOL"
+      }
+    },
+    {
+      "id": "f-entur~mor~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=MOR",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=MOR",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=MOR"
+      }
+    },
+    {
+      "id": "f-entur~nbu~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=NBU",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=NBU",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=NBU"
+      }
+    },
+    {
+      "id": "f-entur~rut~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=RUT",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=RUT",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=RUT"
+      }
+    },
+    {
+      "id": "f-entur~tel~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=TEL",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=TEL",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=TEL"
+      }
+    },
+    {
+      "id": "f-entur~tro~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=TRO",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=TRO",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=TRO"
+      }
+    },
+    {
+      "id": "f-entur~vot~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VOT",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=VOT",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=VOT"
+      }
+    },
+    {
+      "id": "f-entur~vyb~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VYB",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=VYB",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=VYB"
+      }
+    },
+    {
+      "id": "f-entur~vyg~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VYG",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=VYG",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=VYG"
+      }
+    },
+    {
+      "id": "f-entur~vyx~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VYX",
+        "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=VYX",
+        "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=VYX"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
