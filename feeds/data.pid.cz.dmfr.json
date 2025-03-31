@@ -21,10 +21,22 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "99"
+            },
+            {
+              "feed_onestop_id": "f-u2f-pražskáintegrovanádoprava~rt"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "f-u2f-pražskáintegrovanádoprava~rt",
+      "urls": {
+        "realtime_trip_updates": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/trip_updates.pb",
+        "realtime_vehicle_positions": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/vehicle_positions.pb",
+        "realtime_alerts": "https://api.golemio.cz/v2/vehiclepositions/gtfsrt/alerts.pb"
+      },
+      "spec": "gtfs-rt"
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
