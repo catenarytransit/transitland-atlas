@@ -20,6 +20,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "99"
+            },
+            {
+              "feed_onestop_id": "f-idsjmk~ceska"
             }
           ],
           "tags": {
@@ -27,6 +30,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-idsjmk~ceska",
+      "urls": {
+        "realtime_vehicle_positions": "https://content.idsjmk.cz/kestazeni/gtfsReal.dat",
+        "realtime_trip_updates": "https://content.idsjmk.cz/kestazeni/gtfsReal.dat",
+        "realtime_alerts": "https://content.idsjmk.cz/kestazeni/gtfsReal.dat"
+      },
+      "spec": "gtfs-rt"
     }
   ],
   "license_spdx_identifier": "CC-BY-4.0"
