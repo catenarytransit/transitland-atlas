@@ -1,0 +1,11 @@
+{
+    "feeds": [
+        {
+            "id": "f-hrvatske~željeznice",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "http://www.hzpp.hr/Media/Default/GTFS/GTFS_files.zip"
+            }
+        }
+    ]
+}
