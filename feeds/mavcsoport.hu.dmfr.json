@@ -1,0 +1,21 @@
+{
+    "feeds": [
+        {
+            "id": "f-mavcsoport",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://www.mavcsoport.hu/gtfs/gtfsMavMenetrend.zip"
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-mavcsoport",
+                    "name": "MÁV-START Zrt.",
+                    "short_name": "MÁV-START",
+                    "website": "https://www.mavcsoport.hu",
+                    "associated_feeds": [
+                    ]
+                }
+            ]
+        }
+    ]
+}
