@@ -1,0 +1,34 @@
+{
+    "feeds": [
+        {
+            "id": "f-railways~suomi",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://rata.digitraffic.fi/api/v1/trains/gtfs-passenger.zip"
+            },
+            "operators": [
+                {
+                    "name": "VR-Yhtymä Oyj",
+                    "associated_feeds": [
+                        {
+                            "feed_onestop_id": "f-railways~suomi"
+                        },
+                        {
+                            "feed_onestop_id": "f-railways~suomi~gtfs-rt"
+                        }
+                    ],
+                    "onestop_id": "o-vy~yhtymä~oyj"
+                }
+            ]
+        },
+        {
+            "id": "f-railways~suomi~gtfs-rt",
+            "spec": "gtfs-rt",
+            "urls": {
+                "realtime_vehicle_positions": "https://rata.digitraffic.fi/api/v1/trains/gtfs-rt-locations",
+                "realtime_trip_updates": "https://rata.digitraffic.fi/api/v1/trains/gtfs-rt-updates",
+                "realtime_alerts": "https://rata.digitraffic.fi/api/v1/trains/gtfs-rt-updates"
+            }
+        }
+    ]
+}
