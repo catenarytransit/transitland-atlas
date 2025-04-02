@@ -5,7 +5,7 @@
       "id": "f-nvbw",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.nvbw.de/fileadmin/user_upload/service/open_data/fahrplandaten_mit_liniennetz/bwgesamt.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/nvbw_pfaedle.zip"
       },
       "license": {
         "url": "https://www.nvbw.de/open-data/fahrplandaten/fahrplandaten-mit-liniennetz",
