@@ -996,6 +996,32 @@
       "license": {
         "url": "https://transport.data.gouv.fr/datasets/horaires-theoriques-du-reseau-zoom-le-grand-chalon"
       }
+    },
+    {
+      "id": "f-distribus~fr",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.datagrandest.fr/metadata/fluo-grand-est/FR-200052264-T0017-0000/fluo-grand-est-cc3f-gtfs.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-distribus~fr",
+          "name": "Distribus",
+          "website": "https://www.distribus.com/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-distribus~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-distribus~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/fluo-distribus-stlouis-gtfs-rt-trip-update"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
