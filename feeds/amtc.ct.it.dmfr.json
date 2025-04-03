@@ -1,0 +1,23 @@
+{
+    "feeds": [
+        {
+            "id": "f-amtc~catania~italia",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://www.amts.ct.it/GTFS/AMTCT.zip"
+            },
+            "license": {
+                "url": "https://www.amts.ct.it/open-data"
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-amtc~catania~italia",
+                    "name": "Azienda Metropolitana Trasporti e Sosta Catania S.p.A.",
+                    "short_name": "AMTC",
+                    "website": "https://www.amtc.ct.it/",
+                    "associated_feeds": []
+                }
+            ]
+        }
+    ],
+}
