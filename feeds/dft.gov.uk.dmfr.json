@@ -8,7 +8,10 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/gb_bus_gtfs_pfaedle.zip",
+        "static_historic": [
+          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
+        ]
       },
       "license": {
         "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
