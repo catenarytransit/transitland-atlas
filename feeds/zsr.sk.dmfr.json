@@ -5,7 +5,10 @@
       "id": "f-eo0-zssk",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.zsr.sk/files/pre-cestujucich/cestovny-poriadok/gtfs/gtfs.zip"
+        "static_historic": [
+          "https://www.zsr.sk/files/pre-cestujucich/cestovny-poriadok/gtfs/gtfs.zip"
+        ],
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/zssk_gtfs-pfaedle.zip"
       },
       "operators": [
         {
