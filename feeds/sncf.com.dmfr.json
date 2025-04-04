@@ -145,10 +145,6 @@
       "website": "http://www.sncf.com",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "TER",
-          "feed_onestop_id": "f-spez-paysdaixmobilite"
-        },
-        {
           "gtfs_agency_id": "1187",
           "feed_onestop_id": "f-u0-sncf~intercites"
         },
