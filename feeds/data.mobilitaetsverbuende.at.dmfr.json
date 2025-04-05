@@ -1,0 +1,12 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+        {
+            "id": "f-Linz~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/7d3ee938-d6fa-4c8b-90f2-a337e8e2d2f0"
+            }
+        }
+    ]
+}
