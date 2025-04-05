@@ -5,7 +5,7 @@
             "id": "f-Linz~Österreich",
             "spec": "gtfs",
             "urls": {
-                "static_current": "https://data.mobilitaetsverbuende.at/7d3ee938-d6fa-4c8b-90f2-a337e8e2d2f0"
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/69/2025/file"
             }
         }
     ]
