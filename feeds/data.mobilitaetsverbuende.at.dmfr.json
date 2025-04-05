@@ -7,6 +7,48 @@
             "urls": {
                 "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/69/2025/file"
             }
+        },
+        {
+            "id": "f-Vorarlberg~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/58/2025/file"
+            }
+        },
+        {
+            "id": "f-Tyrol~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/57/2025/file"
+            }
+        },
+        {
+            "id": "f-Oberösterreich~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/56/2025/file"
+            }
+        },
+        {
+            "id": "f-Carinthia~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/55/2025/file"
+            }
+        },
+        {
+            "id": "f-Styria~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/53/2025/file"
+            }
+        },
+        {
+            "id": "f-Ostösterreich~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/52/2025/file"
+            }
         }
     ]
 }
