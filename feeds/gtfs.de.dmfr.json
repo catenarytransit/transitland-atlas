@@ -15,6 +15,15 @@
       }
     },
     {
+      "id": "f-delfi~de~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf",
+        "realtime_vehicle_positions": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf",
+        "realtime_alerts": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf"
+      }
+    },
+    {
       "id": "f-tlms~rt",
       "spec": "gtfs-rt",
       "urls": {
@@ -46,6 +55,9 @@
       "associated_feeds": [
         {
           "feed_onestop_id": "f-gtfs~de"
+        },
+        {
+          "feed_onestop_id": "f-delfi~de~rt"
         }
       ]
     }
