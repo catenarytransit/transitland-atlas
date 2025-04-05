@@ -37,6 +37,13 @@
             }
         },
         {
+            "id": "f-Salzburg~Österreich",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.mobilitaetsverbuende.at/api/public/v1/data-sets/54/2025/file"
+            }
+        },
+        {
             "id": "f-Styria~Österreich",
             "spec": "gtfs",
             "urls": {
