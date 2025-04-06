@@ -1,0 +1,13 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+        {
+            "id": "f-kadamba",
+            "name": "Kadamba",
+            "spec":"gtfs",
+            "urls": {
+                "static_current": "https://ktclgoa.com/uploads/gtfs.zip"
+            }
+        }
+    ]
+}
