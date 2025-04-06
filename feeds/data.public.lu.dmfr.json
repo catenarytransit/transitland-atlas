@@ -1,0 +1,12 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+        {
+            "id": "f-administration~des~transports~publics~du~luxembourg",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.public.lu/api/1/datasets/horaires-et-arrets-des-transport-publics-gtfs/"
+            }
+        }
+    ]
+}
