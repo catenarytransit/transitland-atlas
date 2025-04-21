@@ -12,10 +12,11 @@
       "id": "f-u-flixbus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://gtfs.gis.flix.tech/gtfs_generic_eu.zip",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/flix_eu-pfaedle.zip",
         "static_historic": [
           "https://transport.beta.gouv.fr/resources/11681/download",
-          "http://data.ndovloket.nl/flixbus/flixbus-eu.zip"
+          "http://data.ndovloket.nl/flixbus/flixbus-eu.zip",
+          "http://gtfs.gis.flix.tech/gtfs_generic_eu.zip"
         ]
       },
       "tags": {
