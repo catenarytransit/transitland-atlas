@@ -20,6 +20,31 @@
       ]
     },
     {
+      "id": "f-sixt~shuttle~lax",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://sixtshuttlelax.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-sixt~shuttle~lax",
+          "name": "SIXT Shuttle LAX",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-sixt~shuttle~lax~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-sixt~shuttle~lax~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://sixtshuttlelax.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    },
+    {
       "id": "f-ride~lax",
       "spec": "gtfs",
       "urls": {
