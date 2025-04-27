@@ -19,6 +19,10 @@
           "http://gtfs.gis.flix.tech/gtfs_generic_eu.zip"
         ]
       },
+      "license": {
+        "spdx_identifier": "ODbL-1.0",
+        "url": "https://www.data.gouv.fr/fr/datasets/flixbus-horaires-theoriques-du-reseau-europeen-1/#/information"
+      },
       "tags": {
         "mdb_source_id": "853"
       }
