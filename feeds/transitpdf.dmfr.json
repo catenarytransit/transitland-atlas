@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+  "feeds": [
+    {
+      "id": "f-transitpdf~northern~ireland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.transitpdf.com/files/uran/improved-gtfs-northern-ireland.zip"
+      }
+    }
+  ]
+}
