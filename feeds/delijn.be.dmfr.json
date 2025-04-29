@@ -27,8 +27,8 @@
       "id": "f-u1-delijn~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.delijn.be/gtfs/v3/realtime",
-        "realtime_trip_updates": "https://api.delijn.be/gtfs/v3/realtime"
+        "realtime_vehicle_positions": "https://api.delijn.be/gtfs/v3/realtime?position=true",
+        "realtime_trip_updates": "https://api.delijn.be/gtfs/v3/realtime?delay=true&canceled=true"
       },
       "license": {
         "url": "https://apimgmtst4bhvk6dmooiyuka.blob.core.windows.net/content/MediaLibrary/Site/OpenData%20licentie%20-%20Licentie%20voor%20gratis%20hergebruik-1.pdf"
