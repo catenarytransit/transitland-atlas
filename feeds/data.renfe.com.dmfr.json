@@ -2,12 +2,12 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
-      "id": "f-ez-renfecercanias",
+      "id": "f-ez-renfeoperadora",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip",
         "static_historic": [
-          "https://elchesemueve.com/renfe/gtfs.zip"
+          "http://data.renfe.com/dataset/34be0058-3a3d-4ee1-89cd-512e1226f53f/resource/25d6b043-9e47-4f99-bd91-edd51d782450/download/google_transit.zip"
         ]
       },
       "license": {
@@ -36,7 +36,9 @@
         "url": "http://data.renfe.com/legal",
         "use_without_attribution": "no",
         "create_derived_product": "yes",
-        "attribution_text": "Data origin: Renfe Operadora"
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
       },
       "operators": [
         {

@@ -1224,34 +1224,6 @@
       ]
     },
     {
-      "id": "f-9ry8-mountainridestransportationauthoritymrta",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/mountainrides-id-us/mountainrides-id-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "gtfs_data_exchange": "mountain-rides-transportation-authority-mrta",
-        "status": "archived"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9ry8-mountainridestransportationauthoritymrta",
-          "name": "Mountain Rides Transportation Authority",
-          "short_name": "MRTA",
-          "website": "http://www.mountainrides.org/",
-          "tags": {
-            "twitter_general": "mountainrides"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-9vfu-dentoncountytransportationauthority",
       "spec": "gtfs",
       "urls": {
@@ -2048,13 +2020,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/adamscounty-co-us/adamscounty-co-us--flex-v2.zip"
-      }
-    },
-    {
-      "id": "f-advancetransit~vt~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/advancetransit-vt-us/advancetransit-vt-us.zip"
       }
     },
     {
@@ -3495,34 +3460,6 @@
             "twitter_general": "RidePCPT",
             "us_ntd_id": "40074",
             "wikidata_id": "Q7141817"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-djj6-thehernandoexpress~fl~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/thehernandoexpress-fl-us/thehernandoexpress-fl-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "status": "archived"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-djj6-hernandobus",
-          "name": "Hernando County Transit",
-          "short_name": "The Bus",
-          "tags": {
-            "twitter_general": "HernandoCoGov",
-            "us_ntd_id": "40146",
-            "wikidata_id": "Q7670246"
           }
         }
       ]
@@ -5200,6 +5137,39 @@
           ],
           "tags": {
             "twitter_general": "vttranslines"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dru8-advancetransit",
+      "supersedes_ids": [
+        "f-advancetransit~vt~us"
+      ],
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/advancetransit-vt-us/advancetransit-vt-us.zip",
+        "static_historic": [
+          "http://whereismybus.advancetransit.com/GTFS/feed.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "advance-transit"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dru8-advancetransit",
+          "name": "Advance Transit",
+          "short_name": "AT",
+          "website": "http://www.advancetransit.com/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-advancetransit~rt"
+            }
+          ],
+          "tags": {
+            "us_ntd_id": "10137",
+            "wikidata_id": "Q17084449"
           }
         }
       ]
