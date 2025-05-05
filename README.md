@@ -3,8 +3,6 @@
 
 An open catalog of transit/mobility data feeds and operators. This will merge in data streams from upstream.
 
-This catalog is used to power the canonical [Transitland](https://transit.land) platform, is available for distributed used of the [transitland-lib](https://github.com/interline-io/transitland-lib) tooling, and is open to use as a "crosswalk" within other transportation data systems.
-
 **Table of contents**:
 
 <!-- TOC created and updated by VSCode Markdown All in One extension -->
