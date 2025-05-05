@@ -44,15 +44,6 @@ If you are using the Github web interface, you can click "Add a file -> Create a
 
 For more information on what can go into a DMFR file, see the [DMFR documentation](https://github.com/transitland/distributed-mobility-feed-registry).
 
-## Opinionated DMFR file format
-
-The Atlas repository enforces an opinionated DMFR format that extends the standard DMFR JSON schema. This format enforces:
-- Consistent JSON indentation
-- Consistent key ordering
-- A trailing line break at the end of the file (this is a change as of March 2025)
-
-This opinionated format is not part of the DMFR specification itself, but rather an additional layer of formatting rules to ensure that DMFR files in the Atlas repository only change to reflect meaningful changes in the data, not inconsequential formatting differences. This reduces the amount of lines that are likely to change in PRs in this repository. The opinionated format is applied using the `transitland dmfr format` command from the [transitland-lib](https://github.com/interline-io/transitland-lib) CLI tool and is checked by GitHub Actions on all PRs in this repo.
-
 ## How to Update an Existing Feed
 
 1. Find the DMFR file containing the feed.
