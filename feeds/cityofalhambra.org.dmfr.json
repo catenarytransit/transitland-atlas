@@ -5,7 +5,7 @@
       "id": "f-alhambra~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.cityofalhambra.org/DocumentCenter/View/4979/alhambra-ca-us",
+        "static_current": "https://www.cityofalhambra.org/DocumentCenter/View/5955/AlhambraGTFS",
         "static_historic": [
           "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/alhambra-ca-us/alhambra-ca-us.zip",
           "http://data.trilliumtransit.com/gtfs/alhambra-ca-us/alhambra-ca-us.zip"
