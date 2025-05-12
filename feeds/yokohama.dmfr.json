@@ -44,7 +44,6 @@
       {
         "onestop_id": "o-横浜市",
         "name": "横浜市 Municipal Subway",
-        "short_name": "OCTA",
         "associated_feeds": [
           {
             "feed_onestop_id": "f-横浜市-municipal-subway"
