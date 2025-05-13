@@ -45,6 +45,31 @@
       }
     },
     {
+      "id": "f-ucsd~triton~transit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://tritontransit.ridesystems.net/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-ucsd~triton~transit",
+          "name": "SIXT Shuttle LAX",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-ucsd~triton~transit~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-ucsd~triton~transit~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://tritontransit.ridesystems.net/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    },
+    {
       "id": "f-ride~lax",
       "spec": "gtfs",
       "urls": {
