@@ -53,7 +53,7 @@
       "operators": [
         {
           "onestop_id": "o-ucsd~triton~transit",
-          "name": "SIXT Shuttle LAX",
+          "name": "UCSD Triton Transit",
           "associated_feeds": [
             {
               "feed_onestop_id": "f-ucsd~triton~transit~rt"
