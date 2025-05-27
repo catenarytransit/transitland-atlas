@@ -5,8 +5,9 @@
       "id": "f-9qhf-bigbear~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/bigbear-ca-us/bigbear-ca-us.zip",
+        "static_current": "https://mountaintransit.syncromatics.com/gtfs",
         "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/bigbear-ca-us/bigbear-ca-us.zip",
           "https://api.transloc.com/gtfs/mountaintransit.zip"
         ]
       },
@@ -24,6 +25,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "44"
+            },
+            {
+              "feed_onestop_id": "f-9qhf-bigbear~ca~us~rt"
             }
           ],
           "tags": {
@@ -32,6 +36,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-9qhf-bigbear~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://mountaintransit.syncromatics.com/gtfs-rt/alerts",
+        "realtime_trip_updates": "https://mountaintransit.syncromatics.com/gtfs-rt/tripupdates",
+        "realtime_vehicle_positions": "https://mountaintransit.syncromatics.com/gtfs-rt/vehiclepositions"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
