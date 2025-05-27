@@ -1725,22 +1725,6 @@
     ]
   },
   {
-    "id": "f-city~of~fairfax",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.fairfaxva.gov/home/showpublisheddocument/19191/638339372325400000"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~fairfax",
-        "name": "City of Fairfax",
-        "tags": {
-          "us_ntd_id": "30058"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-potomac~and~rappahannock~transportation~commission",
     "spec": "gtfs",
     "urls": {
@@ -2043,94 +2027,6 @@
     ]
   },
   {
-    "id": "f-city~of~fayetteville",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.fayettevillenc.gov/city-services/transit/riding-fast/routes/fast-gtfs"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~fayetteville",
-        "name": "City of Fayetteville",
-        "tags": {
-          "us_ntd_id": "40009"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-transit~authority~of~river~city",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://gtfsrealtime.ridetarc.org/feed/google_transit.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-transit~authority~of~river~city",
-        "name": "Transit Authority of River City",
-        "tags": {
-          "us_ntd_id": "40018"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-dng1-transitauthorityofrivercity",
-        "likely_match_full": {
-          "onestop_id": "o-dng1-transitauthorityofrivercity",
-          "name": "Transit Authority of River City",
-          "search_rank": "1",
-          "feeds": [
-            {
-              "onestop_id": "f-dng1-transitauthorityofrivercity",
-              "urls": {
-                "static_current": "http://googletransit.ridetarc.org/feed/google_transit.zip"
-              }
-            },
-            {
-              "onestop_id": "f-tarc~rt",
-              "urls": {
-                "static_current": ""
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-transit~authority~of~river~city",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://gtfsrealtime.ridetarc.org/feed/google_transit.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-transit~authority~of~river~city",
-        "name": "Transit Authority of River City",
-        "tags": {
-          "us_ntd_id": "40018"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-dng1-transitauthorityofrivercity",
-        "likely_match_full": {
-          "onestop_id": "o-dng1-transitauthorityofrivercity",
-          "name": "Transit Authority of River City",
-          "search_rank": "1",
-          "feeds": [
-            {
-              "onestop_id": "f-dng1-transitauthorityofrivercity",
-              "urls": {
-                "static_current": "http://googletransit.ridetarc.org/feed/google_transit.zip"
-              }
-            },
-            {
-              "onestop_id": "f-tarc~rt",
-              "urls": {
-                "static_current": ""
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "id": "f-metropolitan~atlanta~rapid~transit~authority",
     "spec": "gtfs",
     "urls": {
@@ -2391,22 +2287,6 @@
     ]
   },
   {
-    "id": "f-city~of~johnson~city",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.johnsoncitytransit.org/google_transit.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~johnson~city",
-        "name": "City of Johnson City",
-        "tags": {
-          "us_ntd_id": "40054"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~bristol~tennessee",
     "spec": "gtfs",
     "urls": {
@@ -2475,22 +2355,6 @@
     ]
   },
   {
-    "id": "f-city~of~hattiesburg",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://api.transloc.com/gtfs/hct.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~hattiesburg",
-        "name": "City of Hattiesburg",
-        "tags": {
-          "us_ntd_id": "40060"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-east~alabama~regional~planning~and~development~commission",
     "spec": "gtfs",
     "urls": {
@@ -2518,22 +2382,6 @@
         "name": "Pasco County Board of County Commissioners",
         "tags": {
           "us_ntd_id": "40074"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~anderson~",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.cityofandersonsc.com/wp-content/uploads/2024/02/GTFS_ECT.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~anderson~",
-        "name": "City of Anderson ",
-        "tags": {
-          "us_ntd_id": "40081"
         }
       }
     ]
@@ -2799,22 +2647,6 @@
     ]
   },
   {
-    "id": "f-lake~county~board~of~county~commissioners",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://ridelakexpress.com/gtfs/gtfs.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-lake~county~board~of~county~commissioners",
-        "name": "Lake County Board of County Commissioners",
-        "tags": {
-          "us_ntd_id": "40158"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-piedmont~authority~for~regional~transportation",
     "spec": "gtfs",
     "urls": {
@@ -3069,22 +2901,6 @@
         "name": "Big Bend Transit",
         "tags": {
           "us_ntd_id": "41153"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-county~of~citrus",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.citrusbocc.com/document_center/Department/Community%20Services/Support%20Services/Transit/GTFS%20Text%20Files/GTFS%20Updated%202-1-24.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-county~of~citrus",
-        "name": "County of Citrus",
-        "tags": {
-          "us_ntd_id": "41157"
         }
       }
     ]
@@ -3611,22 +3427,6 @@
               }
             }
           ]
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~danville",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.ridedmt.org/schedules-fares/gtfs-feed"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~danville",
-        "name": "City of Danville",
-        "tags": {
-          "us_ntd_id": "50174"
         }
       }
     ]
@@ -4696,22 +4496,6 @@
     ]
   },
   {
-    "id": "f-city~of~fort~smith",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11783/FST_GTFS.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~fort~smith",
-        "name": "City of Fort Smith",
-        "tags": {
-          "us_ntd_id": "60086"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-hill~country~transit~district",
     "spec": "gtfs",
     "urls": {
@@ -4755,22 +4539,6 @@
         "name": "Golden Crescent Regional Planning Commission",
         "tags": {
           "us_ntd_id": "60095"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-city~of~mcallen~",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://mcallen.net/metro/assets/resources/GTFS%20-%20TransLoc.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~mcallen~",
-        "name": "City of McAllen ",
-        "tags": {
-          "us_ntd_id": "60099"
         }
       }
     ]
@@ -5340,22 +5108,6 @@
     ]
   },
   {
-    "id": "f-city~of~columbia",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://www.gocomotransit.com/wp-content/uploads/2023/10/GTFS.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~columbia",
-        "name": "City of Columbia",
-        "tags": {
-          "us_ntd_id": "70016"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~iowa~city",
     "spec": "gtfs",
     "urls": {
@@ -5819,38 +5571,6 @@
         "name": "Ute Tribe",
         "tags": {
           "us_ntd_id": "88200"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-regional~transportation~commission~of~washoe~county",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://data.trilliumtransit.com/gtfs/rtc-nv-us/rtc-nv-us.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-regional~transportation~commission~of~washoe~county",
-        "name": "Regional Transportation Commission of Washoe County",
-        "tags": {
-          "us_ntd_id": "90001"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-regional~transportation~commission~of~washoe~county",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "http://data.trilliumtransit.com/gtfs/rtc-nv-us/rtc-nv-us.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-regional~transportation~commission~of~washoe~county",
-        "name": "Regional Transportation Commission of Washoe County",
-        "tags": {
-          "us_ntd_id": "90001"
         }
       }
     ]

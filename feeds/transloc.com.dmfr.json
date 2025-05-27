@@ -230,6 +230,105 @@
       ]
     },
     {
+      "id": "f-dnpz-fast",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://fast.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "static_historic": [
+          "https://www.fayettevillenc.gov/home/showpublisheddocument/16121/638612293378070000",
+          "https://www.fayettevillenc.gov/home/showpublisheddocument/16121/637649183752270000",
+          "https://www.fayettevillenc.gov/home/showpublisheddocument/16121/637514028117170000"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dnpz-fast",
+          "name": "Fayetteville Area System of Transit",
+          "short_name": "FAST",
+          "website": "http://www.ridefast.net/",
+          "tags": {
+            "developer_site": "https://www.fayettevillenc.gov/city-services/transit/riding-fast/routes/fast-gtfs",
+            "twitter_general": "cityoffaync",
+            "us_ntd_id": "40009",
+            "wikidata_id": "Q5439044"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dqb0q-charlottesvilleareatransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transloc.com/gtfs/charlottesville.zip"
+      },
+      "tags": {
+        "gtfs_data_exchange": "charlottesville-transit-service"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dqb0q-charlottesvilleareatransit",
+          "name": "Charlottesville Area Transit",
+          "short_name": "CAT",
+          "website": "http://www.charlottesville.org/transit",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "1"
+            }
+          ],
+          "tags": {
+            "omd_provider_id": "charlottesville-area-transit",
+            "twitter_general": "RideWithCAT",
+            "us_ntd_id": "30036",
+            "wikidata_id": "Q5086235"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dqcj1-fairfaxcue",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "http://cue.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "static_historic": [
+          "https://www.fairfaxva.gov/home/showpublisheddocument/22883/638499935919070000",
+          "https://www.fairfaxva.gov/home/showpublisheddocument/19191/637855188504310763",
+          "http://www.fairfaxva.gov/Home/ShowDocument?id=6713",
+          "https://www.fairfaxva.gov/home/showpublisheddocument/19191/638017594116830000"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dqcj1-fairfaxcue",
+          "name": "Fairfax City CUE Bus",
+          "short_name": "CUE",
+          "website": "https://www.fairfaxva.gov/government/public-works/cue-bus",
+          "tags": {
+            "twitter_general": "CityofFFXCUE",
+            "us_ntd_id": "30058",
+            "wikidata_id": "Q5014679"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-hattiesburg~mi~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transloc.com/gtfs/hct.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-hattiesburg~mi~us",
+          "name": "Hub City Transit",
+          "short_name": "HCT",
+          "website": "https://hubcitytransit.com/",
+          "tags": {
+            "us_ntd_id": "40060"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-kats~tn",
       "spec": "gtfs",
       "urls": {
