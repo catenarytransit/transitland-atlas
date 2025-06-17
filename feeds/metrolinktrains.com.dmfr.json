@@ -27,6 +27,9 @@
             },
             {
               "feed_onestop_id": "f-metrolinktrains~extra~rt"
+            },
+            {
+              "feed_onestop_id": "f-metrolinktrains~alerts~rt"
             }
           ],
           "tags": {
@@ -56,6 +59,13 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_alerts": "https://placeholder.catenarymaps.org/"
+      }
+    },
+    {
+      "id": "f-metrolinktrains~alerts~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://cdn.simplifytransit.com/metrolink/alerts/service-alerts.pb"
       }
     }
   ],
