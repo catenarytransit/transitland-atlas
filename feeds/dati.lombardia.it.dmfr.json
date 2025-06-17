@@ -8,10 +8,10 @@
         "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/trenord-pfaedle.zip"
       },
       "license": {
+        "spdx_identifier": "CC-BY-4.0",
         "url": "https://creativecommons.org/licenses/by/4.0/",
         "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "CC-BY-4.0"
+        "create_derived_product": "yes"
       },
       "operators": [
         {
