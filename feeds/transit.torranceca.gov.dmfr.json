@@ -5,7 +5,11 @@
       "id": "f-9q5b-torrancetransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/main/torrance.zip"
+        "static_current": "https://transit.torranceca.gov/gtfs_feed",
+        "static_historic": [
+          "https://transit.torranceca.gov/home/showpublisheddocument/16673/638564236831470000",
+          "https://transit.torranceca.gov/home/showpublisheddocument/16673/638089508813700000"
+        ]
       },
       "license": {
         "url": "https://transit.torranceca.gov/home/showpublisheddocument/6052/636308096437370000"
@@ -19,9 +23,6 @@
           "name": "Torrance Transit",
           "website": "http://Transit.TorranceCA.gov",
           "associated_feeds": [
-            {
-              "gtfs_agency_id": "TT"
-            },
             {
               "feed_onestop_id": "f-torrancetransit~rt"
             }
