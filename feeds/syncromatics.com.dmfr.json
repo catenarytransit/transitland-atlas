@@ -548,6 +548,40 @@
         "realtime_trip_updates": "https://ride.vail.gov/gtfs-rt/tripupdates",
         "realtime_alerts": "https://ride.vail.gov/gtfs-rt/alerts"
       }
+    },
+    {
+      "id": "f-dp9k-waukeshacounty~wi~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://mywaukeshametro.com/gtfs"
+      },
+      "license": {
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dp9k-waukeshacountytransit",
+          "name": "Waukesha County Transit",
+          "website": "https://www.waukesha-wi.gov/residents/getting_around/public-transportation.php",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "189"
+            },
+            {
+              "feed_onestop_id": "f-dp9k-waukeshacounty~wi~us~rt"
+            },
+            {
+              "gtfs_agency_id": "2356",
+              "feed_onestop_id": "f-megabus~us"
+            }
+          ],
+          "tags": {
+            "us_ntd_id": "50096",
+            "wikidata_id": "Q7975163"
+          }
+        }
+      ]
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
