@@ -14,6 +14,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "NICTD"
+            },
+            {
+              "feed_onestop_id": "f-northern~indiana~commuter~transportation~district~rt",
+              "gtfs_agency_id": "South Shore Line"
             }
           ],
           "tags": {
@@ -23,6 +27,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-northern~indiana~commuter~transportation~district~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/position_updates.pb",
+        "realtime_trip_updates": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/trip_updates.pb",
+        "realtime_alerts": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/alerts.pb"
+      }
     }
   ],
   "license_spdx_identifier": "CDLA-Permissive-1.0"
