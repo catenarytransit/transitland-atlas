@@ -21,7 +21,7 @@
         "id": "f-hakodate~trams~jp",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=20241219"
+          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=latest"
         },
         "operators": [
           {
@@ -48,7 +48,7 @@
         "id": "f-amori~jp",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=20250101"
+          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=latest"
         }
       },
       {
@@ -150,7 +150,7 @@
         "id": "f-kyoto~bus",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=20240930&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
           "url": "https://developer.odpt.org/terms"
@@ -172,7 +172,7 @@
         "id": "f-kyoto~subway",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=20240815&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
         },
         "license": {
           "url": "https://developer.odpt.org/terms"
