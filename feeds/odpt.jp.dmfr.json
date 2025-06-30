@@ -88,6 +88,23 @@
         }
       },
       {
+        "id": "f-tama~monorail",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api.odpt.org/api/v4/files/TamaMonorail/data/TamaMonorail-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        },
+        "license": {
+          "url": "https://developer.odpt.org/terms"
+        }
+      },
+      {
+        "id": "f-tama~monorail~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+        }
+      },
+      {
         "id": "f-tokyo~metro",
         "spec": "gtfs",
         "urls": {
@@ -248,6 +265,19 @@
           },
           {
             "feed_onestop_id": "f-tokyo~metro~rt"
+          }
+        ]
+      },
+      {
+        "onestop_id": "o-tama~monorail~jp",
+        "name": "Tama Toshi Monorail 多摩都市モノレール",
+        "short_name": "Tama Monorail",
+        "associated_feeds": [
+          {
+            "feed_onestop_id": "f-tama~monorail"
+          },
+          {
+            "feed_onestop_id": "f-tama~monorail~rt"
           }
         ]
       },
