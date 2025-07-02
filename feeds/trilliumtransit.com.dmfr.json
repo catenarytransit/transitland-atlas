@@ -271,40 +271,6 @@
       ]
     },
     {
-      "id": "f-9q56-thousandoaks~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/thousandoaks-ca-us/thousandoaks-ca-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "gtfs_data_exchange": "thousand-oaks-transit",
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q56-thousandoakstransit",
-          "name": "Thousand Oaks Transit",
-          "website": "https://www.toaks.org/departments/public-works/transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "526"
-            }
-          ],
-          "tags": {
-            "twitter_general": "TOTransit",
-            "us_ntd_id": "90165",
-            "wikidata_id": "Q7797062"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-9q5b4-pvpta~ca~us",
       "spec": "gtfs",
       "urls": {
@@ -331,38 +297,6 @@
           "tags": {
             "us_ntd_id": "90287",
             "wikidata_id": "Q7128670"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-9q5d-simivalleytransit",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/simivalley-ca-us/simivalley-ca-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5d-simivalleytransit",
-          "name": "Simi Valley Transit",
-          "website": "https://www.simivalley.org/departments/public-works/simi-valley-transit",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "729"
-            }
-          ],
-          "tags": {
-            "twitter_general": "svtransit",
-            "us_ntd_id": "90050"
           }
         }
       ]
@@ -3438,40 +3372,6 @@
       ]
     },
     {
-      "id": "f-djj2-pascocountypublictransit~fl~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/pascocountypublictransit-fl-us/pascocountypublictransit-fl-us.zip"
-        ]
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "tags": {
-        "status": "outdated"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-djj2-pascocountypublictransportation",
-          "name": "Pasco County Public Transportation",
-          "short_name": "PCPT",
-          "website": "https://www.gopasco.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "749"
-            }
-          ],
-          "tags": {
-            "twitter_general": "RidePCPT",
-            "us_ntd_id": "40074",
-            "wikidata_id": "Q7141817"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-djn-spacecoast~fl~us",
       "spec": "gtfs",
       "urls": {
@@ -5640,13 +5540,6 @@
       }
     },
     {
-      "id": "f-kananshuttle~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/kananshuttle-ca-us/kananshuttle-ca-us.zip"
-      }
-    },
-    {
       "id": "f-kimballcountytransit~ne~us",
       "spec": "gtfs",
       "urls": {
@@ -5965,32 +5858,6 @@
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/moccasinexpress-wa-us/moccasinexpress-wa-us.zip"
       }
-    },
-    {
-      "id": "f-moorpark~city~transit",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/moorparkcitytransit-ca-us/moorparkcitytransit-ca-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q57p-moorparkcitytransit",
-          "name": "Moorpark City Transit",
-          "website": "https://www.moorparkca.gov/227/Bus-Ride-Guide",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "877"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "90227"
-          }
-        }
-      ]
     },
     {
       "id": "f-morongo~basin",

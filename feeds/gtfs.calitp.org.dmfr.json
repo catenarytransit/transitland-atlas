@@ -58,50 +58,6 @@
       ]
     },
     {
-      "id": "f-camarillo~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://gtfs.calitp.org/production/CamarilloGTFS.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/camarillo-ca-us/camarillo-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q56e-camarilloareatransit",
-          "name": "Camarillo Area Transit",
-          "website": "http://www.camarillotransit.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1656"
-            }
-          ],
-          "tags": {
-            "us_ntd_id": "90163"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-cityofridgecrest~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://gtfs.calitp.org/production/CityOfRidgecrestGTFS.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/cityofridgecrest-ca-us/cityofridgecrest-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qk6-ridgerunner",
-          "name": "Ridgerunner",
-          "tags": {
-            "us_ntd_id": "9R02-91006"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-eastern~sierra~bishop~lone~pine~flex",
       "spec": "gtfs",
       "urls": {
@@ -178,22 +134,6 @@
       "urls": {
         "static_current": "https://gtfs.calitp.org/production/RedwoodCoastDelNorteFlex.zip"
       }
-    },
-    {
-      "id": "f-sanjuancapistrano~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://gtfs.calitp.org/production/SanJuanCapistranoGTFS.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/sanjuancapistrano-ca-us/sanjuancapistrano-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-sanjuancapistrano~ca~us",
-          "name": "San Juan Capistrano"
-        }
-      ]
     },
     {
       "id": "f-san~benito~county~express~dial~a~ride~paratransit~on~demand~flex",

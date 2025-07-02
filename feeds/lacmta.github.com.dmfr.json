@@ -2,65 +2,6 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
-      "id": "f-baldwinpark~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/baldwinpark-ca-us/baldwinpark-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/baldwinpark-ca-us/baldwinpark-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qh1g-baldwinparktransit",
-          "name": "Baldwin Park Transit",
-          "tags": {
-            "twitter_general": "BaldwinParkCA",
-            "us_ntd_id": "90251"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-bellgardens~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/bellgardens-ca-us/bellgardens-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/bellgardens-ca-us/bellgardens-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5cp-bellgardenstrolley",
-          "name": "Bell Gardens Trolley",
-          "tags": {
-            "twitter_general": "bellgardenscity",
-            "us_ntd_id": "90253"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-calabasas~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/calabasas-ca-us/calabasas-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/calabasas-ca-us/calabasas-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5d5-calabasastransitsystem",
-          "name": "Calabasas Transit System",
-          "tags": {
-            "us_ntd_id": "90257"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-catalinaflyer~ca~us",
       "spec": "gtfs",
       "urls": {
@@ -76,25 +17,6 @@
         {
           "onestop_id": "o-catalinaflyer~ca~us",
           "name": "Catalina Flyer"
-        }
-      ]
-    },
-    {
-      "id": "f-compton~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main//compton-ca-us/compton-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/compton-ca-us/compton-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q5bv-comptonrenaissancetransit",
-          "name": "Compton Renaissance Transit",
-          "tags": {
-            "us_ntd_id": "90260"
-          }
         }
       ]
     },
@@ -188,27 +110,6 @@
           "onestop_id": "o-sierramadre~ca~us",
           "name": "Sierra Madre Gateway Coach",
           "website": "https://www.cityofsierramadre.com/services/transportation/gateway_coach"
-        }
-      ]
-    },
-    {
-      "id": "f-westcovina~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://raw.githubusercontent.com/LACMTA/los-angeles-regional-gtfs/main/westcovina-ca-us/westcovina-ca-us.zip",
-        "static_historic": [
-          "https://data.trilliumtransit.com/gtfs/westcovina-ca-us/westcovina-ca-us.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qh1s-gowestshuttle",
-          "name": "City of West Covina",
-          "short_name": "Go West Shuttle",
-          "website": "https://www.westcovina.org/departments/public-services-department/community-services-division/transit-services",
-          "tags": {
-            "us_ntd_id": "90293"
-          }
         }
       ]
     }
