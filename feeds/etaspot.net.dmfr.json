@@ -34,6 +34,34 @@
       ]
     },
     {
+      "id": "f-auburn~university",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/etatransit.gtfs/auburn.etaspot.net/gtfs.zip"
+      }
+    },
+    {
+      "id": "f-citibus~ia~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/etatransit.gtfs/citibuspublic.etaspot.net/gtfs.zip",
+        "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/citibus-ia-us/citibus-ia-us--imap.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-citibus~ia~us",
+          "name": "Davenport Citibus",
+          "website": "https://www.davenportiowa.com/services/citibus_transit",
+          "tags": {
+            "us_ntd_id": "70009",
+            "wikidata_id": "Q5230228"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-dnfq-bloomingtontransit",
       "spec": "gtfs",
       "urls": {
@@ -74,6 +102,50 @@
         "realtime_trip_updates": "https://s3.amazonaws.com/etatransit.gtfs/bloomingtontransit.etaspot.net/trip_updates.pb",
         "realtime_alerts": "https://s3.amazonaws.com/etatransit.gtfs/bloomingtontransit.etaspot.net/alerts.pb"
       }
+    },
+    {
+      "id": "f-dq2-great",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/etatransit.gtfs/great.etaspot.net/gtfs.zip",
+        "static_historic": [
+          "https://gtfs.transitportal.org/CurrentGTFS/Greenville%20Area%20Transit_221/Greenville.zip",
+          "https://gtfs.transitportal.org/CurrentGTFS/Greenville%20Area%20Transit_221/Greenville_20231026.zip",
+          "https://gtfs.transitportal.org/CurrentGTFS/Greenville%20Area%20Transit_221/Greenville_20190916.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dq2-great",
+          "name": "Greenville Area Transit",
+          "short_name": "GREAT",
+          "website": "https://www.greenvillenc.gov/government/public-works/great-bus-system",
+          "tags": {
+            "us_ntd_id": "40095"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-dutchess~county~ny",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://s3.amazonaws.com/etatransit.gtfs/boisestate.etaspot.net/gtfs.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/datatools-511ny/public/Dutchess_County_Transit.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dr7-dutchesscounty",
+          "name": "Dutchess County",
+          "tags": {
+            "twitter_general": "DutchessCoGov",
+            "us_ntd_id": "20010",
+            "wikidata_id": "Q5317486"
+          }
+        }
+      ]
     },
     {
       "id": "f-go~como",

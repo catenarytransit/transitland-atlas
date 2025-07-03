@@ -5,7 +5,7 @@
       "id": "f-2em~car~sharing~switzerland~gbfs",
       "spec": "gbfs",
       "urls": {
-        "gbfs_auto_discovery": "https://gbfs.prod.sharedmobility.ch/v2/gbfs/2em_cars/gbfs"
+        "gbfs_auto_discovery": "https://api.mobidata-bw.de/sharing/gbfs/v2/zem_ch/gbfs"
       }
     },
     {
@@ -4927,6 +4927,13 @@
       "spec": "gbfs",
       "urls": {
         "gbfs_auto_discovery": "https://qickscooters.rideatom.com/gbfs/v2_2/en/gbfs?id=5"
+      }
+    },
+    {
+      "id": "f-quickrent~switzerland~gbfs",
+      "spec": "gbfs",
+      "urls": {
+        "gbfs_auto_discovery": "https://quickrent.ch/sbb/api/v1/gbfs"
       }
     },
     {
