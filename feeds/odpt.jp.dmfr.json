@@ -2,6 +2,33 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": [
       {
+        "id": "f-nagaibus",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=latest"
+        },
+        "operators": [
+          {
+            "name": "永井運輸株式会社 / Nagai Transportation Co., Ltd.",
+            "onestop_id": "o-nagaibus~jp",
+            "associated_feeds": [
+              {
+                "feed_onestop_id": "f-nagaibus~rt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "f-nagaibus~rt",
+        "spec": "gtfs-rt",
+        "urls": {
+          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_vehicle",
+          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_trip_update",
+          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_alert"
+        }
+      },
+      {
         "id": "f-下津井電鉄株式会社",
         "spec": "gtfs",
         "urls": {
