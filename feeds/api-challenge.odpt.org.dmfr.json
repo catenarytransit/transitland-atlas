@@ -1,0 +1,12 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+        {
+            "id": "f-sotetsu",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://api-challenge.odpt.org/api/v4/files/Sotetsu/data/Sotetsu-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+            }
+        }
+    ]
+}
