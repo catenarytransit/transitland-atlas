@@ -9,6 +9,13 @@
       }
     },
     {
+      "id": "f-tobu",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-challenge.odpt.org/api/v4/files/Tobu/data/Tobu-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+      }
+    },
+    {
       "id": "f-kyoto~subway",
       "spec": "gtfs",
       "urls": {
