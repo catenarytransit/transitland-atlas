@@ -1,370 +1,360 @@
 {
-    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
-    "feeds": [
-      {
-        "id": "f-nagaibus",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=latest"
-        },
-        "operators": [
-          {
-            "name": "永井運輸株式会社 / Nagai Transportation Co., Ltd.",
-            "onestop_id": "o-nagaibus~jp",
-            "associated_feeds": [
-              {
-                "feed_onestop_id": "f-nagaibus~rt"
-              }
-            ]
-          }
-        ]
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+  "feeds": [
+    {
+      "id": "f-nagaibus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=latest"
       },
-      {
-        "id": "f-nagaibus~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_vehicle",
-          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_trip_update",
-          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_alert"
+      "operators": [
+        {
+          "name": "永井運輸株式会社 / Nagai Transportation Co., Ltd.",
+          "onestop_id": "o-nagaibus~jp",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nagaibus~rt"
+            }
+          ]
         }
-      },
-      {
-        "id": "f-下津井電鉄株式会社",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/Shimoden/Shimoden_BUS_GTFS_Realtime.zip?date=20250317&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-下津井電鉄株式会社~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-hakodate~trams~jp",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=latest"
-        },
-        "operators": [
-          {
-            "onestop_id": "o-hakodate~city~jp",
-            "name": "函館市企業局 / Hakodate City Tram",
-            "associated_feeds": [
-              {
-                "feed_onestop_id": "f-hakodate~trams~jp~rt"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "f-hakodate~trams~jp~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_vehicle",
-          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_trip_update",
-          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_alert"
-        }
-      },
-      {
-        "id": "f-amori~jp",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=latest"
-        }
-      },
-      {
-        "id": "f-amori~jp~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_vehicle",
-          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_trip_update",
-          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_alert"
-        }
-      },
-      {
-        "id": "f-izu~hakone",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/IzuhakoneBus/IZHB.zip?date=20250123&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "operators": [
-          {
-            "name": "IZUHAKONE BUS CO.,LTD",
-            "onestop_id": "o-izuhakone~bus",
-            "associated_feeds": [
-              {
-                "feed_onestop_id": "f-izu~hakone~rt"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "f-izu~hakone~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-tama~monorail",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/TamaMonorail/data/TamaMonorail-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-tama~monorail~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-tokyo~metro",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/TokyoMetro/data/TokyoMetro-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-tokyo~metro~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-twr~rinkai~line",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/TWR/data/TWR-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        },
-        "operators": [
-          {
-            "onestop_id": "o-tokyo~waterfront~area~rapid~transit~jp",
-            "name": "Tokyo Waterfront Area Rapid Transit 東京臨海高速鉄道",
-            "short_name": "TWR",
-            "associated_feeds": [
-              {
-                "feed_onestop_id": "f-twr~rinkai~line~rt"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "f-twr~rinkai~line~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-toei~metro",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api-public.odpt.org/api/v4/files/Toei/data/Toei-Train-GTFS.zip"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-kyoto~bus",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-kyoto~bus~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-            "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-kyoto~subway",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        },
-        "license": {
-          "url": "https://developer.odpt.org/terms"
-        }
-      },
-      {
-        "id": "f-mir~tsukuba",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/MIR/data/MIR-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-mir~tsukuba~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-joetsucity",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/JoetsuCity/data/data-1.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-toei~metro~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_vehicle",
-          "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_trip_update",
-          "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_alert"
-        }
-      },
-      {
-        "id": "f-伊予鉄バス",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://api.odpt.org/api/v4/files/odpt/IyotetsuBus/AllLines.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
-      },
-      {
-        "id": "f-伊予鉄バス~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
-          "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
-        }
+      ]
+    },
+    {
+      "id": "f-nagaibus~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_vehicle",
+        "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_trip_update",
+        "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_NagaiTransportation_AllLines_alert"
       }
-    ],
-    "operators": [
-      {
-        "onestop_id": "o-aomori~city~jp",
-        "name": "青森市営バス",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-amori~jp"
-          },
-          {
-            "feed_onestop_id": "f-amori~jp~rt"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-tokyo~metro~jp",
-        "name": "Tokyo Metro 東京メトロ",
-        "short_name": "Tokyo Metro",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-tokyometro"
-          },
-          {
-            "feed_onestop_id": "f-tokyo~metro~rt"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-tama~monorail~jp",
-        "name": "Tama Toshi Monorail 多摩都市モノレール",
-        "short_name": "Tama Monorail",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-tama~monorail"
-          },
-          {
-            "feed_onestop_id": "f-tama~monorail~rt"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-toei~jp",
-        "name": "Tokyo Metropolitan Bureau of Transportation 東京都交通局",
-        "short_name": "Toei 都営",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-toeibus~gtfs~jp"
-          },
-          {
-            "feed_onestop_id": "f-toei~metro"
-          },
-          {
-            "feed_onestop_id": "f-toei~metro~rt"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-kyoto~jp",
-        "name": "Kyoto Municipal Transportation Bureau 京都市交通局",
-        "short_name": "Kyoto 京都",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-kyoto~bus"
-          },
-          {
-            "feed_onestop_id": "f-kyoto~bus~rt"
-          },
-          {
-            "feed_onestop_id": "f-kyoto~subway"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-mir~tsukuba",
-        "name": "首都圏新都市鉄道株式会社 つくばエクスプレス",
-        "short_name": "MIR TX",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-mir~tsukuba~rt"
-          },
-          {
-            "feed_onestop_id": "f-mir~tsukuba"
-          }
-        ]
-      },
-      {
-        "onestop_id": "o-伊予鉄バス株式会社",
-        "name": "伊予鉄バス株式会社",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-伊予鉄バス"
-          },
-          {
-            "feed_onestop_id":  "f-伊予鉄バス~rt"
-          }
-        ]
+    },
+    {
+      "id": "f-下津井電鉄株式会社",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/odpt/Shimoden/Shimoden_BUS_GTFS_Realtime.zip?date=20250317&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
       }
-    ],
-    "license_spdx_identifier": "CDLA-Permissive-1.0"
-  }
+    },
+    {
+      "id": "f-下津井電鉄株式会社~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-hakodate~trams~jp",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/HakodateCity/Alllines.zip?date=latest"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-hakodate~city~jp",
+          "name": "函館市企業局 / Hakodate City Tram",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-hakodate~trams~jp~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-hakodate~trams~jp~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_vehicle",
+        "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_trip_update",
+        "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_HakodateCity_Alllines_alert"
+      }
+    },
+    {
+      "id": "f-amori~jp",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=latest"
+      }
+    },
+    {
+      "id": "f-amori~jp~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_vehicle",
+        "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_trip_update",
+        "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_AomoriCity_AllLines_alert"
+      }
+    },
+    {
+      "id": "f-izu~hakone",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/odpt/IzuhakoneBus/IZHB.zip?date=20250123&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "operators": [
+        {
+          "name": "IZUHAKONE BUS CO.,LTD",
+          "onestop_id": "o-izuhakone~bus",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-izu~hakone~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-izu~hakone~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-tama~monorail",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/TamaMonorail/data/TamaMonorail-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-tama~monorail~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tamamonorail_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-tokyo~metro",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/TokyoMetro/data/TokyoMetro-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-tokyo~metro~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/tokyometro_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-twr~rinkai~line",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/TWR/data/TWR-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tokyo~waterfront~area~rapid~transit~jp",
+          "name": "Tokyo Waterfront Area Rapid Transit 東京臨海高速鉄道",
+          "short_name": "TWR",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-twr~rinkai~line~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-twr~rinkai~line~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-toei~metro",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/Toei/data/Toei-Train-GTFS.zip"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-kyoto~bus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoBus/AllLines.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-kyoto~bus~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+          "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    },
+    {
+      "id": "f-mir~tsukuba",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/MIR/data/MIR-Train-GTFS.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-mir~tsukuba~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/twr_odpt_train_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-joetsucity",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/JoetsuCity/data/data-1.zip?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-toei~metro~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_vehicle",
+        "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_trip_update",
+        "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/toei_odpt_train_alert"
+      }
+    },
+    {
+      "id": "f-伊予鉄バス",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/odpt/IyotetsuBus/AllLines.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    },
+    {
+      "id": "f-伊予鉄バス~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-aomori~city~jp",
+      "name": "青森市営バス",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-amori~jp"
+        },
+        {
+          "feed_onestop_id": "f-amori~jp~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-tokyo~metro~jp",
+      "name": "Tokyo Metro 東京メトロ",
+      "short_name": "Tokyo Metro",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-tokyometro"
+        },
+        {
+          "feed_onestop_id": "f-tokyo~metro~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-tama~monorail~jp",
+      "name": "Tama Toshi Monorail 多摩都市モノレール",
+      "short_name": "Tama Monorail",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-tama~monorail"
+        },
+        {
+          "feed_onestop_id": "f-tama~monorail~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-toei~jp",
+      "name": "Tokyo Metropolitan Bureau of Transportation 東京都交通局",
+      "short_name": "Toei 都営",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-toeibus~gtfs~jp"
+        },
+        {
+          "feed_onestop_id": "f-toei~metro"
+        },
+        {
+          "feed_onestop_id": "f-toei~metro~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-kyoto~jp",
+      "name": "Kyoto Municipal Transportation Bureau 京都市交通局",
+      "short_name": "Kyoto 京都",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-kyoto~bus"
+        },
+        {
+          "feed_onestop_id": "f-kyoto~bus~rt"
+        },
+        {
+          "feed_onestop_id": "f-kyoto~subway"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-mir~tsukuba",
+      "name": "首都圏新都市鉄道株式会社 つくばエクスプレス",
+      "short_name": "MIR TX",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-mir~tsukuba~rt"
+        },
+        {
+          "feed_onestop_id": "f-mir~tsukuba"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-伊予鉄バス株式会社",
+      "name": "伊予鉄バス株式会社",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-伊予鉄バス"
+        },
+        {
+          "feed_onestop_id":  "f-伊予鉄バス~rt"
+        }
+      ]
+    }
+  ],
+  "license_spdx_identifier": "CDLA-Permissive-1.0"
+}

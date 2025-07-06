@@ -1,12 +1,29 @@
 {
-    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
-    "feeds": [
-        {
-            "id": "f-sotetsu",
-            "spec": "gtfs",
-            "urls": {
-                "static_current": "https://api-challenge.odpt.org/api/v4/files/Sotetsu/data/Sotetsu-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
-            }
-        }
-    ]
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+  "feeds": [
+    {
+      "id": "f-sotetsu",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-challenge.odpt.org/api/v4/files/Sotetsu/data/Sotetsu-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+      }
+    },
+    {
+      "id": "f-tobu",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-challenge.odpt.org/api/v4/files/Tobu/data/Tobu-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+      }
+    },
+    {
+      "id": "f-kyoto~subway",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.odpt.org/api/v4/files/odpt/KyotoMunicipalTransportation/Kyoto_City_Subway_GTFS.zip?date=latest&acl:consumerKey=71ad06bfddd29d607b4d361685c0942a115415cfd6c33b4d19dd550cd4d0961b"
+      },
+      "license": {
+        "url": "https://developer.odpt.org/terms"
+      }
+    }
+  ]
 }
