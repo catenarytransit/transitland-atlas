@@ -15,14 +15,17 @@
           "website": "https://ns.nl/",
           "associated_feeds": [
             {
-              "feed_onestop_id": "f-u-nl-rt"
+              "feed_onestop_id": "f-u-nl~rt"
+            },
+            {
+              "feed_onestop_id": "f-u-nl~train~updates~rt"
             }
           ]
         }
       ]
     },
     {
-      "id": "f-u~nl~rt",
+      "id": "f-u-nl~rt",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_trip_updates": "https://gtfs.ovapi.nl/nl/tripUpdates.pb",
@@ -31,7 +34,7 @@
       }
     },
     {
-      "id": "f-u~nl~train~updates~rt",
+      "id": "f-u-nl~train~updates~rt",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_trip_updates": "https://gtfs.ovapi.nl/nl/trainUpdates.pb",
