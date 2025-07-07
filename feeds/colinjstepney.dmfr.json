@@ -70,6 +70,20 @@
         "urls": {
           "static_current": "https://github.com/colinjstepney/Stepney-Transit-Consulting/raw/refs/heads/main/BYRONBAY_feed/feed-BYRON.zip"
         }
+      },
+      {
+          "id": "f-protectionisland",
+          "spec": "gtfs",
+          "urls": {
+              "static_current": "https://github.com/colinjstepney/Stepney-Transit-Consulting/raw/refs/heads/main/PROTECTIONISLAND_feed/feed-ProtectionIsland.zip"
+          }
+      },
+      {
+          "id": "f-west~coast~trail~express~bus~canada",
+          "spec": "gtfs",
+          "urls": {
+              "static_current": "https://github.com/colinjstepney/Stepney-Transit-Consulting/raw/refs/heads/main/TRAILBUS_feed/feed-trailbus.zip"
+          }
       }
     ],
     "license_spdx_identifier": "CDLA-Permissive-1.0"
