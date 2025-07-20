@@ -1059,36 +1059,6 @@
     ]
   },
   {
-    "id": "f-kanawha~valley~regional~transportation~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://gtfs.krt.cadavl.com/KRT/GTFS/GTFS_KRT.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-kanawha~valley~regional~transportation~authority",
-        "name": "Kanawha Valley Regional Transportation Authority",
-        "tags": {
-          "us_ntd_id": "30001"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-dnvf-kanawhavalleyregionaltransportationauthority",
-        "likely_match_full": {
-          "onestop_id": "o-dnvf-kanawhavalleyregionaltransportationauthority",
-          "name": "Kanawha Valley Regional Transportation Authority",
-          "search_rank": "1.298158884048462",
-          "feeds": [
-            {
-              "onestop_id": "f-kanawha~valley~regional~transportation~authority",
-              "urls": {
-                "static_current": "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/kanawha-valley-regional-transportation-authority.zip"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "id": "f-the~tri~state~transit~authority",
     "spec": "gtfs",
     "urls": {
@@ -2745,36 +2715,6 @@
     ]
   },
   {
-    "id": "f-city~of~la~crosse",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://static.cityoflacrosse.org/mtu/GTFS_Feed_CityofLaCrosse.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-city~of~la~crosse",
-        "name": "City of La Crosse",
-        "tags": {
-          "us_ntd_id": "50004"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-9zz1-cityoflacrosse",
-        "likely_match_full": {
-          "onestop_id": "o-9zz1-cityoflacrosse",
-          "name": "City of La Crosse",
-          "search_rank": "1",
-          "feeds": [
-            {
-              "onestop_id": "f-lacrosse~wi~us",
-              "urls": {
-                "static_current": ""
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~green~bay",
     "spec": "gtfs",
     "urls": {
@@ -3503,36 +3443,6 @@
     ]
   },
   {
-    "id": "f-corpus~christi~regional~transportation~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://gtfs.ccrta.cadavl.com/CCRTA/GTFS/GTFS_CCRTA.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-corpus~christi~regional~transportation~authority",
-        "name": "Corpus Christi Regional Transportation Authority",
-        "tags": {
-          "us_ntd_id": "60051"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-9uft-corpuschristiregionaltransportationauthority",
-        "likely_match_full": {
-          "onestop_id": "o-9uft-corpuschristiregionaltransportationauthority",
-          "name": "Corpus Christi Regional Transportation Authority",
-          "search_rank": "2.394230842590332",
-          "feeds": [
-            {
-              "onestop_id": "f-corpus~christi~regional~transportation~authority",
-              "urls": {
-                "static_current": "https://www.ccrta.org/gtfs/ccrta-gtfs.zip"
-              }
-            }
-          ]
-        }
-      }
-    ]
-  },
-  {
     "id": "f-capital~metropolitan~transportation~authority",
     "spec": "gtfs",
     "urls": {
@@ -3544,36 +3454,6 @@
         "name": "Capital Metropolitan Transportation Authority",
         "tags": {
           "us_ntd_id": "60048"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-corpus~christi~regional~transportation~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://gtfs.ccrta.cadavl.com/CCRTA/GTFS/GTFS_CCRTA.zip"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-corpus~christi~regional~transportation~authority",
-        "name": "Corpus Christi Regional Transportation Authority",
-        "tags": {
-          "us_ntd_id": "60051"
-        },
-        "likely_match_operator_link": "https://www.transit.land/operators/o-9uft-corpuschristiregionaltransportationauthority",
-        "likely_match_full": {
-          "onestop_id": "o-9uft-corpuschristiregionaltransportationauthority",
-          "name": "Corpus Christi Regional Transportation Authority",
-          "search_rank": "2.394230842590332",
-          "feeds": [
-            {
-              "onestop_id": "f-corpus~christi~regional~transportation~authority",
-              "urls": {
-                "static_current": "https://www.ccrta.org/gtfs/ccrta-gtfs.zip"
-              }
-            }
-          ]
         }
       }
     ]
