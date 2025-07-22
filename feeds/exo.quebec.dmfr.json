@@ -5,9 +5,9 @@
       "id": "f-exo~reseaudetransportmetropolitain~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -36,9 +36,9 @@
       "id": "f-f25-exo~citsorel~varennes~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citsv",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citsv",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citsv"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -67,9 +67,9 @@
       "id": "f-f253-exo~citsud~ouest~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citso",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citso",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citso"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -98,9 +98,9 @@
       "id": "f-f256-exo~citlapresquîle~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citpi",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citpi",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citpi"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -129,9 +129,9 @@
       "id": "f-f257-exo~citlaurentides~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citla",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citla",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citla"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -160,9 +160,9 @@
       "id": "f-f259-exo~citduhaut~saint~laurent~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=cithsl",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=cithsl",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=cithsl"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -202,9 +202,9 @@
       "id": "f-f25d-exo~richelain~roussillon~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=lrrs",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=lrrs",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=lrrs"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -233,9 +233,9 @@
       "id": "f-f25f-exo~citchambly~richelieu~carignan~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citcrc",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citcrc",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citcrc"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -264,9 +264,9 @@
       "id": "f-f25g-exo~citvallée~du~richelieu~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=citvr",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=citvr",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=citvr"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -295,9 +295,9 @@
       "id": "f-f25g-exo~omitsainte~julie~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=omitsju",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=omitsju",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=omitsju"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -326,9 +326,9 @@
       "id": "f-f25s-exo~mrclesmoulinsurbis~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=mrclm",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=mrclm",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=mrclm"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -357,9 +357,9 @@
       "id": "f-f25u-exo~mrcdelassomption~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://opendata.exo.quebec/ServiceGTFSR/VehiclePosition.pb?agency=mrclasso",
-        "realtime_trip_updates": "https://opendata.exo.quebec/ServiceGTFSR/TripUpdate.pb?agency=mrclasso",
-        "realtime_alerts": "https://opendata.exo.quebec/ServiceGTFSR/Alert.pb?agency=mrclasso"
+        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/vehicleposition",
+        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/tripupdate",
+        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/alert"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
