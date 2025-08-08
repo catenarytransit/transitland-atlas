@@ -2,7 +2,7 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
-      "id": "f-ez-renfeoperadora",
+      "id": "f-ez-renfe~fomento",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://ssl.renfe.com/ftransit/Fichero_CER_FOMENTO/fomento_transit.zip",
