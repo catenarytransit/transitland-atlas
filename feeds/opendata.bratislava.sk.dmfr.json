@@ -12,11 +12,17 @@
         ]
       },
       "license": {
+<<<<<<< HEAD
         "spdx_identifier": "CC-BY-NC-4.0",
         "url": "https://www.idsbk.sk/en/about/open-data/"
       },
       "tags": {
         "unstable_url": "true"
+=======
+        "spdx_identifier": "CC-BY-4.0",
+        "url": "https://data.bratislava.sk/datasets/aba12fd2cbac4843bc7406151bc66106/about",
+        "use_without_attribution": "no"
+>>>>>>> fa77012ca89b5127ceb478d9393c488fe29958cc
       }
     }
   ],
