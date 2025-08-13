@@ -24,6 +24,32 @@
       "license": {
         "url": "https://developer.odpt.org/terms"
       }
+    },
+    {
+      "id": "f-jr~east",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-challenge.odpt.org/api/v4/files/JR-East/data/JR-East-Train-GTFS.zip?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-jr~east",
+          "name": "JR東日本",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-jr~east~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-jr~east~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_trip_update?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l",
+        "realtime_vehicle_positions": "https://api-challenge.odpt.org/api/v4/gtfs/realtime/jreast_odpt_train_vehicle?acl:consumerKey=5w1teui8pprnj1o6cthwunvnc061dwhixqemclnrfrwm2eh0a4i9lw0kvmd0s37l"
+      }
     }
   ]
 }
