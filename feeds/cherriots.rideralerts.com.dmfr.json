@@ -5,8 +5,9 @@
       "id": "f-9rb-cherriots",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.cherriots.org/media/doc/gtfs.zip",
+        "static_current": "https://cherriots.rideralerts.com/InfoPoint/gtfs-zip.ashx",
         "static_historic": [
+          "https://www.cherriots.org/media/doc/gtfs.zip",
           "http://www.cherriots.org/developer/gtfs.zip"
         ]
       },
