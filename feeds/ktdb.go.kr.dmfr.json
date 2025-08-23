@@ -1,12 +1,5 @@
 {
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
     "feeds": [
-        {
-            "id": "f-ktdb~korea",
-            "spec": "gtfs",
-            "urls": {
-                "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/2024_korea_pfaedle.zip"
-            }
-        }
     ]
 }
