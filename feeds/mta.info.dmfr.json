@@ -39,7 +39,7 @@
       }
     },
     {
-      "id": "f-dr5r-mtanewyorkcitytransit",
+      "id": "f-dr5r-mtasubway",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_supplemented.zip",
@@ -55,9 +55,6 @@
         "share_alike_optional": "yes"
       },
       "tags": {
-        "exclude_from_global_query": "true",
-        "manual_import": "true",
-        "notes": "This 'supplemented' feed is updated hourly. Transitland fetches but does not import it. Transitland instead imports the 'regular' MTA subway feed at f-dr5r-nyctsubway"
       }
     },
     {
@@ -107,26 +104,6 @@
         "static_current": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_si.zip",
         "static_historic": [
           "http://web.mta.info/developers/data/nyct/bus/google_transit_staten_island.zip"
-        ]
-      },
-      "license": {
-        "url": "https://www.mta.info/developers/terms-and-conditions",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes"
-      },
-      "tags": {
-        "gtfs_data_exchange": "mta-new-york-city-transit"
-      }
-    },
-    {
-      "id": "f-dr5r-nyctsubway",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://rrgtfsfeeds.s3.amazonaws.com/gtfs_subway.zip",
-        "static_historic": [
-          "http://web.mta.info/developers/data/nyct/subway/google_transit.zip"
         ]
       },
       "license": {
