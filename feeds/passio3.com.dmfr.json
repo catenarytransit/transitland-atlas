@@ -396,6 +396,27 @@
       }
     },
     {
+      "id": "f-chemung~c~tran",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/chemung/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/datatools-511ny/public/Chemung_C_TRAN.zip",
+          "https://s3.amazonaws.com/datatools-511ny/public/Chemung_C_Tran.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dr3-ctran",
+          "name": "C TRAN",
+          "tags": {
+            "us_ntd_id": "20005",
+            "wikidata_id": "Q5014662"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-clackamascounty~or~us",
       "supersedes_ids": [
         "f-c20f-cccxpress~or~us"
@@ -488,6 +509,24 @@
           "website": "https://connectdouglas.com/",
           "tags": {
             "us_ntd_id": "40082"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-cooperative~alliance~for~seacoast~transportation",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/COAST/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-cooperative~alliance~for~seacoast~transportation",
+          "name": "Cooperative Alliance For Seacoast Transportation",
+          "short_name": "COAST",
+          "website": "https://coastbus.org/",
+          "tags": {
+            "us_ntd_id": "10086"
           }
         }
       ]
@@ -802,6 +841,37 @@
         "realtime_trip_updates": "https://passio3.com/ncstateuni/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/ncstateuni/passioTransit/gtfs/realtime/serviceAlerts"
       }
+    },
+    {
+      "id": "f-dqcx8-charmcitycirculator",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/charmcity/passioTransit/gtfs/google_transit.zip",
+        "static_historic": [
+          "https://transportation.baltimorecity.gov/files/cccgtfs824zip",
+          "https://transportation.baltimorecity.gov/gtfsfile",
+          "https://github.com/mobilityequity/maryland-local-gtfs/raw/master/CCC_GTFS.zip"
+        ]
+      },
+      "license": {
+        "url": "https://transportation.baltimorecity.gov/charm-city-circulator/developer-resources"
+      },
+      "tags": {
+        "gtfs_data_exchange": "charm-city-circulator"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dqcx8-charmcitycirculator",
+          "name": "Charm City Circulator",
+          "short_name": "CCC",
+          "website": "http://www.charmcitycirculator.com/",
+          "tags": {
+            "twitter_general": "charmcitycirc",
+            "us_ntd_id": "30201",
+            "wikidata_id": "Q5086389"
+          }
+        }
+      ]
     },
     {
       "id": "f-dr1b-harfordtransitlink",
