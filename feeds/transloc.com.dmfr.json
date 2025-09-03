@@ -120,6 +120,33 @@
       ]
     },
     {
+      "id": "f-9q9k-sanjosestateuniversity",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://sjsu.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9q9k-sanjosestateuniversity",
+          "name": "San Jose State University",
+          "short_name": "SJSU",
+          "website": "https://sjsu.edu",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9q9k-sanjosestateuniversity~rt"
+            }
+          ]
+        }
+      ]
+    },
+        {
+      "id": "f-9q9k-sanjosestateuniversity~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://sjsu.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    },
+    {
       "id": "f-abilene~tx~us",
       "spec": "gtfs",
       "urls": {
