@@ -123,7 +123,7 @@
       "id": "f-9q9k-sanjosestateuniversity",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://sjsu.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "static_current": "https://sjsu.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
       },
       "operators": [
         {
@@ -139,7 +139,7 @@
         }
       ]
     },
-        {
+    {
       "id": "f-9q9k-sanjosestateuniversity~rt",
       "spec": "gtfs-rt",
       "urls": {
