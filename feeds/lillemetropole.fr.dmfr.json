@@ -5,8 +5,9 @@
       "id": "f-ilevia~lille~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://media.ilevia.fr/opendata/gtfs.zip",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/lille_pfaedle.zip",
         "static_historic": [
+          "https://media.ilevia.fr/opendata/gtfs.zip",
           "https://opendata.lillemetropole.fr/api/datasets/1.0/transport_arret_transpole-point/alternative_exports/gtfszip"
         ]
       },
