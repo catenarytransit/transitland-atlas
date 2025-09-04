@@ -35,7 +35,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     match is_err {
-        true => Err(Box::new(std::io::Error::from(std::io::ErrorKind::InvalidData))), 
-        false => Ok(())
+        true => Err(Box::new(std::io::Error::from(
+            std::io::ErrorKind::InvalidData,
+        ))),
+        false => Ok(()),
     }
 }
