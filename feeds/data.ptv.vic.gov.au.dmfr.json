@@ -5,7 +5,7 @@
       "id": "f-r1-ptv",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#1/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#1/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -21,7 +21,7 @@
       "id": "f-r1-ptv~10",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#10/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#10/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -37,7 +37,7 @@
       "id": "f-r1-ptv~3",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#6/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#6/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -68,7 +68,7 @@
       "id": "f-r1-ptv~5",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#5/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#5/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -139,7 +139,7 @@
       "id": "f-r1r-ptv",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#2/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#2/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -158,7 +158,7 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#4/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#4/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -174,7 +174,7 @@
       "id": "f-r1r0-ptv",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#3/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#3/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -190,7 +190,7 @@
       "id": "f-r1r1-ptv~11",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#11/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#11/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -206,7 +206,7 @@
       "id": "f-r1r2-ptv~7",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://data.ptv.vic.gov.au/downloads/gtfs.zip#7/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#7/google_transit.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
