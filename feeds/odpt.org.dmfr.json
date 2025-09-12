@@ -2,6 +2,13 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
   "feeds": [
     {
+      "id": "f-七ヶ浜町民バス",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/ShichigahamaTown/All_Gururinko.zip?date=latest"
+      }
+    },
+    {
       "id": "f-nagaibus",
       "spec": "gtfs",
       "urls": {
