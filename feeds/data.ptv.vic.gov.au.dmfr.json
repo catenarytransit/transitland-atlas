@@ -53,6 +53,8 @@
       "id": "f-r1-ptv~3~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_vehicle_positions": "https://data-exchange-api.vicroads.vic.gov.au/opendata/gtfsr/v1/tram/vehicleposition",
+        "realtime_trip_updates": "https://data-exchange-api.vicroads.vic.gov.au/opendata/gtfsr/v1/tram/tripupdates",
         "realtime_alerts": "https://data-exchange-api.vicroads.vic.gov.au/opendata/gtfsr/v1/tram/servicealert"
       },
       "license": {
@@ -258,11 +260,11 @@
         },
         {
           "feed_onestop_id": "f-r1r1-ptv~11"
-        },
-        {
-          "feed_onestop_id": "f-r1r2-ptv~7"
         }
-      ]
+      ],
+      "tags": {
+        "wikidata_id": "Q7257648"
+      }
     }
   ]
 }
