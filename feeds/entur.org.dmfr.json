@@ -5,7 +5,7 @@
       "id": "f-u4-ruter~flybussen~stfoldkollektivtrafikk~hedmarktrafikk~oppla",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://storage.googleapis.com/marduk-production/outbound/gtfs/rb_norway-aggregated-gtfs.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/norway_gtfs_pfaedle.zip"
       },
       "license": {
         "spdx_identifier": "NLOD-1.0",
@@ -189,6 +189,20 @@
         "realtime_vehicle_positions": "https://api.entur.io/realtime/v1/gtfs-rt/vehicle-positions?datasource=VYX",
         "realtime_trip_updates": "https://api.entur.io/realtime/v1/gtfs-rt/trip-updates?datasource=VYX",
         "realtime_alerts": "https://api.entur.io/realtime/v1/gtfs-rt/alerts?datasource=VYX"
+      }
+    },
+    {
+      "id": "f-entur~havila",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://storage.googleapis.com/marduk-production/outbound/gtfs/rb_hav-aggregated-gtfs.zip"
+      }
+    },
+    {
+      "id": "f-entur~hurtigruten",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://storage.googleapis.com/marduk-production/outbound/gtfs/rb_hur-aggregated-gtfs.zip"
       }
     }
   ]
