@@ -20,7 +20,7 @@
       "urls": {
         "realtime_trip_updates": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf",
         "realtime_vehicle_positions": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf",
-        "realtime_alerts": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.gtfs-rt.pbf"
+        "realtime_alerts": "https://stc.traines.eu/mirror/german-delfi-gtfs-rt/latest.original.gtfs-sa.pbf"
       }
     },
     {
