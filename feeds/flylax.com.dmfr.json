@@ -5,7 +5,7 @@
       "id": "f-lax~flyaway",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.flylax.com/-/media/flylax/flyaway/gtfs/google_transit.ashx"
+        "static_current": "https://laxflyaway.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
       },
       "license": {
         "url": "https://www.flylax.com/flyaway-bus/faqs"
