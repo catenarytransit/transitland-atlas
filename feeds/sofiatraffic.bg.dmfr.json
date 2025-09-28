@@ -9,7 +9,7 @@
       }
     },
     {
-      "id": "f-octa~rt",
+      "id": "f-sx8-sofia~rt",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs.sofiatraffic.bg/api/v1/vehicle-positions",
