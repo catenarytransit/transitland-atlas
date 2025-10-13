@@ -5,8 +5,9 @@
       "id": "f-9-amtrak~amtrakcalifornia~amtrakcharteredvehicle",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://content.amtrak.com/content/gtfs/GTFS.zip",
+        "static_current": "https://github.com/catenarytransit/amtrak-schedule-fixer/releases/download/latest/amtrak-gtfs-fixed.zip",
         "static_historic": [
+          "https://content.amtrak.com/content/gtfs/GTFS.zip",
           "http://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/amtrak.zip"
         ]
       },
