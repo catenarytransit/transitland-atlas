@@ -5,7 +5,7 @@
       "id": "f-9qhf-bigbear~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://mountaintransit.syncromatics.com/gtfs",
+        "static_current": "https://gtfs.remix.com/mountain_transit_ca.zip",
         "static_historic": [
           "https://data.trilliumtransit.com/gtfs/bigbear-ca-us/bigbear-ca-us.zip",
           "https://api.transloc.com/gtfs/mountaintransit.zip"
