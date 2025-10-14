@@ -36,6 +36,33 @@
       }
     },
     {
+      "id": "f-株式会社群馬バス",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/GunmaBus/AllLines.zip?date=latest"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-株式会社群馬バス",
+          "name": "株式会社群馬バス Gunna Bus",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-株式会社群馬バス~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-株式会社群馬バス~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_vehicle",
+        "realtime_trip_updates": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_trip_update",
+        "realtime_alerts": "https://api-public.odpt.org/api/v4/gtfs/realtime/odpt_GunmaBus_AllLines_alert"
+      }
+    },
+    {
       "id": "f-下津井電鉄株式会社",
       "spec": "gtfs",
       "urls": {
