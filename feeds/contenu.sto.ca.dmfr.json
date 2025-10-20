@@ -21,9 +21,23 @@
           "onestop_id": "o-f244-sto",
           "name": "Société de Transport de l'Outaouais",
           "short_name": "STO",
-          "website": "http://www.sto.ca"
+          "website": "http://www.sto.ca",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-f244-sto~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-f244-sto~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gtfs.sto.ca/download.php",
+        "realtime_alerts": "https://gtfs.sto.ca/download.php",
+        "realtime_trip_updates": "https://gtfs.sto.ca/download.php"
+      }
     }
   ]
 }
