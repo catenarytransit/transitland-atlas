@@ -38,9 +38,9 @@
       "id": "f-westchestercountybee~linesystem~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://wcgtfs.westchestergov.com/api/vehiclepositions?format=gtfs.proto",
-        "realtime_trip_updates": "https://wcgtfs.westchestergov.com/api/tripupdates?format=gtfs.proto",
-        "realtime_alerts": "https://wcgtfs.westchestergov.com/api/servicealerts?format=gtfs.proto"
+        "realtime_vehicle_positions": "https://westchester-gmv.itoworld.com/production/vehiclepositions.pb",
+        "realtime_trip_updates": "https://westchester-gmv.itoworld.com/production/tripupdates.pb",
+        "realtime_alerts": "https://westchester-gmv.itoworld.com/production/servicealerts.pb"
       },
       "license": {
         "url": "https://planning.westchestergov.com/transportation-planning/gfts-developers-transit-api/transit-api-service-terms-of-service"
