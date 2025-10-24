@@ -6,7 +6,18 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://www.data.gouv.fr/api/1/datasets/r/5bc8b7dc-0d4e-48e7-b2ec-eccfe3702c19"
-      }
+      },
+      "operators": [
+        {
+          "onestop_id": "o-ametis",
+          "name": "Ametis",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-ametis~rt"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "f-ametis~rt",
