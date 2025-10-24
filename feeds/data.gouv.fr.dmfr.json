@@ -2,6 +2,22 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-ametis",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/5bc8b7dc-0d4e-48e7-b2ec-eccfe3702c19"
+      }
+    },
+    {
+      "id": "f-ametis~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-vehicle-position",
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-trip-update",
+        "realtime_alerts": "https://proxy.transport.data.gouv.fr/resource/ametis-amiens-gtfs-rt-alerts"
+      }
+    },
+    {
       "id": "f-grand~dole",
       "spec": "gtfs",
       "urls": {
