@@ -2,6 +2,13 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-artis~arras",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/4ded8fb3-a38d-45c5-b4a7-a2f6ac17ba4f"
+      }
+    },
+    {
       "id": "f-ametis",
       "spec": "gtfs",
       "urls": {
