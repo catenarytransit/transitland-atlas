@@ -13,7 +13,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     for entry in feed_entries {
         if let Ok(entry) = entry {
             if let Some(file_name) = entry.file_name().to_str() {
-                let contents = fs::read_to_string(format!("feeds/{}", file_name));
+                let contents = fs::read_to_string(format!("feeds/{}", &file_name));
                 if contents.is_err() {
                     eprintln!(
                         "Error Reading Feed File {}: {:#?}",
@@ -29,6 +29,16 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     eprintln!("Error in {}, {:?}", file_name, dmfrerr);
 
                     is_err = true;
+                }
+
+                if let Ok(dmfrinfo) = &dmfrinfo {
+                    for feed in &dmfrinfo.feeds {
+                        if feed.spec == dmfr::FeedSpec::GtfsRt {
+                            if feed.urls.static_current.is_some() {
+                                eprintln!("{}, Spec is GtfsRt but static_current is some", &file_name);
+                            }
+                        }
+                    }
                 }
             }
         }
