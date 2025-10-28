@@ -1554,64 +1554,6 @@
       }
     },
     {
-      "id": "f-cercanías~renfe",
-      "supersedes_ids": [
-        "f-ez-renfecercanias"
-      ],
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1130"
-      },
-      "license": {
-        "url": "https://nap.transportes.gob.es/licencia-datos",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Powered by MITRAMS",
-        "attribution_instructions": "Must include attribution text and a link to https://www.transportes.gob.es/"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "ApiKey",
-        "info_url": "https://nap.transportes.gob.es/"
-      },
-      "tags": {
-        "es_nap_fichero_id": "1130"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-renfe~cercanias",
-          "supersedes_ids": [
-            "o-ez-renfecercanias"
-          ],
-          "name": "Renfe Cercanias",
-          "website": "https://www.renfe.com/es/es/cercanias",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-cercanías~renfe~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q1054782"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-cercanías~renfe~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://gtfsrt.renfe.com/vehicle_positions.pb",
-        "realtime_trip_updates": "https://gtfsrt.renfe.com/trip_updates.pb",
-        "realtime_alerts": "https://gtfsrt.renfe.com/alerts.pb"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://data.renfe.com/dataset/ubicacion-vehiculos"
-      }
-    },
-    {
       "id": "f-cots~alsina",
       "spec": "gtfs",
       "urls": {
