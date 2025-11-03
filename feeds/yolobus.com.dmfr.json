@@ -5,7 +5,7 @@
       "id": "f-9qc7-yolobusyolocounty",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://www.yolobus.com/GTFS/google_transit.zip",
+        "static_current": "https://yolobus.com/wp-content/uploads/2025/10/google_transit.zip",
         "static_historic": [
           "http://iportal.sacrt.com/GTFS/Yolobus/google_transit.zip"
         ]
@@ -18,6 +18,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "d139e461-175c-4156-beb0-e6a23b64d978"
+            },
+            {
+              "feed_onestop_id": "f-9qc7-yolobusyolocounty~rt"
             }
           ],
           "tags": {
@@ -27,6 +30,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-9qc7-yolobusyolocounty~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://avl.yctd.org/RealTime/GTFS_VehiclePositions.pb",
+        "realtime_trip_updates": "https://avl.yctd.org/RealTime/GTFS_TripUpdates.pb",
+        "realtime_alerts": "https://avl.yctd.org/RealTime/GTFS_ServiceAlerts.pb"
+      }
     }
   ]
 }
