@@ -8,7 +8,7 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/NCX252ombsxjzzz/download/2025-01-03_Airpullman.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/3nnMrkt6GemXwc8/download/2025-09-25_Airpullman.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/NCX252ombsxjzzz/download",
           "https://usbshare.agenziatpl.it/index.php/s/yZm7PHy5T63p7tT",
@@ -43,7 +43,7 @@
       "id": "f-movibus~srl",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/awfA3t8jy3D46dM/download/2025-01-17_Movibus.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/n7kERAaGMqfJwDJ/download/2025-10-17_Movibus.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/awfA3t8jy3D46dM",
           "https://usbshare.agenziatpl.it/index.php/s/sQagm5K9qnnodjM",
@@ -59,7 +59,7 @@
       "id": "f-net~nord~est~trasporti",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/k3Aera76R2BYjit/download/2025-04-30_NET.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/sNoDQbfM3c5wxdn/download/2025-10-10_NET.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/Ps6wzT2aqEQk64r/download",
           "https://usbshare.agenziatpl.it/index.php/s/XFHHHckZCs96XyR",
@@ -73,24 +73,10 @@
       }
     },
     {
-      "id": "f-pmt~pavia~milano~trasporti~srl",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/r93xAJ3f3KtnRF9/download",
-        "static_historic": [
-          "https://usbshare.agenziatpl.it/index.php/s/27tGrgCyfoB57re"
-        ]
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "http://www.agenziatpl.it/open-data/gtfs"
-      }
-    },
-    {
       "id": "f-stav~spa",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/PyRcXcc2iim7zof/download",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/d9pCjM5rJiBCzcD/download/2025-09-30_STAV.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/T6WcmLD523eFEDZ",
           "https://usbshare.agenziatpl.it/index.php/s/7TrBKenKYt9abnH/download"
@@ -99,6 +85,13 @@
       "license": {
         "spdx_identifier": "CC-BY-4.0",
         "url": "http://www.agenziatpl.it/open-data/gtfs"
+      }
+    },
+    {
+      "id": "f-star~italia",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/t8jDLJrcEHxSnJQ/download/2025-07-29_STAR.zip"
       }
     }
   ]
