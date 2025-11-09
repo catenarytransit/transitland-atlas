@@ -14,18 +14,35 @@
         "type": "query_param",
         "param_name": "app_key",
         "info_url": "https://developer.tmb.cat/"
-      },
-      "operators": [
+      }
+    },
+    {
+      "id": "f-sp3e-tmb~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://t-mobilitat.atm.cat/opendata/trip_updates/user/token/open",
+        "realtime_alerts": "https://t-mobilitat.atm.cat/opendata/alerts/user/token/open"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-sp3e-tmb",
+      "name": "Transports Metropolitans de Barcelona",
+      "short_name": "TMB",
+      "website": "http://www.tmb.cat",
+      "associated_feeds": [
         {
-          "onestop_id": "o-sp3e-tmb",
-          "name": "Transports Metropolitans de Barcelona",
-          "short_name": "TMB",
-          "website": "http://www.tmb.cat",
-          "tags": {
-            "wikidata_id": "Q1778212"
-          }
+          "gtfs_agency_id": "TMB",
+          "feed_onestop_id": "f-sp3e-tmb"
+        },
+        {
+          "feed_onestop_id": "f-sp3e-tmb~rt"
         }
-      ]
+      ],
+      "tags": {
+        "wikidata_id": "Q1778212"
+      }
     }
   ]
 }
