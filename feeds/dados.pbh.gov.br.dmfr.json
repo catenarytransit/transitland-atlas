@@ -42,7 +42,11 @@
       "website": "https://prefeitura.pbh.gov.br/sumob",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "37926"
+          "gtfs_agency_id": "37926",
+          "feed_onestop_id": "f-belohorizonte"
+        },
+        {
+          "feed_onestop_id": "f-belohorizonte~rt"
         }
       ]
     },
@@ -53,7 +57,11 @@
       "website": "https://prefeitura.pbh.gov.br/sumob",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "39102"
+          "gtfs_agency_id": "39102",
+          "feed_onestop_id": "f-belohorizonte"
+        },
+        {
+          "feed_onestop_id": "f-belohorizonte~rt"
         }
       ]
     }
