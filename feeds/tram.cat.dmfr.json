@@ -20,6 +20,9 @@
       "license": {
         "url": "https://opendata.tram.cat/assets/pdf/condicions_en.pdf"
       }
+    },
+    {
+      "id": "f-tram~"
     }
   ],
   "operators": [
