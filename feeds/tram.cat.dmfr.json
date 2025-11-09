@@ -22,7 +22,27 @@
       }
     },
     {
-      "id": "f-tram~"
+      "id": "f-tram~tbx~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://opendata.tram.cat/api/v1/gtfsrealtime?networkId=1",
+        "realtime_alerts": "https://opendata.tram.cat/api/v1/GtfsRealtimeAlerts?networkId=1"
+      },
+      "license": {
+        "url": "https://opendata.tram.cat/assets/pdf/condicions_en.pdf"
+      }
+    },
+    {
+      "id": "f-tram~tbs~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://opendata.tram.cat/api/v1/gtfsrealtime/vehicleUpdate?networkId=2",
+        "realtime_trip_updates": "https://opendata.tram.cat/api/v1/gtfsrealtime?networkId=2",
+        "realtime_alerts": "https://opendata.tram.cat/api/v1/GtfsRealtimeAlerts?networkId=2"
+      },
+      "license": {
+        "url": "https://opendata.tram.cat/assets/pdf/condicions_en.pdf"
+      }
     }
   ],
   "operators": [
