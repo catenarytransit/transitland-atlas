@@ -5,7 +5,7 @@
       "id": "f-c9k0-saskatoontransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/refs/heads/main/saskatoon.zip"
+        "static_current": "https://apps5.saskatoon.ca/data/gtfs/google_transit.zip"
       },
       "license": {
         "url": "https://transit.saskatoon.ca/about-us/open-data-saskatoon-transit"
