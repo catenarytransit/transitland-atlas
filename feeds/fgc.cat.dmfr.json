@@ -3,6 +3,7 @@
   "feeds": [
     {
       "id": "f-fgc",
+      "supersedes_ids": ["f-fgc~cat"],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://www.fgc.cat/google/google_transit.zip"
@@ -29,6 +30,7 @@
   "operators": [
     {
       "onestop_id": "o-fgc",
+      "supersedes_ids": ["o-fgc~cat"],
       "name": "Ferrocarrils de la Generalitat de Catalunya",
       "short_name": "FGC",
       "website": "https://www.fgc.cat/",
