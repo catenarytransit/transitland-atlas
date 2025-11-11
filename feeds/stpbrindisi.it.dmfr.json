@@ -2,39 +2,6 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-s-societàtrasportipubblicibrindisi",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "http://www.stpbrindisi.it/attachments/article/963/Urbano_gen.zip"
-      },
-      "license": {
-        "use_without_attribution": "no",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-s-societàtrasportipubblicibrindisi",
-          "name": "Società Trasporti Pubblici Brindisi",
-          "short_name": "STP Brindisi",
-          "website": "http://www.stpbrindisi.it",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~brindisi"
-            },
-            {
-              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~extraurbano"
-            },
-            {
-              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~francavilla"
-            },
-            {
-              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~ostuni"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-s-societàtrasportipubblicibrindisi~brindisi",
       "spec": "gtfs",
       "urls": {
@@ -74,5 +41,27 @@
         "spdx_identifier": "CC-BY-4.0"
       }
     }
-  ]
+  ],
+  "operators": [
+        {
+          "onestop_id": "o-s-societàtrasportipubblicibrindisi",
+          "name": "Società Trasporti Pubblici Brindisi",
+          "short_name": "STP Brindisi",
+          "website": "http://www.stpbrindisi.it",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~brindisi"
+            },
+            {
+              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~extraurbano"
+            },
+            {
+              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~francavilla"
+            },
+            {
+              "feed_onestop_id": "f-s-societàtrasportipubblicibrindisi~ostuni"
+            }
+          ]
+        }
+      ]
 }
