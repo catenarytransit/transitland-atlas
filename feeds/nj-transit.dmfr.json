@@ -18,13 +18,13 @@
       "id": "f-dr5-nj~transit~rail",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://raildata.njtransit.com/api/GTFSRT/getGTFS"
+        "static_current": "https://www.njtransit.com/rail_data.zip"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
       },
       "tags": {
-        "gtfs_data_exchange": "new-jersey-transit"
+        "notes": "This feed appears to contain light rail which https://raildata.njtransit.com/api/GTFSRT/getGTFS doesn't"
       }
     },
     {
