@@ -5,7 +5,7 @@
       "id": "f-delhi~bus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/ethanc8/gtfs-mirror/blob/main/India/Delhi/OTD/GTFS.zip"
+        "static_current": "https://github.com/ethanc8/gtfs-mirror/raw/main/India/Delhi/OTD/GTFS.zip"
       },
       "license": {
         "url": "https://otd.delhi.gov.in/static/assets/terms-and-conditions.pdf"
@@ -15,7 +15,7 @@
       "id": "f-delhi~metro",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/ethanc8/gtfs-mirror/blob/main/India/Delhi/OTD/DMRC_GTFS.zip"
+        "static_current": "https://github.com/ethanc8/gtfs-mirror/raw/main/India/Delhi/OTD/DMRC_GTFS.zip"
       },
       "license": {
         "url": "https://otd.delhi.gov.in/static/assets/terms-and-conditions.pdf"
