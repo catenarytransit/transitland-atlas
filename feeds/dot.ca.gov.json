@@ -5,7 +5,7 @@
       "id": "f-artesia~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://gtfs.dds.dot.ca.gov/gtfs_files/production/ArtesiaGTFS.zip",
+        "static_current": "https://gtfs.dds.dot.ca.gov/gtfs_files/ArtesiaGTFS.zip",
         "static_historic": [
           "https://gtfs.calitp.org/production/ArtesiaGTFS.zip",
           "https://github.com/LACMTA/los-angeles-regional-gtfs/raw/main/artesia-ca-us/artesia-ca-us.zip",
@@ -139,7 +139,7 @@
       "id": "f-maywood~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://gtfs.dds.dot.ca.gov/gtfs_files/production/MaywoodGTFS.zip",
+        "static_current": "https://gtfs.dds.dot.ca.gov/gtfs_files/MaywoodGTFS.zip",
         "static_historic": [
           "https://gtfs.calitp.org/production/MaywoodGTFS.zip",
           "https://github.com/LACMTA/los-angeles-regional-gtfs/raw/main/maywood-ca-us/maywood-ca-us.zip"
