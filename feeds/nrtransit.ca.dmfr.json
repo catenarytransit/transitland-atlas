@@ -1,6 +1,15 @@
 {
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
+ {
+      "id": "f-dpx-niagararegion~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://whereis.yourbus.com/gtfsrt/vehicles",
+        "realtime_trip_updates": "https://whereis.yourbus.com/gtfsrt/trips",
+        "realtime_alerts": ""https://whereis.yourbus.com/gtfsrt/alerts"
+      }
+    },
     {
       "id": "f-dpx-townofforterietransitsystem~niagarafallstransit~niagarapar",
       "spec": "gtfs",
@@ -14,7 +23,12 @@
         {
           "onestop_id": "o-dpxt-niagararegiontransit",
           "name": "Niagara Region Transit",
-          "website": "https://nrtransit.ca/"
+          "website": "https://nrtransit.ca/",
+          "associated_feeds": [
+{
+"feed_onestop_id": "f-dpx-niagararegion~rt"
+}
+]
         }
       ]
     }
