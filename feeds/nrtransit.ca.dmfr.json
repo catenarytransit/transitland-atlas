@@ -5,9 +5,9 @@
       "id": "f-dpx-niagararegion~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://whereis.yourbus.com/gtfsrt/vehicles",
-        "realtime_trip_updates": "https://whereis.yourbus.com/gtfsrt/trips",
-        "realtime_alerts": "https://whereis.yourbus.com/gtfsrt/alerts"
+        "realtime_vehicle_positions": "http://whereis.yourbus.com/gtfsrt/vehicles",
+        "realtime_trip_updates": "http://whereis.yourbus.com/gtfsrt/trips",
+        "realtime_alerts": "http://whereis.yourbus.com/gtfsrt/alerts"
       }
     },
     {
