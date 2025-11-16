@@ -20,8 +20,8 @@
       "id": "f-akihabusservice~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_trip_update?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_AkihaBusService_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -280,8 +280,8 @@
       "id": "f-hokkaidotakushokubus~takusyoku~regular~line~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_trip_update?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_HokkaidoTakushokuBus_Takusyoku_regular_line_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "Takusyoku_regular_line",
@@ -322,9 +322,9 @@
       "id": "f-iyotetsubus~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IyotetsuBus_AllLines_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -350,9 +350,9 @@
       "id": "f-izuhakonebus~izhb~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_IzuhakoneBus_IZHB_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e760932168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "IZHB",
@@ -435,9 +435,9 @@
       "id": "f-kantobus~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KantoBus_AllLines_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -491,9 +491,9 @@
       "id": "f-kawasakitsurumirinkobus~allrinko~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KawasakiTsurumiRinkoBus_allrinko_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "allrinko",
@@ -547,8 +547,8 @@
       "id": "f-keiobus~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_trip_update?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KeioBus_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -659,9 +659,9 @@
       "id": "f-kyotobus~alllinesanotherversion~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLinesAnotherversion_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLinesAnotherversion",
@@ -687,9 +687,9 @@
       "id": "f-kyotobus~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_KyotoBus_AllLines_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -805,9 +805,9 @@
       "id": "f-nishitokyobus~ntbus~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_NishiTokyoBus_NTBus_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "NTBus",
@@ -980,9 +980,9 @@
       "id": "f-shimoden~shimoden~bus~gtfs~realtime~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_Shimoden_Shimoden_BUS_GTFS_Realtime_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "Shimoden_BUS_GTFS_Realtime",
@@ -1050,7 +1050,7 @@
       "id": "f-tokaikisen~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TokaiKisen_AllLines_alert?acl:consumerKey="
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TokaiKisen_AllLines_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
@@ -1178,9 +1178,9 @@
       "id": "f-transportationbureau~cityofkawasaki~alllines~jp~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_vehicle?acl:consumerKey=",
-        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_trip_update?acl:consumerKey=",
-        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_alert?acl:consumerKey="
+        "realtime_vehicle_positions": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_vehicle?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_trip_updates": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_trip_update?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093",
+        "realtime_alerts": "https://api.odpt.org/api/v4/gtfs/realtime/odpt_TransportationBureau_CityOfKawasaki_AllLines_alert?acl:consumerKey=2168f271f8ae9d9529f935a1e4595fa0974f26540db8d2222ce80ea698e76093"
       },
       "tags": {
         "odpt_dataset_id": "AllLines",
