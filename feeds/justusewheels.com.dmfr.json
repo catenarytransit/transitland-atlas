@@ -1,0 +1,97 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-hongkong~wheels",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://feed.justusewheels.com/hk.gtfs.zip"
+      },
+      "license": {
+        "url": "https://github.com/wheelstransit/hongkong-community-gtfs"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-hongkong~citybus",
+      "name": "Citybus",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "CTB",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~ferry",
+      "name": "Ferry Services",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "FERRY",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~gmb",
+      "name": "Green Minibus",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "GMB",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~kmb",
+      "name": "Kowloon Motor Bus",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "KMB",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~light~rail",
+      "name": "Light Rail",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "LR",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~mtr~bus",
+      "name": "MTR Bus",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "MTRB",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~mtr~rail",
+      "name": "MTR Rail",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "MTRR",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hongkong~nlb",
+      "name": "New Lantao Bus",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "NLB",
+          "feed_onestop_id": "f-hongkong~wheels"
+        }
+      ]
+    }
+  ]
+}
