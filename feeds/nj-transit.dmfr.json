@@ -5,7 +5,7 @@
       "id": "f-dr5-nj~transit~bus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://testpcsdata.njtransit.com/api/GTFS/getGTFS"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/nj_gtfs_pfaedle.zip"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
