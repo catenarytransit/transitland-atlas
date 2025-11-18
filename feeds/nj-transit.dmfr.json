@@ -72,7 +72,13 @@
         },
         {
           "feed_onestop_id": "f-d45-nj~transit~rail~rt"
-        },
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-dr5-nj~transit~light~rail",
+      "name": "NJ Transit Light Rail",
+      "associated_feeds": [
         {
           "feed_onestop_id": "f-dr5-nj~transit~rail~no~realtime"
         }
