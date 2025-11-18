@@ -5,7 +5,7 @@
       "id": "f-hong~kong",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://feed.justusewheels.com/hk.gtfs.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/hk-gtfs-pfaedle.zip"
       },
       "license": {
         "url": "https://data.gov.hk/en/terms-and-conditions",
