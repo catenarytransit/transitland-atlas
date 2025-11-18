@@ -2,10 +2,10 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-hong~kong~en",
+      "id": "f-hong~kong",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/hk-gtfs-pfaedle.zip"
+        "static_current": "https://feed.justusewheels.com/hk.gtfs.zip"
       },
       "license": {
         "url": "https://data.gov.hk/en/terms-and-conditions",
