@@ -15,6 +15,13 @@
         "commercial_use_allowed": "yes",
         "share_alike_optional": "yes"
       }
+    },
+    {
+      "id": "f-hongkong~justusewheels",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://feed.justusewheels.com/hk.gtfs.zip"
+      }
     }
   ]
 }
