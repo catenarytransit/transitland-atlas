@@ -5,7 +5,7 @@
       "id": "f-dr5-nj~transit~bus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://pcsdata.njtransit.com/api/GTFS/getGTFS"
+        "static_current": "https://testpcsdata.njtransit.com/api/GTFS/getGTFS"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
@@ -50,9 +50,9 @@
       "id": "f-nj~transit~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://pcsdata.njtransit.com/api/GTFS/getvehiclepositions",
-        "realtime_alerts": "https://pcsdata.njtransit.com/api/GTFS/getalerts",
-        "realtime_trip_updates": "https://pcsdata.njtransit.com/api/GTFS/gettripupdates"
+        "realtime_vehicle_positions": "https://testpcsdata.njtransit.com/api/GTFS/getvehiclepositions",
+        "realtime_alerts": "https://testpcsdata.njtransit.com/api/GTFS/getalerts",
+        "realtime_trip_updates": "https://testpcsdata.njtransit.com/api/GTFS/gettripupdates"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
