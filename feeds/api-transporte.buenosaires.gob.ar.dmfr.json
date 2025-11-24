@@ -1,0 +1,2763 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-buenosaires~subtes",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://apitransporte.buenosaires.gob.ar/subtes/feed-gtfs?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
+      },
+      "license": {
+        "url": "https://api-transporte.buenosaires.gob.ar/console"
+      }
+    },
+    {
+      "id": "f-buenosaires~subtes~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://apitransporte.buenosaires.gob.ar/subtes/serviceAlerts?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
+      },
+      "license": {
+        "url": "https://api-transporte.buenosaires.gob.ar/console"
+      }
+    },
+    {
+      "id": "f-buenosaires~colectivos",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://apitransporte.buenosaires.gob.ar/colectivos/feed-gtfs?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
+      },
+      "license": {
+        "url": "https://api-transporte.buenosaires.gob.ar/console"
+      }
+    },
+    {
+      "id": "f-buenosaires~colectivos~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://apitransporte.buenosaires.gob.ar/colectivos/vehiclePositions?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147",
+        "realtime_alerts": "https://apitransporte.buenosaires.gob.ar/colectivos/serviceAlerts?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
+      },
+      "license": {
+        "url": "https://api-transporte.buenosaires.gob.ar/console"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-buenosaires~subtes",
+      "name": "Subte de Buenos Aires",
+      "associated_feeds": [
+        {
+      "gtfs_agency_id": "3",
+      "feed_onestop_id": "f-buenosaires~subtes"
+        },
+        {
+      "feed_onestop_id": "f-buenosaires~subtes~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-buenosaires~colectivos~82",
+      "name": "MICROOMNIBUS SAAVEDRA S.A.T.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "82",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~14",
+      "name": "TRANSP. AUTOMOTORES 12 DE OCTUBRE S.A.C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "14",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~20",
+      "name": "EMPRESA TANDILENSE S.A.C.I.F.I.Y DE S.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "20",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~63",
+      "name": "EL NUEVO HALCON S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "63",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~72",
+      "name": "MICRO OMNIBUS QUILMES S.A.C.I. Y F.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "72",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~3",
+      "name": "D.O.T.A. S.A. DE TRANSPORTE AUTOMOTOR",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "3",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~4",
+      "name": "NUDO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "4",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~5",
+      "name": "TRANSPORTES RIO GRANDE S.A.C.I.F.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "5",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~6",
+      "name": "TRANSPORTES AUTOMOTORES CALLAO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "6",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~7",
+      "name": "TRANSPORTES AUTOMOTORES RIACHUELO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "7",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~8",
+      "name": "M.O.D.O. S.A. DE TRANSPORTE AUTOMOTOR",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "8",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~9",
+      "name": "LA NUEVA METROPOL S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "9",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~10",
+      "name": "TRANSPORTES LOPE DE VEGA S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "10",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~11",
+      "name": "GENERAL TOMAS GUIDO S.A.C.I.F.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "11",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~12",
+      "name": "NUEVOS RUMBOS S.A.T.A.C.I.F.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "12",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~13",
+      "name": "17 DE AGOSTO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "13",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~15",
+      "name": "TRANSPORTES COLEGIALES S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "15",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~16",
+      "name": "EMPRESA DE TRANSP. TTE. GRAL. ROCA S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "16",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~17",
+      "name": "LINEA 10 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "17",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~18",
+      "name": "LINEA 17 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "18",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~19",
+      "name": "GENERAL PUEYRREDON S.A.T.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "19",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~21",
+      "name": "TRANSPORTE LARRAZABAL C.I.S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "21",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~22",
+      "name": "LOS CONSTITUYENTES S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "22",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~23",
+      "name": "ROCARAZA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "23",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~26",
+      "name": "LINEA 22 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "26",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~27",
+      "name": "LINEA 71 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "27",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~29",
+      "name": "COLECTIVEROS UNIDOS S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "29",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~30",
+      "name": "BERNARDINO RIVADAVIA S.A.T.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "30",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~31",
+      "name": "EL PUENTE S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "31",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~32",
+      "name": "TRANSPORTES AVENIDA BERNARDO ADER S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "32",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~33",
+      "name": "TRANSPORTE ESCALADA S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "33",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~34",
+      "name": "TRANSPORTES SAN CAYETANO S.A.C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "34",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~35",
+      "name": "EMP.TRANSP.AUTOM.DE PASAJEROS S.A.C.I.F.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "35",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~36",
+      "name": "JUAN B. JUSTO S.A.T.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "36",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~37",
+      "name": "TTES.AUTOMOTORES DE PASAJEROS SIGLO XXI SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "37",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~39",
+      "name": "TRANSPORTES SESENTA Y OCHO S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "39",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~54",
+      "name": "EMPRESA LINEA 216 S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "54",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~57",
+      "name": "BUENOS AIRES BUS SOCIEDAD ANONIMA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "57",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~59",
+      "name": "SOCIEDAD ANONIMA EXPRESO SUDOESTE",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "59",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~60",
+      "name": "TRANSPORTE IDEAL SAN JUSTO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "60",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~62",
+      "name": "EXPRESO QUILMES S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "62",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~74",
+      "name": "LA CABAÑA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "74",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~77",
+      "name": "SARGENTO CABRAL S.A.DE TRANSPORTE",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "77",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~83",
+      "name": "MICROOMNIBUS CUARENTA Y CINCO S.A.C.I.F.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "83",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~84",
+      "name": "MICROOMNIBUS CIUDAD DE BS.AS. S.A.T.C.I",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "84",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~86",
+      "name": "TRANSPORTES 270 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "86",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~87",
+      "name": "TRANSPORTES ALMIRANTE BROWN S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "87",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~113",
+      "name": "EMPRESA TRANSPORTE TRATADO DEL PILAR S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "113",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~114",
+      "name": "EMPRESA DE TRANSPORTES EL LITORAL S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "114",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~124",
+      "name": "EXPRESO NUEVE DE JULIO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "124",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~125",
+      "name": "EXPRESO PARQUE EL LUCERO S.A. DE TRANSPORTES",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "125",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~135",
+      "name": "LIBERTADOR SAN MARTIN SAT",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "135",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~138",
+      "name": "LINEA SESENTA SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "138",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~141",
+      "name": "MICRO OMNIBUS GENERAL SAN MARTIN SAC",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "141",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~142",
+      "name": "MICRO OMNIBUS GRAL PACHECO SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "142",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~144",
+      "name": "MICRO OMNIBUS O´HIGGINS S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "144",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~146",
+      "name": "MICRO OMNIBUS TIGRE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "146",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~148",
+      "name": "UTENOR LINEA 723 UNION TRANSITORIA DE EMPRESAS",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "148",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~151",
+      "name": "RUTA BUS S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "151",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~161",
+      "name": "TRANSPORTES LA PERLITA S.A. ",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "161",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~183",
+      "name": "LA PRIMERA DE MALVINAS ARGENTINAS UTE",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "183",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~195",
+      "name": "LA PRIMERA DE LA ESCONDIDA SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "195",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~198",
+      "name": "SERGIO A. Rivas S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "198",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~212",
+      "name": "UTENOR SA L 722",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "212",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~430",
+      "name": "ERSA URBANO",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "430",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~2",
+      "name": "TRANSP. SGTO. CABRAL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "2",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~24",
+      "name": "TRANSPORTE NUEVE DE JULIO SAC.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "24",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~25",
+      "name": "LA CENTRAL DE VICENTE LOPEZ S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "25",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~40",
+      "name": "TRANPORTES VEINTIDOS DE SETIEMBRE S.A.C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "40",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~41",
+      "name": "VUELTA DE ROCHA S.A.T.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "41",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~42",
+      "name": "MICROOMNIBUS BARRANCAS DE BELGRANO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "42",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~43",
+      "name": "CARDENAS S.A. EMPRESA DE TRANSPORTES",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "43",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~44",
+      "name": "EMPRESA DE TRANSPORTES 104 S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "44",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~46",
+      "name": "MAYO S.A.T.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "46",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~47",
+      "name": "EMP.DE TRANSP. PEDRO DE MENDOZA C.I.S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "47",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~48",
+      "name": "EMPRESA DE TRANSP. MARIANO MORENO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "48",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~49",
+      "name": "AZUL S.A. DE TRANSPORTE AUTOMOTOR",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "49",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~50",
+      "name": "EMPRESA ANTARTIDA ARGENTINA S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "50",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~51",
+      "name": "4 DE SEPTIEMBRE S.A.T.C.P.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "51",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~52",
+      "name": "LINEA DE MICROOMNIBUS 47 S.A.T.C.F.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "52",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~53",
+      "name": "TRANSPORTES NUEVA CHICAGO C.I.S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "53",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~55",
+      "name": "TRANSPORTES SUR-NOR C.I.S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "55",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~56",
+      "name": "TRANSPORTES SANTA FE S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "56",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~58",
+      "name": "LINEA 213 S.A. DE TRANSPORTE",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "58",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~61",
+      "name": "BUS DEL OESTE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "61",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~64",
+      "name": "MICRO OMNIBUS SUR S.A.C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "64",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~65",
+      "name": "EXPRESO GENERAL SARMIENTO S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "65",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~66",
+      "name": "GRUPO LINEA 179 S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "66",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~68",
+      "name": "SAN VICENTE S.A. DE TRANSPORTES",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "68",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~69",
+      "name": "MICRO OMNIBUS NORTE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "69",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~70",
+      "name": "TRANSPORTES ATLANTIDA S.A.C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "70",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~71",
+      "name": "EMPRESA DE TRANSPORTES AMERICA S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "71",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~73",
+      "name": "UNION TRANSPORTISTAS DE EMPRESAS SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "73",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~75",
+      "name": "COMPAÑIA MICROOMNIBUS LA COLORADA SACI",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "75",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~76",
+      "name": "LA VECINAL DE MATANZA SACI. DE MICROOMNIBUS",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "76",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~78",
+      "name": "D.U.V.I. SOCIEDAD ANONIMA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "78",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~79",
+      "name": "LINEA EXPRESO LINIERS S.A.I.Y C.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "79",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~80",
+      "name": "EXPRESO SAN ISIDRO S.A.T.C.I.F.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "80",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~81",
+      "name": "TRANSPORTES QUIRNO COSTA S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "81",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~85",
+      "name": "TRANSPORTES DEL TEJAR S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "85",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~88",
+      "name": "ALMAFUERTE S.A.T.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "88",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~89",
+      "name": "EMP.DE TRANSP.MICROOMN.SAENZ PEÑA S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "89",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~90",
+      "name": "TRANSPORTES 1º SEPTIEMBRE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "90",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~91",
+      "name": "EXPRESO LOMAS S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "91",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~92",
+      "name": "TRANSPORTES LINEA 123 S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "92",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~93",
+      "name": "TRANSPORTES SOL DE MAYO C.I.S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "93",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~95",
+      "name": "EMPRESA CIUDAD DE SAN FERNANDO SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "95",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~96",
+      "name": "CIA ANDRADE EMPRESA DE TRANSPORTE DE PASAJEROS SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "96",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~97",
+      "name": "CIA LA PAZ AMADOR MOURE SACIFIYA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "97",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~98",
+      "name": "COMPAÑIA ISLEÑA S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "98",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~99",
+      "name": "EMPRESA MICROOMNIBUS LARROQUE LINEA 548 SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "99",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~101",
+      "name": "COMPAÑIA NOROESTE S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "101",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~102",
+      "name": "COMPAÑÍA DE OMNIBUS 25 DE MAYO LINEA 278",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "102",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~104",
+      "name": "COOPERATIVA DE TRABAJO 3 DE JULIO LIMITADA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "104",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~108",
+      "name": "EMPRESA 501 SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "108",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~109",
+      "name": "EMPRESA CINCO DE AGOSTO S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "109",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~110",
+      "name": "EMPRESA DE TRANSPORTE DEL SUR SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "110",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~112",
+      "name": "EMPRESA DE TRANSPORTES SANTA RITA  SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "112",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~115",
+      "name": "EMPRESA DEL OESTE SAT",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "115",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~116",
+      "name": "EMPRESA J.M. EZEIZA S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "116",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~117",
+      "name": "EMPRESA LINEA SIETE SAT",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "117",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~118",
+      "name": "EMPRESA MONTE GRANDE S.A. LINEA 501",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "118",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~119",
+      "name": "EMRESA MONTERREY S.R.L. ",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "119",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~120",
+      "name": "EMPRESA NUEVE DE JULIO S.A.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "120",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~122",
+      "name": "EXPRESO EMPALME LOBOS S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "122",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~123",
+      "name": "EXPRESO ESTEBAN ECHEVERRIA S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "123",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~127",
+      "name": "EXPRESO VILLA GALICIA  SAN JOSE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "127",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~128",
+      "name": "EXPRESO VILLA NUEVA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "128",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~129",
+      "name": "FUERTE BARRAGAN S.A.T.I.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "129",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~131",
+      "name": "LA CENTRAL DE ESCOBAR SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "131",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~132",
+      "name": "LA PRIMERA DE GRAND BOURG S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "132",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~133",
+      "name": "LA PRIMERA DE MARTINEZ S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "133",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~139",
+      "name": "MICRO OMNIBUS AVENIDA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "139",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~140",
+      "name": "MICRO OMNIBUS ESTE S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "140",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~143",
+      "name": "MICRO OMNIBUS MITRE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "143",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~145",
+      "name": "MICRO OMNIBUS PRIMERA JUNTA S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "145",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~149",
+      "name": "NUEVO IDEAL S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "149",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~150",
+      "name": "PILAR BUS S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "150",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~152",
+      "name": "TRANSPORTE 11 DE JUNIO S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "152",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~155",
+      "name": "TRANSPORTE AUTOMOTORES LA PLATA SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "155",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~156",
+      "name": "TRANSPORTE DEL SUR S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "156",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~157",
+      "name": "TRANSPORTE JOSE HERNANDEZ S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "157",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~158",
+      "name": "TRANSPORTE LA UNION SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "158",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~160",
+      "name": "TRANSPORTES AUTOMOTORES  LANUS ESTE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "160",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~162",
+      "name": "TRANSPORTES UNIDOS DE MERLO S.A.C.I.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "162",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~163",
+      "name": "TRANSPORTES VILLA BOSCH SAC el",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "163",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~165",
+      "name": "UNION PLATENSE SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "165",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~171",
+      "name": "ALMAFUERTE EMPRESA DE TRANSPORTE S.A.C.I. E I",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "171",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~172",
+      "name": "COMPAÑIA  DE TRANSPORTE VECINAL S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "172",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~174",
+      "name": "EL URBANO SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "174",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~184",
+      "name": "LA FLOR DE LUJAN SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "184",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~196",
+      "name": "COOPERATIVA DE TRABAJO 6 DE JULIO LIMITADA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "196",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~203",
+      "name": "YITOS S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "203",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~215",
+      "name": "TRANSPORTES SAN JUAN BAUTISTA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "215",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~227",
+      "name": "EL LIBERTADOR SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "227",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~228",
+      "name": "EMPRESA DE TRANSPORTES 12 DE OCTUBRE SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "228",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~229",
+      "name": "TRANSPORTE 25 DE MAYO SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "229",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~230",
+      "name": "EMPRESA DE TRANSPORTE PERALTA RAMOS SACI",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "230",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~231",
+      "name": "EMPRESA BATAN S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "231",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~232",
+      "name": "COOP.DE PROV.DE O.Y S.P.Y C.LAS TONINAS",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "232",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~233",
+      "name": "MONTEMAR SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "233",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~236",
+      "name": "COOP.DE ELEC.SERV.Y OB.PUB.SAN BERNARDO",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "236",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~237",
+      "name": "COOP.LTDA.LUZ Y FUERZA E.DE MAR DE AJO",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "237",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~238",
+      "name": "COOP. PROV. OB. Y S.P. SAN CLEMENTE DEL TUYU",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "238",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~261",
+      "name": "EMPRESA DE TRANSPORTE PARQUE COSTERO DEL SUR S.R.L",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "261",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~281",
+      "name": "COOPERATIVA DE TRABAJO 3 DE JULIO LIMITADA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "281",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~310",
+      "name": "MICROEXPRES S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "310",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~311",
+      "name": "EXPRESO LA PLATA BUENOS AIRES S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "311",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~320",
+      "name": "NUEVO BUS DE OLAVARRÍA SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "320",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~322",
+      "name": "AUTOBUSES BUENOS AIRES SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "322",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~323",
+      "name": "OLA BUS SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "323",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~324",
+      "name": "UNION TRANSITORIA COSA CIA TRANSPORTE VECINAL U.T.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "324",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~327",
+      "name": "BAHIA TRANSPORTE SAPEN",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "327",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~328",
+      "name": "LEMOS Y RODRIGUEZ S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "328",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~329",
+      "name": "T. A. SAN GABRIEL S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "329",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~332",
+      "name": "MICRO ÓMNIBUS NUEVA POMPEYA S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "332",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~333",
+      "name": "COMPAÑÍA DE TRANSPORTE NECOCHEA S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "333",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~334",
+      "name": "FRANCISCO BUIATTI E HIJOS S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "334",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~335",
+      "name": "HUGO A. PFLUGER S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "335",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~336",
+      "name": "LINEAS DELTA ARGENTINO S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "336",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~337",
+      "name": "EMPRESA EL LEON S.R.L.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "337",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~338",
+      "name": "INTERISLEÑA S.A.C.I.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "338",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~344",
+      "name": "LA COMARCA SA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "344",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~352",
+      "name": "LANGE DANTE RAUL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "352",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~360",
+      "name": "EMPRESA VERCELLI HNOS S.A",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "360",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~376",
+      "name": "LA NUEVA PERLA SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "376",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~392",
+      "name": "SERODINO SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "392",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~410",
+      "name": "AUTOBUSES BS AS SRL- TTE LARRAZABAL SRL- UT",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "410",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~429",
+      "name": "NACUS SRL",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "429",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~438",
+      "name": "RESERVA - SEMTUR",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "438",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~445",
+      "name": "MUNICIPALIDAD DE MERCEDES PROVINCIA DE BUENOS AIRE",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "445",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~446",
+      "name": "TRANSPORTE 8 DE OCTUBRE S.A.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "446",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    },
+
+    {
+      "onestop_id": "o-buenosaires~colectivos~505",
+      "name": "NUESTRA SEÑORA DEL ROSARIO S.A. UNION TRANSITORIA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "505",
+          "feed_onestop_id": "f-buenosaires~colectivos"
+        },
+        {
+          "feed_onestop_id": "f-buenosaires~colectivos~rt"
+        }
+      ]
+    }
+
+  ]
+}
