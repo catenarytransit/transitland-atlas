@@ -5289,6 +5289,9 @@
     },
     {
       "id": "f-harborconnector~md~us",
+      "supersedes_ids": [
+        "f-dqcx2-baltimorewatertaxi"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/harborconnector-md-us/harborconnector-md-us.zip"
@@ -5306,7 +5309,11 @@
             {
               "gtfs_agency_id": "1806"
             }
-          ]
+          ],
+          "tags": {
+            "us_ntd_id": "30201",
+            "wikidata_id": "Q5335009"
+          }
         }
       ]
     },
@@ -6220,20 +6227,12 @@
     },
     {
       "id": "f-sanmiguelcounty~co~us",
+      "supersedes_ids": [
+        "f-sanmiguel~co~us"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/sanmiguelcounty-co-us/sanmiguelcounty-co-us.zip"
-      }
-    },
-    {
-      "id": "f-sanmiguel~co~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/sanmiguel-co-us/sanmiguel-co-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
       },
       "operators": [
         {
@@ -6241,11 +6240,9 @@
           "name": "San Miguel Authority for Regional Transportation",
           "short_name": "SMART",
           "website": "https://smarttelluride.colorado.gov/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1651"
-            }
-          ]
+          "tags": {
+            "us_ntd_id": "88294"
+          }
         }
       ]
     },
@@ -6790,7 +6787,7 @@
         ]
       },
       "license": {
-        "url": "https://virginia-gtfs.com/"
+        "url": "https://drpt.virginia.gov/data/gtfs-feed-clearinghouse/"
       }
     },
     {
