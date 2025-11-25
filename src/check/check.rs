@@ -3,12 +3,17 @@ use serde_json::Error as SerdeError;
 use std::collections::{HashMap, HashSet};
 use std::error::Error;
 use std::fs;
+use std::hash::Hash;
+use std::ops::Deref;
 use std::sync::Arc;
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
     let feed_entries = fs::read_dir(format!("feeds/"))?;
 
     let mut is_err = false;
+
+    let mut url_to_feed_ids: HashMap<String, HashSet<String>> = HashMap::new();
+    let mut feed_id_to_file_name: HashMap<String, String> = HashMap::new();
 
     for entry in feed_entries {
         if let Ok(entry) = entry {
@@ -35,12 +40,41 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                     for feed in &dmfrinfo.feeds {
                         if feed.spec == dmfr::FeedSpec::GtfsRt {
                             if feed.urls.static_current.is_some() {
-                                eprintln!("{}, Spec is GtfsRt but static_current is some", &file_name);
+                                eprintln!(
+                                    "{}, Spec is GtfsRt but static_current is some",
+                                    &file_name
+                                );
+                            }
+                        }
+
+                        feed_id_to_file_name.insert(feed.id.clone(), file_name.to_string());
+
+                        for url in &feed.urls.static_current {
+                            if feed.urls.static_current.is_some() {
+                                let static_current =
+                                    feed.urls.static_current.as_ref().unwrap().deref();
+                                match url_to_feed_ids.entry(static_current.clone()) {
+                                    std::collections::hash_map::Entry::Occupied(mut oe) => {
+                                        let oe_mutable = oe.get_mut();
+
+                                        oe_mutable.insert(static_current.clone());
+                                    }
+                                    std::collections::hash_map::Entry::Vacant(ve) => {
+                                        ve.insert(HashSet::from([static_current.clone()]));
+                                    }
+                                }
                             }
                         }
                     }
                 }
             }
+        }
+    }
+
+    
+    for (url, feed_ids) in &url_to_feed_ids {
+        if feed_ids.len() > 1 {
+            println!("{:?} are sharing {}", feed_ids, url);
         }
     }
 
