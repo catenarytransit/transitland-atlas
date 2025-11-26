@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-pol~regio~pl",
+      "name": "PolRegio GTFS",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://transfer.polregio.pl/public/file/2xpjhbomseoindotgttcsg/GTFS.zip"
+      },
+      "license": {
+        "spdx_identifier": "CC0-1.0",
+        "url": "https://mkuran.pl/gtfs/"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-pol~regio",
+          "name": "PolRegio",
+          "website": "https://polregio.pl/"
+        }
+      ]
+    }
+  ]
+}

@@ -23,25 +23,6 @@
       ]
     },
     {
-      "id": "f-pol~regio~pl",
-      "name": "PolRegio GTFS",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://mkuran.pl/gtfs/polregio.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "url": "https://mkuran.pl/gtfs/"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-pol~regio",
-          "name": "PolRegio",
-          "website": "https://polregio.pl/"
-        }
-      ]
-    },
-    {
       "id": "f-u2zs-rzeszow",
       "supersedes_ids": [
         "f-u2zs-mpk~rzeszówspzoo"
