@@ -18,6 +18,9 @@
             {
               "feed_onestop_id": "f-northern~indiana~commuter~transportation~district~rt",
               "gtfs_agency_id": "South Shore Line"
+            },
+            {
+              "feed_onestop_id": "f-northern~indiana~commuter~transportation~district~catenary~alerts~rt"
             }
           ],
           "tags": {
@@ -35,6 +38,13 @@
         "realtime_vehicle_positions": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/position_updates.pb",
         "realtime_trip_updates": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/trip_updates.pb",
         "realtime_alerts": "https://s3.amazonaws.com/etatransit.gtfs/southshore.etaspot.net/alerts.pb"
+      }
+    },
+    {
+      "id": "f-northern~indiana~commuter~transportation~district~catenary~alerts~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://birch.catenarymaps.org/gtfsrt/f-northern~indiana~commuter~transportation~district~catenary~alerts~rt/tripupdates"
       }
     }
   ]
