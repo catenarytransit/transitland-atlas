@@ -26,9 +26,6 @@
               "feed_onestop_id": "f-metrolinktrains~rt"
             },
             {
-              "feed_onestop_id": "f-metrolinktrains~extra~rt"
-            },
-            {
               "feed_onestop_id": "f-metrolinktrains~alerts~rt"
             }
           ],
