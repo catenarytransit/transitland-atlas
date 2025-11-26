@@ -8,7 +8,10 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://www.peatus.ee/gtfs/gtfs.zip"
+        "static_historic": [
+          "http://www.peatus.ee/gtfs/gtfs.zip"
+        ],
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/peatus-gtfs-pfaedle.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-SA-3.0",
