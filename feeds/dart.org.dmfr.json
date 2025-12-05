@@ -20,9 +20,22 @@
             "twitter_service_alerts": "dartalerts",
             "us_ntd_id": "60056",
             "wikidata_id": "Q380660"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9vg-dart~rt~catenary~unwire"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-9vg-dart~rt~catenary~unwire",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfsrt/f-9vg-dart~rt~catenary~unwire/vehiclepositions",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/f-9vg-dart~rt~catenary~unwire/tripupdates"
+      }
     }
   ]
 }
