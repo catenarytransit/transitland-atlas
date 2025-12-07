@@ -63,7 +63,7 @@
   ],
   "operators": [
     {
-      "o-dpz8-ttc-underground",
+      "onestop_id": "o-dpz8-ttc-underground",
       "name": "TTC Subway",
       "short_name": "TTC",
       "associated_feeds": [
