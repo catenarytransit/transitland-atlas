@@ -259,13 +259,9 @@
       "operators": [
         {
           "onestop_id": "o-9q5-lagobus",
-          "name": "LA Go Bus",
-          "website": "https://pw.lacounty.gov/transit/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1466"
-            }
-          ],
+          "name": "Los Angles County Public Works",
+          "short_name": "LA Go Bus",
+          "website": "http://www.lagobus.com",
           "tags": {
             "twitter_general": "LACoPublicWorks",
             "us_ntd_id": "90270,90271,90272,90273,90274,90275,90276,90278"
@@ -1125,8 +1121,9 @@
       "id": "f-9vfu-dentoncountytransportationauthority",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/dentoncounty-tx-us/dentoncounty-tx-us.zip",
+        "static_current": "https://gtfs.remix.com/dcta_denton_tx_us.zip",
         "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/dentoncounty-tx-us/dentoncounty-tx-us.zip",
           "https://www.dcta.net/images/uploads/content_files/resource_center/DCTA_GTFS.zip"
         ]
       },
@@ -2351,6 +2348,26 @@
               "gtfs_agency_id": "1761"
             }
           ]
+        }
+      ]
+    },
+    {
+      "id": "f-brite~bus~va",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/brite-va-us/brite-va-us.zip",
+        "static_historic": [
+          "http://britebus.org/gtfs/brite.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-brite~bus~va",
+          "name": "BRITE",
+          "website": "https://www.britebus.org/",
+          "tags": {
+            "us_ntd_id": "30989"
+          }
         }
       ]
     },
@@ -4992,6 +5009,9 @@
     },
     {
       "id": "f-estestransit~co~us",
+      "supersedes_ids": [
+        "f-9xhvw-townofestespark"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/estestransit-co-us/estestransit-co-us.zip"
@@ -5003,13 +5023,14 @@
       "operators": [
         {
           "onestop_id": "o-estestransit~co~us",
+          "supersedes_ids": [
+            "o-9xhvw-townofestespark"
+          ],
           "name": "Estes Transit",
-          "website": "https://estespark.colorado.gov/shuttles",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1604"
-            }
-          ]
+          "website": "https://estespark.colorado.gov/transit",
+          "tags": {
+            "us_ntd_id": "88281"
+          }
         }
       ]
     },
@@ -5269,6 +5290,9 @@
     },
     {
       "id": "f-harborconnector~md~us",
+      "supersedes_ids": [
+        "f-dqcx2-baltimorewatertaxi"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/harborconnector-md-us/harborconnector-md-us.zip"
@@ -5286,7 +5310,11 @@
             {
               "gtfs_agency_id": "1806"
             }
-          ]
+          ],
+          "tags": {
+            "us_ntd_id": "30201",
+            "wikidata_id": "Q5335009"
+          }
         }
       ]
     },
@@ -6200,20 +6228,12 @@
     },
     {
       "id": "f-sanmiguelcounty~co~us",
+      "supersedes_ids": [
+        "f-sanmiguel~co~us"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/sanmiguelcounty-co-us/sanmiguelcounty-co-us.zip"
-      }
-    },
-    {
-      "id": "f-sanmiguel~co~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/sanmiguel-co-us/sanmiguel-co-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
       },
       "operators": [
         {
@@ -6221,11 +6241,9 @@
           "name": "San Miguel Authority for Regional Transportation",
           "short_name": "SMART",
           "website": "https://smarttelluride.colorado.gov/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1651"
-            }
-          ]
+          "tags": {
+            "us_ntd_id": "88294"
+          }
         }
       ]
     },
@@ -6770,7 +6788,7 @@
         ]
       },
       "license": {
-        "url": "https://virginia-gtfs.com/"
+        "url": "https://drpt.virginia.gov/data/gtfs-feed-clearinghouse/"
       }
     },
     {

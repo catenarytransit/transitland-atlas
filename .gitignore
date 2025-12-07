@@ -6,3 +6,5 @@ dmfr.schema.json
 # Added by cargo
 
 /target
+**/.cache/
+*.log
