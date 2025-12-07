@@ -5,7 +5,7 @@
       "id": "f-dpz8-ttc",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/7795b45e-e65a-4465-81fc-c36b9dfff169/resource/cfb6b2b8-6191-41e3-bda1-b175c51148cb/download/TTC%20Routes%20and%20Schedules%20Data.zip",
+        "static_current": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/b811ead4-6eaf-4adb-8408-d389fb5a069c/resource/c920e221-7a1c-488b-8c5b-6d8cd4e85eaf/download/Complete%20GTFS.zip",
         "static_historic": [
           "http://opendata.toronto.ca/toronto.transit.commission/ttc-routes-and-schedules/OpenData_TTC_Schedules.zip"
         ]
@@ -63,7 +63,7 @@
   ],
   "operators": [
     {
-      "onestop_id": "o-dpz8-ttc-underground",
+      "onestop_id": "o-dpz8-ttc~notbustime",
       "name": "TTC Subway",
       "short_name": "TTC",
       "associated_feeds": [
