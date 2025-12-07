@@ -2,6 +2,14 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-9vff-fortworthtransportationauthority~rt~catenary~unwire",
+      "spec": "gtfs-rt",
+      "urls": {
+          "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfsrt/f-9vff-fortworthtransportationauthority~rt~catenary~unwire/vehiclepositions",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/f-9vff-fortworthtransportationauthority~rt~catenary~unwire/tripupdates"
+      }
+    },
+    {
       "id": "f-9vff-fortworthtransportationauthority",
       "spec": "gtfs",
       "urls": {
@@ -25,7 +33,12 @@
             "twitter_general": "TrinityMetro",
             "us_ntd_id": "60007",
             "wikidata_id": "Q5472408"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9vff-fortworthtransportationauthority~rt~catenary~unwire"
+            }
+          ]
         }
       ]
     }

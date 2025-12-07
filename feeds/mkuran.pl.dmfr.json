@@ -23,48 +23,6 @@
       ]
     },
     {
-      "id": "f-pol~regio~pl",
-      "name": "PolRegio GTFS",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://mkuran.pl/gtfs/polregio.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "url": "https://mkuran.pl/gtfs/"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-pol~regio",
-          "name": "PolRegio",
-          "website": "https://polregio.pl/"
-        }
-      ]
-    },
-    {
-      "id": "f-u2vh-rybnik",
-      "name": "Rybnik GTFS",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://mkuran.pl/gtfs/rybnik.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-u2vh-ztz~rybnik",
-          "name": "Zarząd Transportu Zbiorowego w Rybniku",
-          "short_name": "ZTZ Rybnik",
-          "website": "http://www.ztz.rybnik.pl/"
-        }
-      ]
-    },
-    {
       "id": "f-u2zs-rzeszow",
       "supersedes_ids": [
         "f-u2zs-mpk~rzeszówspzoo"

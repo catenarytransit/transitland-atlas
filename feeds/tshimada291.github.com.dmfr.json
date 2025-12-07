@@ -3803,17 +3803,6 @@
       }
     },
     {
-      "id": "f-toeibus~gtfs~jp",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/Toei/data/ToeiBus-GTFS.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      }
-    },
-    {
       "id": "f-togo~bus~jp",
       "spec": "gtfs",
       "urls": {
@@ -6370,26 +6359,6 @@
       }
     },
     {
-      "id": "f-宇野バス宇野自動車",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/UnoBus/AllLines.zip?date=current"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-宇野バス宇野自動車~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/UnoBus/AllLines.zip?date=latest"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
       "id": "f-安城市~あんくるバス",
       "spec": "gtfs",
       "urls": {
@@ -6722,34 +6691,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://api.gtfs-data.jp/v2/organizations/oyabecity/feeds/oyabecitybus/files/feed.zip"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-小豆島オリーブバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/ShodoshimaOliveBus/AllLines.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-小豆島オリーブバス~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/ShodoshimaOliveBus/AllLines.zip?date=latest"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
       },
       "tags": {
         "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
@@ -7398,76 +7339,6 @@
       }
     },
     {
-      "id": "f-日本中央バス前橋近郊路線空港バス高速バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Maebashi_Area.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-日本中央バス前橋近郊路線空港バス高速バス~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Maebashi_Area.zip?date=latest"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-日本中央バス奥多野線",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://ncb.jp/route/GTFS/latest/GTFS(OT).zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-日本中央バス奥多野線~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Okutano_Area.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-日本中央バス奥多野線~2",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NipponChuoBus/Okutano_Area.zip?date=latest"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
       "id": "f-日田バス",
       "spec": "gtfs",
       "urls": {
@@ -7778,16 +7649,6 @@
       }
     },
     {
-      "id": "f-東京都町田市~コミュニティバス市民バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/MachidaCity/AllLines.zip?date=current"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
       "id": "f-東京都町田市~コミュニティバス市民バス~1",
       "spec": "gtfs",
       "urls": {
@@ -8088,34 +7949,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://www.nagai-unyu.net/rosen/GTFS/aux/latest/GTFS-JP_nbaux-gunma-jp.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-永井バス永井運輸~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-永井バス永井運輸~2",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/AllLines.zip?date=latest"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -8458,34 +8291,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://www.nagai-unyu.net/rosen/GTFS/tamarin/latest/GTFS-JP_tamarin-gunma-jp.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-玉村町乗合タクシー~たまりん~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/Tamarin.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-玉村町乗合タクシー~たまりん~2",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/NagaiTransportation/Tamarin.zip?date=latest"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -9040,48 +8845,6 @@
       }
     },
     {
-      "id": "f-群馬バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/GunmaBus/AllLines.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-群馬バス~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/GunmaBus/AllLines.zip?date=latest"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-群馬中央バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/GunmachuoBus/AllLines.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
       "id": "f-群馬中央バス~1",
       "spec": "gtfs",
       "urls": {
@@ -9434,26 +9197,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://www.city.akaiwa.lg.jp/material/files/group/5/GTFS-JP.zip"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-赤磐市広域路線バス~市民バス~1",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AkaiwaCity/AllLines.zip?date=current"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-赤磐市広域路線バス~市民バス~2",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AkaiwaCity/AllLines.zip?date=latest"
       },
       "tags": {
         "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
@@ -9824,20 +9567,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://opendata.pref.aomori.lg.jp/dataset/1596/resource/19655/gtfs_hashikamicho_com_latest.zip"
-      },
-      "tags": {
-        "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"
-      }
-    },
-    {
-      "id": "f-青森市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api-public.odpt.org/api/v4/files/odpt/AomoriCity/AllLines.zip?date=current"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no"
       },
       "tags": {
         "notes": "This feed record is managed in https://github.com/tshimada291/gtfs-jp-list-datecheck/blob/main/GTFS_fixedURL_LastModified.csv"

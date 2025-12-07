@@ -1,0 +1,28 @@
+{
+     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+            {
+      "id": "f-u2vh-rybnik",
+      "name": "Rybnik GTFS",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://km.rybnik.pl/download/attachment/494/gtfs_01112025.zip"
+      },
+      "license": {
+        "spdx_identifier": "CC0-1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "commercial_use_allowed": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-u2vh-ztz~rybnik",
+          "name": "Zarząd Transportu Zbiorowego w Rybniku",
+          "short_name": "ZTZ Rybnik",
+          "website": "http://www.ztz.rybnik.pl/"
+        }
+      ]
+    }
+    ]
+}

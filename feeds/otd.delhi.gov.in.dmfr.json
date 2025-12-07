@@ -1,0 +1,70 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-delhi~bus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ethanc8.github.io/delhi-gtfs/bus.zip"
+      },
+      "license": {
+        "url": "https://otd.delhi.gov.in/static/assets/terms-and-conditions.pdf"
+      }
+    },
+    {
+      "id": "f-delhi~metro",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ethanc8.github.io/delhi-gtfs/metro.zip"
+      },
+      "license": {
+        "url": "https://otd.delhi.gov.in/static/assets/terms-and-conditions.pdf"
+      }
+    },
+    {
+      "id": "f-delhi~bus~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://otd.delhi.gov.in/api/realtime/VehiclePositions.pb?key=ElAhjCgNrvn6wkUmVru5IXonW2owrwaR"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-delhi~dimts",
+      "name": "Delhi Integrated Multi-Modal Transit System Ltd.",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "DIMTS",
+          "feed_onestop_id": "f-delhi~bus"
+        },
+        {
+          "feed_onestop_id": "f-delhi~bus~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-delhi~dtc",
+      "name": "Delhi Transport Corporation",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "DTC",
+          "feed_onestop_id": "f-delhi~bus"
+        },
+        {
+          "feed_onestop_id": "f-delhi~bus~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-delhi~dmrc",
+      "name": "Delhi Metro Rail Corporation",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "DMRC",
+          "feed_onestop_id": "f-delhi~metro"
+        }
+      ]
+    }
+  ]
+}

@@ -176,8 +176,11 @@
           ]
         }
       ],
+      "license": {
+        "url": "https://transport.data.gouv.fr/datasets/gtfs-transport-via-strada-les-cars-corse-du-sud"
+      },
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/416261b8-016d-4639-bab5-39a588665fc7"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/fe20cb23-34b8-4965-acf7-1b28bf966891"
       }
     },
     {

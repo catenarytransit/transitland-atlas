@@ -27,10 +27,22 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "GO"
+            },
+            {
+              "feed_onestop_id": "f-dpz-gotransit~rt"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "f-dpz-gotransit~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs.proto/Feed/VehiclePosition?key=30021837",
+        "realtime_trip_updates": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs.proto/Feed/TripUpdates/?key=30021837",
+        "realtime_alerts": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/Gtfs.proto/Feed/Alerts/?key=30021837"
+      }
     },
     {
       "id": "f-dpz2-upexpress",
@@ -56,10 +68,22 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "UPExpress"
+            },
+            {
+              "feed_onestop_id": "f-dpz2-upexpress~rt"
             }
           ]
         }
       ]
+    },
+    {
+      "id": "f-dpz2-upexpress~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs.proto/Feed/VehiclePosition/?key=30021837",
+        "realtime_trip_updates": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs.proto/Feed/TripUpdates/?key=30021837",
+        "realtime_alerts": "https://api.openmetrolinx.com/OpenDataAPI/api/V1/UP/Gtfs.proto/Feed/Alerts/?key=30021837"
+      }
     }
   ]
 }

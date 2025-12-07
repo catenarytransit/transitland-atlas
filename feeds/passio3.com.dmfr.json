@@ -2,6 +2,37 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-9mu-sctrolley",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/sctrolley/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9mu-sctrolley",
+          "name": "San Clemente Trolley",
+          "short_name": "SC Trolley",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9mu-sctrolley"
+            },
+            {
+              "feed_onestop_id": "f-sctrolley~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-sctrolley~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/sctrolley/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/sctrolley/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/montereyp/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
       "id": "f-9mu-irvine~ca~us",
       "spec": "gtfs",
       "urls": {
@@ -1388,31 +1419,6 @@
         "realtime_trip_updates": "https://passio3.com/towson/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/towson/passioTransit/gtfs/realtime/serviceAlerts"
       }
-    },
-    {
-      "id": "f-tracy~tracer",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/CityofTracy/passioTransit/gtfs/google_transit.zip",
-        "static_historic": [
-          "https://www.cityoftracy.org/home/showpublisheddocument/17319/638442164296500000",
-          "https://www.cityoftracy.org/home/showpublisheddocument/16626/638342536313270000",
-          "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/tracy-tracer.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9q9ws-tracer",
-          "name": "City of Tracy",
-          "short_name": "TRACER",
-          "website": "https://www.cityoftracy.org/our-city/departments/mobility-and-housing/transportation/tracer-bus-service",
-          "tags": {
-            "twitter_general": "cityoftracy",
-            "us_ntd_id": "90197",
-            "wikidata_id": "Q7831176"
-          }
-        }
-      ]
     },
     {
       "id": "f-tuscaloosa~county~parking~and~transit~authority",

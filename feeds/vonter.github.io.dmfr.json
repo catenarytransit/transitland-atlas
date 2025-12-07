@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-bengaluru~bmtc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/Vonter/bmtc-gtfs/raw/main/gtfs/bmtc.zip"
+      },
+      "license": {
+        "url": "https://github.com/Vonter/bmtc-gtfs"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-bengaluru~bmtc",
+      "name": "Bengaluru Metropolitan Transport Corporation",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "1",
+          "feed_onestop_id": "f-bengaluru~bmtc"
+        }
+      ]
+    }
+  ]
+}

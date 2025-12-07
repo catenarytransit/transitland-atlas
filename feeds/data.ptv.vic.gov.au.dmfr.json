@@ -2,10 +2,10 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-r1-ptv",
+      "id": "f-r1-ptv~1",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#1/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -21,7 +21,7 @@
       "id": "f-r1-ptv~10",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#10/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -34,10 +34,10 @@
       }
     },
     {
-      "id": "f-r1-ptv~3",
+      "id": "f-r1-ptv~6",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#6/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -53,7 +53,7 @@
       "id": "f-r1-ptv~5",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#5/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -139,10 +139,10 @@
       }
     },
     {
-      "id": "f-r1r-ptv",
+      "id": "f-r1r-ptv~2",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#2/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -161,7 +161,7 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#4/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -174,10 +174,10 @@
       }
     },
     {
-      "id": "f-r1r0-ptv",
+      "id": "f-r1r0-ptv~3",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#3/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -193,7 +193,7 @@
       "id": "f-r1r1-ptv~11",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#11/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -206,10 +206,10 @@
       }
     },
     {
-      "id": "f-r1r2-ptv~7",
+      "id": "f-r1r2-ptv~10",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://opendata.transport.vic.gov.au/dataset/gtfs-schedule/resource/e4966d78-dc64-4a1d-a751-2470c9eaf034#7/google_transit.zip"
+        "static_current": "https://opendata.transport.vic.gov.au/dataset/3f4e292e-7f8a-4ffe-831f-1953be0fe448/resource/fb152201-859f-4882-9206-b768060b50ad/download/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -218,7 +218,7 @@
         "create_derived_product": "yes"
       },
       "tags": {
-        "notes": "PTV operational branch 7 - TeleBus"
+        "notes": "PTV operational branch 10 - Interstate Train"
       }
     }
   ],
@@ -230,16 +230,28 @@
       "website": "http://www.ptv.vic.gov.au",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-r1-ptv"
+          "feed_onestop_id": "f-r1-ptv~1"
+        },
+        {
+          "feed_onestop_id": "f-r1r-ptv~2"
+        },
+        {
+          "feed_onestop_id": "f-r1r0-ptv~3"
+        },
+        {
+          "feed_onestop_id": "f-r1r-ptv~4"
+        },
+        {
+          "feed_onestop_id": "f-r1-ptv~5"
+        },
+        {
+          "feed_onestop_id": "f-r1-ptv~6"
         },
         {
           "feed_onestop_id": "f-r1-ptv~10"
         },
         {
-          "feed_onestop_id": "f-r1-ptv~3"
-        },
-        {
-          "feed_onestop_id": "f-r1-ptv~5"
+          "feed_onestop_id": "f-r1r1-ptv~11"
         },
         {
           "feed_onestop_id": "f-r1-ptv~buses~rt"
@@ -252,18 +264,6 @@
         },
         {
           "feed_onestop_id": "f-r1-ptv~vline~rt"
-        },
-        {
-          "feed_onestop_id": "f-r1r-ptv"
-        },
-        {
-          "feed_onestop_id": "f-r1r-ptv~4"
-        },
-        {
-          "feed_onestop_id": "f-r1r0-ptv"
-        },
-        {
-          "feed_onestop_id": "f-r1r1-ptv~11"
         }
       ],
       "tags": {

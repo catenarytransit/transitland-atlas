@@ -726,31 +726,6 @@
       ]
     },
     {
-      "id": "f-autobús~metropolitano~barcelona",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1496"
-      },
-      "license": {
-        "url": "https://nap.transportes.gob.es/licencia-datos",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Powered by MITRAMS",
-        "attribution_instructions": "Must include attribution text and a link to https://www.transportes.gob.es/"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "ApiKey",
-        "info_url": "https://nap.transportes.gob.es/"
-      },
-      "tags": {
-        "es_nap_fichero_id": "1496",
-        "notes": "Operators: Soler i Sauret, DIREXIS TUSGSAL, Avanza, Monbus i Julià, Moventis, Monbus (Papiol), Monbus (Aerobús), Monbus (Horta), Moventis (Port)"
-      }
-    },
-    {
       "id": "f-autobús~principado~de~asturias",
       "spec": "gtfs",
       "urls": {
@@ -2179,37 +2154,6 @@
       ]
     },
     {
-      "id": "f-ferrocarriles~de~la~generalitat~de~cataluña",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1571"
-      },
-      "license": {
-        "url": "https://nap.transportes.gob.es/licencia-datos",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Powered by MITRAMS",
-        "attribution_instructions": "Must include attribution text and a link to https://www.transportes.gob.es/"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "ApiKey",
-        "info_url": "https://nap.transportes.gob.es/"
-      },
-      "tags": {
-        "es_nap_fichero_id": "1571"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-fgc",
-          "name": "FGC",
-          "website": "http://www.fgc.cat"
-        }
-      ]
-    },
-    {
       "id": "f-feve",
       "spec": "gtfs",
       "urls": {
@@ -3169,37 +3113,6 @@
         {
           "onestop_id": "o-tram",
           "name": "TRAM",
-          "website": "http://www.tram.cat"
-        }
-      ]
-    },
-    {
-      "id": "f-tranvía~metropolitano~besós~barcelona",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1330"
-      },
-      "license": {
-        "url": "https://nap.transportes.gob.es/licencia-datos",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Powered by MITRAMS",
-        "attribution_instructions": "Must include attribution text and a link to https://www.transportes.gob.es/"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "ApiKey",
-        "info_url": "https://nap.transportes.gob.es/"
-      },
-      "tags": {
-        "es_nap_fichero_id": "1330"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-trambesòs",
-          "name": "TRAMBESÒS",
           "website": "http://www.tram.cat"
         }
       ]

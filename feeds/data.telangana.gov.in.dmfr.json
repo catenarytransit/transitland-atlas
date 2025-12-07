@@ -1,0 +1,47 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-hyderabad~metro",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/HMRL/Telangana_opendata_gtfs_hmrl_04_November_2025.zip"
+      },
+      "license": {
+        "url": "https://data.telangana.gov.in/dataset/gtfs-hmrl-hyderabad"
+      }
+    },
+    {
+      "id": "f-telangana~tgsrtc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/TGSRTC/Telangana_opendata_gtfs_TGSRTC_09_October_2025.zip"
+      },
+      "license": {
+        "url": "https://data.telangana.gov.in/dataset/gtfs-hmrl-hyderabad"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-hyderabad~metro",
+      "name": "Hyderabad Metro Rail",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "HMRL",
+          "feed_onestop_id": "f-hyderabad~metro"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-telangana~tgsrtc",
+      "name": "Telangana State Road Transport Corporation",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "TGSRTC",
+          "feed_onestop_id": "f-telangana~tgsrtc"
+        }
+      ]
+    }
+  ]
+}

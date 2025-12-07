@@ -172,29 +172,6 @@
       ]
     },
     {
-      "id": "f-dnq0-tacc",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://gtfs.transitportal.org/CurrentGTFS/Transportation%20Administration%20of%20Cleveland%20County_45/TACC.zip",
-        "static_historic": [
-          "https://gtfs.transitportal.org/CurrentGTFS/Transportation%20Administration%20of%20Cleveland%20County_45/TACC_20231121.zip",
-          "https://gtfs.transitportal.org/CurrentGTFS/Transportation%20Administration%20of%20Cleveland%20County_45/CCT_20211101.zip",
-          "https://gtfs.transitportal.org/CurrentGTFS/Transportation%20Administration%20of%20Cleveland%20County_45/TACC_20181121.zip"
-        ]
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dnq0-tacc",
-          "name": "Transportation Administration of Cleveland County",
-          "short_name": "TACC",
-          "website": "https://taccshelbync.com/",
-          "tags": {
-            "us_ntd_id": "41082"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-dnqm-wta",
       "spec": "gtfs",
       "urls": {

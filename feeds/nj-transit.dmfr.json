@@ -5,7 +5,7 @@
       "id": "f-dr5-nj~transit~bus",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.njtransit.com/bus_data.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/nj_gtfs_pfaedle.zip"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
@@ -22,9 +22,16 @@
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
+      }
+    },
+    {
+      "id": "f-dr5-nj~transit~rail~no~realtime",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.njtransit.com/rail_data.zip"
       },
       "tags": {
-        "gtfs_data_exchange": "new-jersey-transit"
+        "notes": "This feed appears to contain light rail which https://raildata.njtransit.com/api/GTFSRT/getGTFS doesn't"
       }
     },
     {
@@ -43,9 +50,9 @@
       "id": "f-nj~transit~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://pcsdata.njtransit.com/api/GTFS/getvehiclepositions",
-        "realtime_alerts": "https://pcsdata.njtransit.com/api/GTFS/getalerts",
-        "realtime_trip_updates": "https://pcsdata.njtransit.com/api/GTFS/gettripupdates"
+        "realtime_vehicle_positions": "https://testpcsdata.njtransit.com/api/GTFS/getvehiclepositions",
+        "realtime_alerts": "https://testpcsdata.njtransit.com/api/GTFS/getalerts",
+        "realtime_trip_updates": "https://testpcsdata.njtransit.com/api/GTFS/gettripupdates"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
@@ -65,6 +72,15 @@
         },
         {
           "feed_onestop_id": "f-d45-nj~transit~rail~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-dr5-nj~transit~light~rail",
+      "name": "NJ Transit Light Rail",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-dr5-nj~transit~rail~no~realtime"
         }
       ]
     },

@@ -5,7 +5,7 @@
         "id": "f-ahverkehrsverbund~schleswig~holstein~nah",
         "spec": "gtfs",
         "urls": {
-          "static_current": "https://www.connect-info.net/opendata/gtfs/nah.sh/xgkesphblz"
+          "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/sh_gtfs_pfaedle.zip"
         }
       }
     ],
