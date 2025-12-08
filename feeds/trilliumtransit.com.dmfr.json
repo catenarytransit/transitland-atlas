@@ -259,13 +259,9 @@
       "operators": [
         {
           "onestop_id": "o-9q5-lagobus",
-          "name": "LA Go Bus",
-          "website": "https://pw.lacounty.gov/transit/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1466"
-            }
-          ],
+          "name": "Los Angles County Public Works",
+          "short_name": "LA Go Bus",
+          "website": "http://www.lagobus.com",
           "tags": {
             "twitter_general": "LACoPublicWorks",
             "us_ntd_id": "90270,90271,90272,90273,90274,90275,90276,90278"
@@ -1125,8 +1121,9 @@
       "id": "f-9vfu-dentoncountytransportationauthority",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/dentoncounty-tx-us/dentoncounty-tx-us.zip",
+        "static_current": "https://gtfs.remix.com/dcta_denton_tx_us.zip",
         "static_historic": [
+          "https://data.trilliumtransit.com/gtfs/dentoncounty-tx-us/dentoncounty-tx-us.zip",
           "https://www.dcta.net/images/uploads/content_files/resource_center/DCTA_GTFS.zip"
         ]
       },
@@ -5012,6 +5009,9 @@
     },
     {
       "id": "f-estestransit~co~us",
+      "supersedes_ids": [
+        "f-9xhvw-townofestespark"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/estestransit-co-us/estestransit-co-us.zip"
@@ -5023,13 +5023,14 @@
       "operators": [
         {
           "onestop_id": "o-estestransit~co~us",
+          "supersedes_ids": [
+            "o-9xhvw-townofestespark"
+          ],
           "name": "Estes Transit",
-          "website": "https://estespark.colorado.gov/shuttles",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1604"
-            }
-          ]
+          "website": "https://estespark.colorado.gov/transit",
+          "tags": {
+            "us_ntd_id": "88281"
+          }
         }
       ]
     },
