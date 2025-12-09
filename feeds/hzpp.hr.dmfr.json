@@ -4,7 +4,7 @@
             "id": "f-hrvatske~željeznice",
             "spec": "gtfs",
             "urls": {
-                "static_current": "http://www.hzpp.hr/Media/Default/GTFS/GTFS_files.zip"
+                "static_current": "https://www.hzpp.hr/GTFS_files.zip"
             }
         }
     ]
