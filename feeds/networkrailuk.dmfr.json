@@ -2,10 +2,10 @@
     "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
     "feeds": [
         {
-            "id": "f-atoc",
+            "id": "f-networkrail",
             "spec": "gtfs",
             "urls": {
-                "static_current": "https://github.com/catenarytransit/uk-rail-gtfs-hosted/releases/download/main/gtfs_atoc.zip"
+                "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/releases/download/latest/nationalrailuk.zip"
             }
         }
     ]
