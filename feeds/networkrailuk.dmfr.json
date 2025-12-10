@@ -5,7 +5,7 @@
             "id": "f-networkrail",
             "spec": "gtfs",
             "urls": {
-                "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/releases/download/latest/nationalrailuk.zip"
+                "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/nationalrailuk.zip"
             }
         }
     ]
