@@ -6,6 +6,25 @@
             "spec": "gtfs",
             "urls": {
                 "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/nationalrailuk.zip"
+            },
+             "operators": [
+                {
+                  "onestop_id": "o-9-amtrak",
+                  "name": "Amtrak",
+                  "website": "http://www.amtrak.com",
+                  "associated_feeds": [
+                  {
+                  "feed_onestop_id": "f-networkrail~darwin~rt"
+                    }
+                  ]
+                }
+             ]      
+        },
+        {
+            "id": "f-networkrail~darwin~rt",
+            "spec": "gtfs-rt",
+            "urls": {
+                "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/f-networkrail~darwin~rt/tripupdates"
             }
         }
     ]
