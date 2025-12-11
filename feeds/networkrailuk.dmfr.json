@@ -9,9 +9,9 @@
             },
              "operators": [
                 {
-                  "onestop_id": "o-9-amtrak",
-                  "name": "Amtrak",
-                  "website": "http://www.amtrak.com",
+                  "onestop_id": "o-nationalrailuk",
+                  "name": "Network Rail & National Rail",
+                  "website": "",
                   "associated_feeds": [
                   {
                   "feed_onestop_id": "f-networkrail~darwin~rt"
