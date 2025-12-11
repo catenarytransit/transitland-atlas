@@ -10,8 +10,8 @@
              "operators": [
                 {
                   "onestop_id": "o-nationalrailuk",
-                  "name": "Network Rail & National Rail",
-                  "website": "",
+                  "name": "National Rail",
+                  "website": "https://www.nationalrail.co.uk/",
                   "associated_feeds": [
                   {
                   "feed_onestop_id": "f-networkrail~darwin~rt"
