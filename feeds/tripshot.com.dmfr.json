@@ -2,6 +2,64 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-genentech",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://genentech.tripshot.com/v1/gtfs.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-genentech",
+          "name": "Genentech",
+          "short_name": "Genentech",
+          "website": "https://genentech.tripshot.com/g/tms/Public.html",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-genentech~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-genentech~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://genentech.tripshot.com/v1/gtfs/realtime/vehiclePosition/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_trip_updates": "https://genentech.tripshot.com/v1/gtfs/realtime/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_alerts": "https://genentech.tripshot.com/v1/gtfs/realtime/serviceAlert/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820"
+      }
+    },
+    {
+      "id": "f-university~california~san~francisco",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ucsf.tripshot.com/v1/gtfs.zip"
+      },
+       "operators": [
+        {
+          "onestop_id": "o-university~california~san~francisco",
+          "name": "University of California San Francisco",
+          "short_name": "UCSF",
+          "website": "https://campuslifeservices.ucsf.edu/liveshuttle/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-university~california~san~francisco~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-university~california~san~francisco~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://ucsf.tripshot.com/v1/gtfs/realtime/vehiclePosition/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_trip_updates": "https://ucsf.tripshot.com/v1/gtfs/realtime/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_alerts": "https://ucsf.tripshot.com/v1/gtfs/realtime/serviceAlert/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820"
+      }
+    },
+    {
       "id": "f-9q4-smat~ca~us",
       "supersedes_ids": [
         "f-9q4q-guadalupeflyer"
