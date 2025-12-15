@@ -5,7 +5,7 @@
       "id": "f-gtfs~de",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/fahrplaene_gesamtdeutschland_gtfs_raw.zip"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/de_gtfs_pfaedle.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
