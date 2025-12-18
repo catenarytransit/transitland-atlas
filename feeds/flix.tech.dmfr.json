@@ -2,14 +2,30 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-9-flixbus",
+      "id": "f-flixbus~us",
       "spec": "gtfs",
       "urls": {
         "static_current": "http://gtfs.gis.flix.tech/gtfs_generic_us.zip"
       }
     },
     {
-      "id": "f-u-flixbus",
+      "id": "f-flixbus~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfsrt/f-flixbus~us~rt/vehiclepositions",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/f-flixbus~us~rt/tripupdates"
+      }
+    },
+    {
+      "id": "f-flixbus~eu~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfsrt/f-flixbus~eu~rt/vehiclepositions",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfsrt/f-flixbus~eu~rt/tripupdates"
+      }
+    },
+    {
+      "id": "f-flixbus~eu",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/flix_eu-pfaedle.zip",
@@ -30,40 +46,28 @@
   ],
   "operators": [
     {
-      "onestop_id": "o-greyhound~flix",
-      "name": "Greyhound",
-      "website": "https://www.greyhound.com",
-      "associated_feeds": [
-        {
-          "gtfs_agency_id": "GREYHOUND-us",
-          "feed_onestop_id": "f-9-flixbus"
-        },
-        {
-          "gtfs_agency_id": "GREYHOUND-eu",
-          "feed_onestop_id": "f-q-flixbus"
-        }
-      ]
-    },
-    {
-      "onestop_id": "o-u-flixbus",
+      "onestop_id": "o-flixbus~america",
       "name": "Flixbus",
       "website": "https://www.flixbus.com/",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "FLIXBUS-us",
-          "feed_onestop_id": "f-9-flixbus"
+          "feed_onestop_id": "f-flixbus~us"
         },
         {
-          "gtfs_agency_id": "FLIXTRAIN-us",
-          "feed_onestop_id": "f-9-flixbus"
+          "feed_onestop_id": "f-flixbus~us~rt"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-flixbus~europe",
+      "name": "Flixbus",
+      "website": "https://www.flixbus.com/",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-flixbus~eu"
         },
         {
-          "gtfs_agency_id": "FLIXBUS-eu",
-          "feed_onestop_id": "f-q-flixbus"
-        },
-        {
-          "gtfs_agency_id": "FLIXTRAIN-eu",
-          "feed_onestop_id": "f-q-flixbus"
+          "feed_onestop_id": "f-flixbus~eu~rt"
         }
       ]
     }
