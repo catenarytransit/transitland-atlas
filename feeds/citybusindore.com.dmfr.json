@@ -18,7 +18,7 @@
       "name": "Atal Indore City Transport Service Limited",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "aictsl",
+          "gtfs_agency_id": "AICTSL",
           "feed_onestop_id": "f-aictsl"
         }
       ]
