@@ -15,7 +15,7 @@
       "name": "River Valley Metro",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "River Valley Metro",
+          "gtfs_agency_id": "RVM",
           "feed_onestop_id": "f-rvm"
         }
       ]
