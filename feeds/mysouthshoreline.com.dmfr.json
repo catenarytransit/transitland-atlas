@@ -5,7 +5,7 @@
       "id": "f-northern~indiana~commuter~transportation~district",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://www.mysouthshoreline.com/google/google_transit.zip"
+        "static_current": "https://ethanc8.github.io/nictd-gtfs/gtfs.zip"
       },
       "operators": [
         {
