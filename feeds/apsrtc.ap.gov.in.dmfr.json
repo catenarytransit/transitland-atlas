@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-apsrtc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/Neo2308/apsrtc-gtfs/raw/refs/heads/main/gtfs/gtfs.zip"
+      },
+      "license": {
+        "url": "https://github.com/Neo2308/apsrtc-gtfs/blob/main/README.md"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-apsrtc",
+      "name": "Andhra Pradesh State Road Transport Corporation",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "APSRTC",
+          "feed_onestop_id": "f-apsrtc"
+        }
+      ]
+    }
+  ]
+}
