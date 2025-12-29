@@ -5,7 +5,7 @@
       "id": "f-hyderabad~metro",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/HMRL/Telangana_opendata_gtfs_hmrl_04_November_2025.zip"
+        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/HMRL/Telangana_opendata_gtfs_hmrl_02_December_2025.zip"
       },
       "license": {
         "url": "https://data.telangana.gov.in/dataset/gtfs-hmrl-hyderabad"
@@ -15,7 +15,7 @@
       "id": "f-telangana~tgsrtc",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/TGSRTC/Telangana_opendata_gtfs_TGSRTC_09_October_2025.zip"
+        "static_current": "https://ethanc8.github.io/gtfs-mirror/India/Telangana/TGSRTC/Telangana_opendata_gtfs_TGSRTC_27_December_2025.zip"
       },
       "license": {
         "url": "https://data.telangana.gov.in/dataset/gtfs-hmrl-hyderabad"
