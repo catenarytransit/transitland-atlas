@@ -1,0 +1,28 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-east~chicago",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/12052/EastChicagoTransitGTFS.zip"
+      },
+      "tags": {
+        "notes": "Obtained from NTD",
+        "us_ntd_id": "50042"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-east~chicago",
+      "name": "East Chicago Transit",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "ECT",
+          "feed_onestop_id": "f-east~chicago"
+        }
+      ]
+    }
+  ]
+}
