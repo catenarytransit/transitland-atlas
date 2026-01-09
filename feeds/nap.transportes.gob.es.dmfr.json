@@ -1381,37 +1381,6 @@
       ]
     },
     {
-      "id": "f-autocares~rías~baixas",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1843"
-      },
-      "license": {
-        "url": "https://nap.transportes.gob.es/licencia-datos",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Powered by MITRAMS",
-        "attribution_instructions": "Must include attribution text and a link to https://www.transportes.gob.es/"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "ApiKey",
-        "info_url": "https://nap.transportes.gob.es/"
-      },
-      "tags": {
-        "es_nap_fichero_id": "1843"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-autocares~rias~baixas~s~l",
-          "name": "Autocares Rias Baixas S. L.",
-          "website": "http://www.autocaresriasbaixas.com"
-        }
-      ]
-    },
-    {
       "id": "f-a~coruna~es",
       "spec": "gtfs",
       "urls": {
