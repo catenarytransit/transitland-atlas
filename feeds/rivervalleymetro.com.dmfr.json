@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-rvm",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://ethanc8.github.io/gtfs-mirror/NorthAmerica/Illinois/Kankakee/Transit.zip"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-rvm",
+      "name": "River Valley Metro",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "RVM",
+          "feed_onestop_id": "f-rvm"
+        }
+      ]
+    }
+  ]
+}

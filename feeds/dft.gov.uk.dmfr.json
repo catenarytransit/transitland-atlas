@@ -2,13 +2,55 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-bus~dft~gov~uk",
+      "id": "f-bus~dft~gov~uk~england",
       "supersedes_ids": [
         "f-gcpv-transportforlondon"
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/gb_bus_gtfs_pfaedle.zip",
+        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/england/",
+        "static_historic": [
+          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
+        ]
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~scotland",
+      "supersedes_ids": [
+        "f-gcpv-transportforlondon"
+      ],
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/",
+        "static_historic": [
+          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
+        ]
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wales",
+      "supersedes_ids": [
+        "f-gcpv-transportforlondon"
+      ],
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/",
         "static_historic": [
           "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
         ]
@@ -37,7 +79,13 @@
       "name": "Department for Transport",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-bus~dft~gov~uk"
+          "feed_onestop_id": "f-bus~dft~gov~uk~england"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~scotland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wales"
         },
         {
           "feed_onestop_id": "f-bus~dft~gov~uk~rt"

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-lagos",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://lagos-transit.github.io/lagos-gtfs/gtfs.zip"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-lamata",
+      "name": "LAMATA",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "LAMATA",
+          "feed_onestop_id": "f-lamata"
+        }
+      ]
+    }
+  ]
+}

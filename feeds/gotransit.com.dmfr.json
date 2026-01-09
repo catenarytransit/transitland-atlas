@@ -5,7 +5,7 @@
       "id": "f-dpz-gotransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://assets.metrolinx.com/raw/upload/v1683228856/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
+        "static_current": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/GO-GTFS.zip",
         "static_historic": [
           "https://www.gotransit.com/static_files/gotransit/assets/Files/GO_GTFS.zip"
         ]
@@ -48,7 +48,7 @@
       "id": "f-dpz2-upexpress",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://assets.metrolinx.com/raw/upload/v1682367798/Documents/Metrolinx/Open%20Data/UP-GTFS.zip",
+        "static_current": "https://assets.metrolinx.com/raw/upload/Documents/Metrolinx/Open%20Data/UP-GTFS.zip",
         "static_historic": [
           "https://www.gotransit.com/static_files/gotransit/assets/Files/UP-GTFS.zip"
         ]
