@@ -2,6 +2,13 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-vbb~de~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://production.gtfsrt.vbb.de/data"
+      }
+    },
+    {
       "id": "f-u3-günterangergüterverkehrsgmbh~coomnibusvermietungkg~fritzbeh",
       "spec": "gtfs",
       "urls": {
@@ -134,6 +141,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "BRB---,BRT---"
+            },
+            {
+              "feed_onestop_id": "f-vbb~de~rt"
             }
           ]
         },
