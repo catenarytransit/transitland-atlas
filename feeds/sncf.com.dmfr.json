@@ -26,7 +26,7 @@
       ],
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/sncf-all-gtfs-rt-trip-updates",
+        "realtime_trip_updates": "https://proxy.transport.data.gouv.fr/resource/sncf-gtfs-rt-trip-updates",
         "realtime_alerts": "https://proxy.transport.data.gouv.fr/resource/sncf-gtfs-rt-service-alerts"
       }
     },
