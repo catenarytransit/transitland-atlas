@@ -2,13 +2,6 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-ethan~caltrain~nye",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://ethanc8.github.io/caltrain-supplemental-gtfs/gtfs.zip"
-      }
-    },
-    {
       "id": "f-9q8-samtrans",
       "spec": "gtfs",
       "urls": {
