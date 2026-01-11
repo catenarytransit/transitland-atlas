@@ -5,7 +5,7 @@
       "id": "f-northern~indiana~commuter~transportation~district",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ethanc8.github.io/nictd-gtfs/gtfs.zip"
+        "static_current": "https://github.com/catenarytransit/nictd-gtfs/raw/refs/heads/gh-pages/gtfs.zip"
       },
       "operators": [
         {
