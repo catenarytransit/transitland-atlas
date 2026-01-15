@@ -22,6 +22,25 @@
         "type": "header",
         "param_name": "Authorization",
         "info_url": "https://prim.iledefrance-mobilites.fr"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-île~de~france~mobilités",
+          "name": "Île-de-France Mobilités",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-u09-île~de~france~mobilités~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-u09-île~de~france~mobilités~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "http://gtfsidfm.clarifygdps.com/gtfs-rt-trips-idfm",
+        "realtime_alerts": "http://gtfsidfm.clarifygdps.com/gtfs-rt-alerts-idfm"
       }
     }
   ]
