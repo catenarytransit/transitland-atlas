@@ -5,7 +5,7 @@
       "id": "f-u3h-koleje~dolnoslaskie",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://gtfs.i.kiedyprzyjedzie.pl/kd/google_transit.zip",
+        "static_current": "https://kd.kiedyprzyjedzie.pl/gtfs/kd_catenarymaps/google_transit.zip",
         "static_historic": [
           "https://mkuran.pl/gtfs/kolejedolnoslaskie.zip"
         ]
@@ -23,8 +23,8 @@
       "id": "f-u3h-koleje~dolnoslaskie~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://gtfs.i.kiedyprzyjedzie.pl/rt/279/feed",
-        "realtime_trip_updates": "https://gtfs.i.kiedyprzyjedzie.pl/rt/279/feed"
+        "realtime_vehicle_positions": "https://kd.kiedyprzyjedzie.pl/gtfs/kd_catenarymaps/realtime.pb",
+        "realtime_trip_updates": "https://kd.kiedyprzyjedzie.pl/gtfs/kd_catenarymaps/realtime.pb"
       },
       "license": {
         "spdx_identifier": "CC0-1.0",
