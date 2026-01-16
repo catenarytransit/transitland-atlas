@@ -5,7 +5,7 @@
       "id": "f-f24-octranspo",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://oct-gtfs-emasagcnfmcgeham.z01.azurefd.net/public-access/GTFSExport.zip",
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/octranspo_gtfs_pfaedle.zip",
         "static_historic": [
           "https://www.octranspo.com/files/google_transit.zip"
         ]
