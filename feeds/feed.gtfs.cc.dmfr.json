@@ -88,6 +88,28 @@
           "website": "https://www.gminabiskupiec.pl/dla-mieszkanca/transport-gminny/"
         }
       ]
+    },
+    {
+      "id": "f-u2vm~ornontowice",
+      "name": "Ornontowice GTFS",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://feed.gtfs.cc/ornontowice/gtfs.zip"
+      },
+      "languages": [
+        "pl-PL"
+      ],
+      "license": {
+        "spdx_identifier": "MIT"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-u2vm~ornontowice",
+          "name": "UG Ornontowice",
+          "short_name": "UG Ornontowice",
+          "website": "https://ornontowice.pl/informacje/komunikacja/rozklady-jazdy/"
+        }
+      ]
     }
   ]
 }
