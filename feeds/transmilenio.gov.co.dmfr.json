@@ -7,15 +7,16 @@
       "urls": {
         "realtime_vehicle_positions": "https://gis.transmilenio.gov.co/gtfs/vehiclepos.pb",
         "realtime_trip_updates": "https://gis.transmilenio.gov.co/gtfs/tripupdate.pb",
-        "realtime_alerts": "https://gis.transmilenio.gov.co/gtfs/tripupdate.pb",
+        "realtime_alerts": "https://gis.transmilenio.gov.co/gtfs/tripupdate.pb"
       }
     },
     {
       "id": "f-d2g6-transmilenio~troncal~transmilenio~alimentadores~transmile",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://storage.googleapis.com/gtfs-estaticos/GTFS-2025-10-28.zip",
+        "static_current": "https://storage.googleapis.com/gtfs-estaticos/GTFS-2025-12-05.zip",
         "static_historic": [
+          "https://storage.googleapis.com/gtfs-estaticos/GTFS-2025-10-28.zip",
           "https://storage.googleapis.com/gtfs-estaticos/GTFS-2024-02-21.zip",
           "https://storage.googleapis.com/gtfs-estaticos/GTFS-2023-10-01.zip",
           "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/sdm-bogota-co.zip",
@@ -27,7 +28,8 @@
         "url": "https://www.arcgis.com/home/item.html?id=23ca762178a94b23a5e227ce60e2b08e"
       },
       "tags": {
-        "unstable_url": "true"
+        "unstable_url": "true",
+        "sourcecatenary": "https://storage.googleapis.com/gtfs-estaticos/"
       },
       "operators": [
         {
