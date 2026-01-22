@@ -2,6 +2,15 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-transmilenio~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gis.transmilenio.gov.co/gtfs/vehiclepos.pb",
+        "realtime_trip_updates": "https://gis.transmilenio.gov.co/gtfs/tripupdate.pb",
+        "realtime_alerts": "https://gis.transmilenio.gov.co/gtfs/tripupdate.pb",
+      }
+    },
+    {
       "id": "f-d2g6-transmilenio~troncal~transmilenio~alimentadores~transmile",
       "spec": "gtfs",
       "urls": {
@@ -28,6 +37,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "4"
+            },
+            {
+              "feed_onestop_id": "f-transmilenio~rt"
             }
           ]
         },
