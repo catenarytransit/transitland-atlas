@@ -27,7 +27,7 @@
               "feed_onestop_id": "f-amtrakvermonter~vt~us"
             },
             {
-              "feed_onestop_id": "f-amtrak~sanjoaquin"
+              "feed_onestop_id": "f-amtrak~gold~runner"
             }
           ],
           "tags": {
@@ -198,7 +198,7 @@
       }
     },
     {
-      "id": "f-amtrak~sanjoaquin",
+      "id": "f-amtrak~gold~runner",
       "spec": "gtfs",
       "urls": {
         "static_current": "https://d34tiw64n5z4oh.cloudfront.net/wp-content/uploads/GRGTFS.zip"
