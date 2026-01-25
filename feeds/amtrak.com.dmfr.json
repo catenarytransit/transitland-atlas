@@ -201,7 +201,7 @@
       "id": "f-amtrak~sanjoaquin",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/san_joaquins_gtfs_pfaedle.zip"
+        "static_current": "https://d34tiw64n5z4oh.cloudfront.net/wp-content/uploads/GRGTFS.zip"
       }
     }
   ]
