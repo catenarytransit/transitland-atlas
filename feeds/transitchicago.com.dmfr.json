@@ -29,6 +29,9 @@
             {
               "feed_onestop_id": "f-dp3-cta~rt",
               "gtfs_agency_id": ""
+            },
+            {
+              "feed_onestop_id": "f-dp3-cta~bus~rt"
             }
           ]
         }
@@ -36,6 +39,13 @@
     },
     {
       "id": "f-dp3-cta~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://example.com/chicagotransitauthority"
+      }
+    },
+    {
+      "id": "f-dp3-cta~bus~rt",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://example.com/chicagotransitauthority"
