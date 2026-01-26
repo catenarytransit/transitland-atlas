@@ -5,7 +5,7 @@
       "id": "f-west~hollywood",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.weho.org/home/showdocument?id=53383&t=638712594969943786"
+        "static_current": "http://go.weho.org/GTFS"
       },
       "operators": [
         {
