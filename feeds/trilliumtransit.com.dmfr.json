@@ -3895,9 +3895,23 @@
             "twitter_general": "gogbt",
             "us_ntd_id": "10050",
             "wikidata_id": "Q5600471"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-dr7f-greaterbridgeporttransit~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-dr7f-greaterbridgeporttransit~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_positions": "http://placeholder.catenarymaps.org/",
+        "realtime_trip_updates": "http://placeholder.catenarymaps.org/",
+        "realtime_alerts": "http://placeholder.catenarymaps.org/"
+      }
     },
     {
       "id": "f-dre-berkshire~ma~us",
