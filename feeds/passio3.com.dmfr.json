@@ -75,7 +75,7 @@
       "id": "f-9mu-irvine~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://passio3.com/irvine/passioTransit/gtfs/google_transit.zip"
+        "static_current": "https://github.com/catenarytransit/irvine-connect-schedule-gtfs/releases/download/latest/gtfs.zip"
       },
       "operators": [
         {
