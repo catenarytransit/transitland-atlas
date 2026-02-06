@@ -972,7 +972,7 @@
         }
       ]
     },
-     {
+    {
       "id": "f-dr41-ceciltransit",
       "spec": "gtfs",
       "urls": {
@@ -1151,8 +1151,8 @@
       "id": "f-irvine~ca~us~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://passio3.com/irvine/passioTransit/gtfs/realtime/vehiclePositions",
-        "realtime_trip_updates": "https://passio3.com/irvine/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_vehicle_positions": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-irvine~ca~us~rt&feed_type=vehicle",
+        "realtime_trip_updates": "https://birch.catenarymaps.org/gtfs_rt?feed_id=f-irvine~ca~us~rt&feed_type=trip",
         "realtime_alerts": "https://passio3.com/irvine/passioTransit/gtfs/realtime/serviceAlerts"
       }
     },
