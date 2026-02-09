@@ -2,6 +2,14 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-societe~de~transport~de~trois-rivieres~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://st-troisrivieres-gtfsrt.civilia.ca/pb/vehiclePositions.pb",
+        "realtime_trip_updates": "https://st-troisrivieres-gtfsrt.civilia.ca/pb/tripUpdates.pb"
+      }
+    },
+    {
       "id": "f-societe~de~transport~de~trois-rivieres",
       "spec": "gtfs",
       "urls": {
@@ -21,7 +29,12 @@
           "onestop_id": "o-societe~de~transport~de~troisrivieres",
           "name": "Société de transport de Trois-Rivières",
           "short_name": "STTR",
-          "website": "https://sttr.qc.ca"
+          "website": "https://sttr.qc.ca",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-societe~de~transport~de~trois-rivieres~rt"
+            }
+          ]
         }
       ]
     }
