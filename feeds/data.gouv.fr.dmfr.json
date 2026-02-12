@@ -326,7 +326,7 @@
       "id": "f-baagcca~seau~baag~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/0a10e218-937c-4795-b9e7-c81533a38446"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/47ead4b7-dc95-41f0-916a-7411d9f6b79b"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
@@ -1854,7 +1854,7 @@
       "id": "f-tréma~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/ad03b8ed-b904-4c23-aa4d-7544ea531a67"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/2c2b58d3-e93b-47af-be7b-655520671cbc"
       },
       "license": {
         "url": "https://transport.data.gouv.fr/datasets/offre-de-transport-du-reseau-trema-gtfs"
