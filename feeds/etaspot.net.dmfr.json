@@ -5,7 +5,7 @@
       "id": "f-tracy~tracer",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://passio3.com/CityofTracy/passioTransit/gtfs/google_transit.zip",
+        "static_current": "http://s3.amazonaws.com/etatransit.gtfs/tracer.etaspot.net/gtfs.zip",
         "static_historic": [
           "https://www.cityoftracy.org/home/showpublisheddocument/17319/638442164296500000",
           "https://www.cityoftracy.org/home/showpublisheddocument/16626/638342536313270000",
