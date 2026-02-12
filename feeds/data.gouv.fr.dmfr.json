@@ -302,7 +302,7 @@
       "id": "f-autun~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/0fd67eb8-24a4-4ae0-b98b-b442f74244e1"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/b587f007-9b23-4b2a-a609-9368a4c2c490"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
