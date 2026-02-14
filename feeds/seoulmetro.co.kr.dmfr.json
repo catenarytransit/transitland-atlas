@@ -5,7 +5,7 @@
             "id": "f-seoulmetro",
             "spec": "gtfs",
             "urls": {
-                "static_current": "https://github.com/catenarytransit/seoulmetro-gtfs/releases/download/latest/gtfs.zip",
+                "static_current": "https://github.com/catenarytransit/seoulmetro-gtfs/releases/download/latest/gtfs.zip"
             },
             "operators": [
                 {
