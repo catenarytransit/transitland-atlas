@@ -1,0 +1,18 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+        {
+            "id": "f-seoulmetro",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://github.com/catenarytransit/seoulmetro-gtfs/releases/download/latest/gtfs.zip",
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-seoulmetro",
+                    "name": "수도권 전철"
+                }
+            ]
+        }
+    ]
+}
