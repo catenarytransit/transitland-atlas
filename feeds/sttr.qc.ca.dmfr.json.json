@@ -24,6 +24,9 @@
         "use_without_attribution": "no",
         "create_derived_product": "yes"
       },
+      "tags": {
+        "status": "outdated"
+      },
       "operators": [
         {
           "onestop_id": "o-societe~de~transport~de~troisrivieres",

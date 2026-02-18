@@ -1713,38 +1713,6 @@
     ]
   },
   {
-    "id": "f-bluefield~area~transit",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://drive.google.com/drive/folders/1Qy1YaFg3Q7ZWEoWk8D5sXP5DY0eHyGLR?usp=drive_link"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-bluefield~area~transit",
-        "name": "Bluefield Area Transit",
-        "tags": {
-          "us_ntd_id": "30121"
-        }
-      }
-    ]
-  },
-  {
-    "id": "f-warren~county~transit~authority",
-    "spec": "gtfs",
-    "urls": {
-      "static_current": "https://tawc.rideralerts.com/InfoPoint/gtfs-zip.ashx"
-    },
-    "operators": [
-      {
-        "onestop_id": "o-warren~county~transit~authority",
-        "name": "Warren County Transit Authority",
-        "tags": {
-          "us_ntd_id": "30124"
-        }
-      }
-    ]
-  },
-  {
     "id": "f-city~of~charlotte~north~carolina",
     "spec": "gtfs",
     "urls": {

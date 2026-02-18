@@ -85,7 +85,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91036",
+            "us_ntd_id": "91036",
             "wikidata_id": "Q5940414"
           }
         },
@@ -103,7 +103,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91093",
+            "us_ntd_id": "91093",
             "wikidata_id": "Q5411264"
           }
         },
@@ -137,7 +137,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91018",
+            "us_ntd_id": "91018",
             "wikidata_id": "Q4785261"
           }
         },
@@ -199,7 +199,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91097",
+            "us_ntd_id": "91097",
             "wikidata_id": "Q96401429"
           }
         }
@@ -237,7 +237,7 @@
           ],
           "tags": {
             "twitter_general": "estabus",
-            "us_ntd_id": "9R02-91062",
+            "us_ntd_id": "91062",
             "wikidata_id": "Q5330465"
           }
         }
@@ -329,7 +329,7 @@
           ],
           "tags": {
             "twitter_general": "KernTransit",
-            "us_ntd_id": "9R02-91059",
+            "us_ntd_id": "91059",
             "wikidata_id": "Q6394141"
           }
         }
@@ -439,7 +439,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91053",
+            "us_ntd_id": "91053",
             "wikidata_id": "Q6478146"
           }
         }
@@ -470,7 +470,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91047",
+            "us_ntd_id": "91047",
             "wikidata_id": "Q6816698"
           }
         }
@@ -594,7 +594,7 @@
           ],
           "tags": {
             "twitter_general": "NevadaCountyCA",
-            "us_ntd_id": "9R02-91095"
+            "us_ntd_id": "91095"
           }
         }
       ]
@@ -623,34 +623,8 @@
           ],
           "tags": {
             "twitter_general": "rideyarts",
-            "us_ntd_id": "9R02-91070",
+            "us_ntd_id": "91070",
             "wikidata_id": "Q8055918"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-9qdc-clovistransit~ca~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/clovistransit-ca-us/clovistransit-ca-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9qdc-clovistransit",
-          "name": "Clovis Transit",
-          "website": "https://clovistransit.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "971"
-            }
-          ],
-          "tags": {
-            "twitter_general": "clovistransit"
           }
         }
       ]
@@ -701,7 +675,7 @@
           ],
           "tags": {
             "twitter_general": "amadortransit",
-            "us_ntd_id": "9R02-91000",
+            "us_ntd_id": "91000",
             "wikidata_id": "Q13429190"
           }
         }
@@ -769,7 +743,7 @@
           ],
           "tags": {
             "twitter_general": "areatahoe",
-            "us_ntd_id": "9R02-91101"
+            "us_ntd_id": "91101"
           }
         }
       ]
@@ -860,7 +834,7 @@
           ],
           "tags": {
             "twitter_general": "bullheadinfo",
-            "us_ntd_id": "9R01-91037"
+            "us_ntd_id": "91037"
           }
         }
       ]
@@ -887,7 +861,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91008"
+            "us_ntd_id": "91008"
           }
         }
       ]
@@ -923,7 +897,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91035",
+            "us_ntd_id": "91035",
             "wikidata_id": "Q7842993"
           }
         }
@@ -964,7 +938,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91089"
+            "us_ntd_id": "91089"
           }
         }
       ]
@@ -994,7 +968,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91048"
+            "us_ntd_id": "91048"
           }
         }
       ]
@@ -1053,7 +1027,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91119"
+            "us_ntd_id": "91119"
           }
         }
       ]
@@ -1225,7 +1199,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R01-91010"
+            "us_ntd_id": "91010"
           }
         }
       ]
@@ -1552,7 +1526,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "7R01-70092"
+            "us_ntd_id": "70092"
           }
         }
       ]
@@ -1579,7 +1553,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "7R01-70242",
+            "us_ntd_id": "70242",
             "wikidata_id": "Q7110024"
           }
         },
@@ -1705,7 +1679,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "7R01-70111"
+            "us_ntd_id": "70111"
           }
         }
       ]
@@ -1733,7 +1707,7 @@
           ],
           "tags": {
             "twitter_general": "CityofMuscatine",
-            "us_ntd_id": "7R01-70101"
+            "us_ntd_id": "70101"
           }
         }
       ]
@@ -1760,7 +1734,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "7R01-70173"
+            "us_ntd_id": "70173"
           }
         }
       ]
@@ -1788,7 +1762,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "7R01-70108"
+            "us_ntd_id": "70108"
           }
         }
       ]
@@ -1816,7 +1790,7 @@
           ],
           "tags": {
             "twitter_general": "masoncityiowa",
-            "us_ntd_id": "7R01-70260"
+            "us_ntd_id": "70260"
           }
         }
       ]
@@ -1851,6 +1825,24 @@
       }
     },
     {
+      "id": "f-alexandria~va~us~paratransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/cityofalexandria-va-us/cityofalexandria-va-us--flex-v2.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-alexandria~va~us~paratransit",
+          "name": "City of Alexandria Paratransit",
+          "short_name": "DOT",
+          "website": "https://www.alexandriava.gov/Paratransit",
+          "tags": {
+            "us_ntd_id": "30071"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-allpointstransit~co~us",
       "spec": "gtfs",
       "urls": {
@@ -1872,7 +1864,7 @@
           ],
           "tags": {
             "twitter_general": "AllPntsTransit",
-            "us_ntd_id": "8R01-88215"
+            "us_ntd_id": "88215"
           }
         }
       ]
@@ -2027,7 +2019,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "3R06-30172"
+            "us_ntd_id": "30172"
           }
         }
       ]
@@ -2103,7 +2095,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "8R01-88229"
+            "us_ntd_id": "88229"
           }
         }
       ]
@@ -2166,7 +2158,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "8R01-80119"
+            "us_ntd_id": "80119"
           }
         }
       ]
@@ -2282,7 +2274,7 @@
           ],
           "tags": {
             "twitter_general": "breckfreeride",
-            "us_ntd_id": "8R01-80170"
+            "us_ntd_id": "80170"
           }
         },
         {
@@ -2475,7 +2467,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "0R04-00358"
+            "us_ntd_id": "00358"
           }
         }
       ]
@@ -2498,7 +2490,7 @@
           "onestop_id": "o-c20-wahkiakumonthemove",
           "name": "Wahkiakum on the Move",
           "tags": {
-            "us_ntd_id": "0R03-00371"
+            "us_ntd_id": "00371"
           }
         }
       ]
@@ -2580,7 +2572,7 @@
           ],
           "tags": {
             "twitter_general": "masontransit",
-            "us_ntd_id": "0R03-00315",
+            "us_ntd_id": "00315",
             "wikidata_id": "Q20712385"
           }
         }
@@ -2608,7 +2600,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "0R03-00287"
+            "us_ntd_id": "00287"
           }
         }
       ]
@@ -2680,7 +2672,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "0R03-00298",
+            "us_ntd_id": "00298",
             "wikidata_id": "Q16980701"
           }
         }
@@ -2711,7 +2703,7 @@
           ],
           "tags": {
             "twitter_general": "cbjuneau",
-            "us_ntd_id": "0R04-00391",
+            "us_ntd_id": "00391",
             "wikidata_id": "Q5035680"
           }
         }
@@ -2739,7 +2731,7 @@
           ],
           "tags": {
             "twitter_general": "ridestreamline",
-            "us_ntd_id": "8R02-80235"
+            "us_ntd_id": "80235"
           }
         }
       ]
@@ -2998,7 +2990,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "8R01-80275"
+            "us_ntd_id": "80275"
           }
         }
       ]
@@ -3103,7 +3095,7 @@
           ],
           "tags": {
             "twitter_general": "city_of_keywest",
-            "us_ntd_id": "4R02-41060"
+            "us_ntd_id": "41060"
           }
         }
       ]
@@ -3360,7 +3352,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "4R04-40948"
+            "us_ntd_id": "40948"
           }
         }
       ]
@@ -3434,29 +3426,6 @@
       ]
     },
     {
-      "id": "f-dnrug-duke~nc~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/duke-nc-us/duke-nc-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dnrug-duketransit",
-          "name": "Duke Transit",
-          "website": "https://parking.duke.edu/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "240"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-dnwe-pulaski~va~us",
       "spec": "gtfs",
       "urls": {
@@ -3481,7 +3450,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "3R06-30115"
+            "us_ntd_id": "30115"
           }
         }
       ]
@@ -3507,7 +3476,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "3R06-30178"
+            "us_ntd_id": "30178"
           }
         }
       ]
@@ -3844,7 +3813,7 @@
           "tags": {
             "twitter_general": "PeterPanBus",
             "twitter_service_alerts": "peterpanalerts",
-            "us_ntd_id": "1R02-10157",
+            "us_ntd_id": "10157",
             "wikidata_id": "Q204807"
           }
         }
@@ -3972,7 +3941,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R06-10151",
+            "us_ntd_id": "10151",
             "wikidata_id": "Q5602891"
           }
         }
@@ -4163,7 +4132,7 @@
           "website": "https://www.vineyardtransit.com/",
           "tags": {
             "twitter_general": "VTA_MV",
-            "us_ntd_id": "1R02-10145",
+            "us_ntd_id": "10145",
             "wikidata_id": "Q20715059"
           }
         }
@@ -4365,7 +4334,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R02-10162",
+            "us_ntd_id": "10162",
             "wikidata_id": "Q6964378"
           }
         }
@@ -4432,7 +4401,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R06-10154",
+            "us_ntd_id": "10154",
             "wikidata_id": "Q6755227"
           }
         }
@@ -4522,7 +4491,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R06-10144",
+            "us_ntd_id": "10144",
             "wikidata_id": "Q28448928"
           }
         },
@@ -4539,7 +4508,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R06-10144",
+            "us_ntd_id": "10144",
             "wikidata_id": "Q28448928"
           }
         }
@@ -4828,7 +4797,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "1R06-10148",
+            "us_ntd_id": "10148",
             "wikidata_id": "Q7380490"
           }
         }
@@ -5086,7 +5055,7 @@
           "onestop_id": "o-four~county~transit~va~us",
           "name": "Four County Transit",
           "tags": {
-            "us_ntd_id": "3R06-30174"
+            "us_ntd_id": "30174"
           }
         }
       ]
@@ -5645,7 +5614,7 @@
           ],
           "tags": {
             "twitter_general": "maderacounty",
-            "us_ntd_id": "9R02-91005"
+            "us_ntd_id": "91005"
           }
         }
       ]
@@ -5834,7 +5803,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "8R01-80256"
+            "us_ntd_id": "80256"
           }
         }
       ]
@@ -5877,7 +5846,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "9R02-91020",
+            "us_ntd_id": "91020",
             "wikidata_id": "Q6986643"
           }
         }
@@ -5926,10 +5895,26 @@
     },
     {
       "id": "f-ocpt~nc~us",
+      "supersedes_ids": [
+        "f-dnr-orangecountync"
+      ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/ocpt-nc-us/ocpt-nc-us.zip"
-      }
+        "static_current": "https://data.trilliumtransit.com/gtfs/ocpt-nc-us/ocpt-nc-us.zip",
+        "static_historic": [
+          "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11645/GTFS-TRIPS_93684d71_2024-02-19-18-41-06.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dnr-orangecountync",
+          "name": "Orange County Public Transportation",
+          "website": "https://www.orangecountync.gov/3117/Public-Transit",
+          "tags": {
+            "us_ntd_id": "40231"
+          }
+        }
+      ]
     },
     {
       "id": "f-omnibus~co~us~flex",
@@ -6469,7 +6454,7 @@
           ],
           "tags": {
             "twitter_general": "SummitCountyGov",
-            "us_ntd_id": "8R01-80161"
+            "us_ntd_id": "80161"
           }
         }
       ]
@@ -6533,7 +6518,7 @@
             }
           ],
           "tags": {
-            "us_ntd_id": "8R01-88226"
+            "us_ntd_id": "88226"
           }
         }
       ]
@@ -6704,7 +6689,7 @@
           "website": "https://twintransit.org",
           "tags": {
             "twitter_general": "TwinTransit",
-            "us_ntd_id": "0R03-00364",
+            "us_ntd_id": "00364",
             "wikidata_id": "Q7858323"
           }
         }

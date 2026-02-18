@@ -7,6 +7,7 @@
       "urls": {
         "static_current": "https://kd.kiedyprzyjedzie.pl/gtfs/kd_catenarymaps/google_transit.zip",
         "static_historic": [
+          "https://gtfs.i.kiedyprzyjedzie.pl/kd/google_transit.zip",
           "https://mkuran.pl/gtfs/kolejedolnoslaskie.zip"
         ]
       },
