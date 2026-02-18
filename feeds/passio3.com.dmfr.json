@@ -1241,7 +1241,6 @@
       ]
     },
     {
-<<<<<<< HEAD
       "id": "f-dr41-ceciltransit",
       "spec": "gtfs",
       "urls": {
@@ -1283,18 +1282,6 @@
     },
     {
       "id": "f-eastern~virginia~medical~school",
-=======
-      "id": "f-dr1b-harfordtransitlink~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://passio3.com/harford/passioTransit/gtfs/realtime/vehiclePositions",
-        "realtime_trip_updates": "https://passio3.com/harford/passioTransit/gtfs/realtime/tripUpdates",
-        "realtime_alerts": "https://passio3.com/harford/passioTransit/gtfs/realtime/serviceAlerts"
-      }
-    },
-    {
-      "id": "f-dr41-ceciltransit",
->>>>>>> 0c1376dc998aafbb3bb12019b28ee51e32c833a7
       "spec": "gtfs",
       "urls": {
         "static_current": "https://passio3.com/cecil/passioTransit/gtfs/google_transit.zip",

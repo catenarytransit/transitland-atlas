@@ -10,14 +10,7 @@
       ],
       "spec": "gtfs",
       "urls": {
-<<<<<<< HEAD
         "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/sncf_pfaedle.zip"
-=======
-        "static_current": "https://eu.ftp.opendatasoft.com/sncf/plandata/Export_OpenData_SNCF_GTFS_NewTripId.zip",
-        "static_historic": [
-          "https://eu.ftp.opendatasoft.com/sncf/plandata/export-opendata-sncf-gtfs.zip"
-        ]
->>>>>>> 0c1376dc998aafbb3bb12019b28ee51e32c833a7
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
