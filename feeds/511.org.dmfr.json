@@ -397,7 +397,10 @@
       "id": "f-9qbb-marintransit",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://marintransit.org/data/google_transit.zip"
+        "static_current": "https://marintransit.gov/data/google_transit.zip",
+        "static_historic": [
+          "https://marintransit.org/data/google_transit.zip"
+        ]
       },
       "tags": {
         "exclude_from_global_query": "true",
@@ -1190,6 +1193,7 @@
       "onestop_id": "o-9qbb-marintransit",
       "name": "Marin County Transit District",
       "short_name": "Marin Transit",
+      "website": "https://marintransit.gov",
       "associated_feeds": [
         {
           "feed_onestop_id": "f-9qbb-marintransit"
@@ -1408,7 +1412,7 @@
       ],
       "tags": {
         "twitter_general": "cityofriovista",
-        "us_ntd_id": "9R02-91014",
+        "us_ntd_id": "91014",
         "wikidata_id": "Q7335361"
       }
     },
