@@ -2,10 +2,19 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-anne~arundel~county~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/AnneC/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/AnneC/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/AnneC/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
       "id": "f-anne~arundel~county",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.aacounty.org/gtfs"
+        "static_current": "https://passio3.com/AnneC/passioTransit/gtfs/google_transit.zip"
       },
       "operators": [
         {
@@ -14,9 +23,14 @@
           "website": "https://www.aacounty.org/transportation/transit",
           "tags": {
             "us_ntd_id": "30129"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-anne~arundel~county~rt"
+            }
+          ]
         }
       ]
-    }
+    },
   ]
 }
