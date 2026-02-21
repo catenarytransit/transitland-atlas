@@ -36,6 +36,15 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-dp8d-jts~wi~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/janesville/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/janesville/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/janesville/passioTransit/gtfs/realtime/serviceAlerts"
+      }
     }
   ]
 }
