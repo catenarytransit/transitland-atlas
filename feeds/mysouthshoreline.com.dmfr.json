@@ -5,7 +5,7 @@
       "id": "f-northern~indiana~commuter~transportation~district",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/nictd-gtfs/raw/refs/heads/gh-pages/gtfs.zip"
+        "static_current": "https://catenarytransit.github.io/nictd-gtfs/trunk/gtfs.zip"
       },
       "operators": [
         {
@@ -21,6 +21,10 @@
             },
             {
               "feed_onestop_id": "f-northern~indiana~commuter~transportation~district~catenary~alerts~rt"
+            },
+            {
+              "feed_onestop_id": "f-northern~indiana~commuter~transportation~district~st~patricks~day",
+              "gtfs_agency_id": "NICTD"
             }
           ],
           "tags": {
@@ -30,6 +34,13 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-northern~indiana~commuter~transportation~district~st~patricks~day",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://catenarytransit.github.io/nictd-gtfs/st-patricks-day/gtfs_20260314.zip"
+      }
     },
     {
       "id": "f-northern~indiana~commuter~transportation~district~rt",
