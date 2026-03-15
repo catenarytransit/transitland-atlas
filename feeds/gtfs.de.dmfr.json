@@ -24,6 +24,14 @@
       }
     },
     {
+      "id": "f-delfi~de~motis~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://germany.motis-project.org/gtfsrt",
+        
+      }
+    },
+    {
       "id": "f-tlms~rt",
       "spec": "gtfs-rt",
       "urls": {
@@ -58,6 +66,9 @@
         },
         {
           "feed_onestop_id": "f-delfi~de~rt"
+        },
+        {
+          "feed_onestop_id": "f-delfi~de~motis~rt"
         }
       ]
     }
