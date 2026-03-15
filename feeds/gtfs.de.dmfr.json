@@ -27,8 +27,7 @@
       "id": "f-delfi~de~motis~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_trip_updates": "https://germany.motis-project.org/gtfsrt",
-        
+        "realtime_trip_updates": "https://germany.motis-project.org/gtfsrt"
       }
     },
     {
