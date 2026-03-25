@@ -8,7 +8,7 @@
       ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://foothill_3rdparty.rideralerts.com/myStop/GTFS-Zip.ashx",
+        "static_current": "https://foothilltransit.rideralerts.com/myStop/gtfs-zip.ashx",
         "static_historic": [
           "http://foothilltransit.org/gtfs/foothilltransit-ca-us.zip"
         ]
