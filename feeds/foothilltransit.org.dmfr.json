@@ -42,9 +42,9 @@
       "id": "f-foothilltransit~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://ca-gtfsfeedprovider-fh.blackmeadow-c24d90a5.eastus.azurecontainerapps.io/GtfsProtoBuf?FeedLabel=foothill&FeedType=VehiclePositions",
-        "realtime_trip_updates": "https://ca-gtfsfeedprovider-fh.blackmeadow-c24d90a5.eastus.azurecontainerapps.io/GtfsProtoBuf?FeedLabel=foothill&FeedType=TripUpdates",
-        "realtime_alerts": "https://ca-gtfsfeedprovider-fh.blackmeadow-c24d90a5.eastus.azurecontainerapps.io/GtfsProtoBuf?FeedLabel=foothill&FeedType=Alerts"
+        "realtime_vehicle_positions": "https://gtfs-rt.myavail.cloud/GtfsProtoBuf?FeedLabel=Foothill&FeedType=VehiclePositions",
+        "realtime_trip_updates": "https://gtfs-rt.myavail.cloud/GtfsProtoBuf?FeedLabel=Foothill&FeedType=TripUpdates",
+        "realtime_alerts": "https://gtfs-rt.myavail.cloud/GtfsProtoBuf?FeedLabel=Foothill&FeedType=Alerts"
       },
       "license": {
         "url": "http://foothilltransit.org/about/developer-resources/developer-license-agreement/"
