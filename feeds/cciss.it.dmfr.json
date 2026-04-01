@@ -1,0 +1,43 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+        {
+            "id": "f-trenitalia~netex",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/trenitalia_gtfs.zip"
+            }
+        }
+    ],
+    "operators": [
+        {
+            "onestop_id": "o-s-trenitalia",
+            "supersedes_ids": [
+                "o-u0j-trenitalia"
+            ],
+            "name": "Trenitalia",
+            "website": "http://www.trenitalia.it",
+            "associated_feeds": [
+                {
+                    "gtfs_agency_id": "IT_IT14_Operator_05403151003_0083_0",
+                    "feed_onestop_id": "f-6615-trenitalialazio"
+                },
+                {
+                    "feed_onestop_id": "f-sp-trenitaliaspa"
+                },
+                {
+                    "feed_onestop_id": "f-trenitalia~netex"
+                },
+                {
+                    "feed_onestop_id": "f-spn-trenitalia"
+                },
+                {
+                    "feed_onestop_id": "f-u0j-trenitalia"
+                }
+            ],
+            "tags": {
+                "wikidata_id": "Q286650"
+            }
+        }
+    ]
+}
