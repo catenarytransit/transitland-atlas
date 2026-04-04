@@ -1,16 +1,4 @@
 {
-<<<<<<< HEAD
-    "feeds": [
-        {
-            "id": "f-vivi-lv",
-            "spec": "gtfs",
-            "urls": {
-                "static_current": "https://vivi.lv/uploads/GTFS.zip"
-            }
-        }
-    ]
-}
-=======
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
@@ -28,4 +16,3 @@
     }
   ]
 }
->>>>>>> eadfe8686e15976f92f9f892b70fa0357311d713
