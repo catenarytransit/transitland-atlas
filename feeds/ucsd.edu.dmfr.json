@@ -1,0 +1,31 @@
+{
+    "feeds": [
+        {
+            "id": "f-ucsd~triton~transit",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://rmp-wapps.ucsd.edu/Shuttles-GTFS/GTFS-rt/tritontransit-ca-us.zip"
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-ucsd~triton~transit",
+                    "name": "UCSD Triton Transit",
+                    "associated_feeds": [
+                        {
+                            "feed_onestop_id": "f-ucsd~triton~transit~rt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f-ucsd~triton~transit~rt",
+            "spec": "gtfs-rt",
+            "urls": {
+                "realtime_vehicle_positions": "https://rmp-wapps.ucsd.edu/Shuttles-GTFS/GTFS-rt/VehiclePositions.pb",
+                "realtime_trip_updates": "https://rmp-wapps.ucsd.edu/Shuttles-GTFS/GTFS-rt/TripUpdates.pb",
+                "realtime_alerts": "https://rmp-wapps.ucsd.edu/Shuttles-GTFS/GTFS-rt/Alerts.pb"
+            }
+        }
+    ]
+}
