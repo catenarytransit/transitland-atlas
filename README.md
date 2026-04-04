@@ -90,7 +90,7 @@ Rules for Onestop IDs in this repository:
 
 - Feeds start with `f-` and operators start with `o-`
 - Geohash part is optional
-- Name can include any alphanumeric characters in UTF-8
+- Name can include any text unicode characters in UTF-8. This is a divergent feature of this repository vs the upstream fork by Transitland which only allows alphanumeric characters.
 - The only separation or punctuation character allowed in the name component is a tilde (`~`)
 
 ## Enriching Transitland Atlas with external reference data
