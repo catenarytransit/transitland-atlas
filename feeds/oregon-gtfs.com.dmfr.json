@@ -197,26 +197,6 @@
       ]
     },
     {
-      "id": "f-9r88-rogue~valley~transportation~district",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/rvtd-or-us/rvtd-or-us.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-9r88-rogue~valley~transportation~district",
-          "name": "Rogue Valley Transportation District",
-          "short_name": "RVTD",
-          "website": "https://rvtd.org/",
-          "tags": {
-            "twitter_general": "ridervtd",
-            "us_ntd_id": "00034",
-            "wikidata_id": "Q7359553"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-9r8m-umpquatransit~or~us",
       "spec": "gtfs",
       "urls": {
@@ -370,6 +350,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "184"
+            },
+            {
+              "gtfs_agency_id": "46",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -423,6 +407,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "187"
+            },
+            {
+              "gtfs_agency_id": "16",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         }
@@ -537,6 +525,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "47"
+            },
+            {
+              "gtfs_agency_id": "67",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -1228,6 +1220,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "45"
+            },
+            {
+              "gtfs_agency_id": "19",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         }

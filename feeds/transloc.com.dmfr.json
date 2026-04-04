@@ -967,6 +967,26 @@
       ]
     },
     {
+      "id": "f-spartanburg~sc~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://cityofspartanburg.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx",
+        "static_historic": [
+          "https://api.tost.app/v1/gtfs/download?agencyId=9cde559d-1a95-4baa-8070-cffd2bde0007"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-spartanburg~sc~us",
+          "name": "City of Spartanburg",
+          "website": "https://www.cityofspartanburg.org/296/Public-Transportation",
+          "tags": {
+            "us_ntd_id": "40101"
+          }
+        }
+      ]
+    },
+    {
       "id": "f-ssabus~ma~us",
       "spec": "gtfs",
       "urls": {
@@ -1170,6 +1190,19 @@
         {
           "onestop_id": "o-uva~hsts",
           "name": "University of Virginia Health"
+        }
+      ]
+    },
+    {
+      "id": "f-west~chester~university~pa~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://wcupa.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-west~chester~university~pa~us",
+          "name": "West Chester University Campus Shuttles"
         }
       ]
     },

@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "feeds": [
         {
             "id": "f-vivi-lv",
@@ -9,3 +10,22 @@
         }
     ]
 }
+=======
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-pv~lv",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.vivi.lv/uploads/GTFS.zip",
+        "static_historic": [
+          "https://www.pv.lv/xml/atdtransit/GTFS.zip"
+        ]
+      },
+      "license": {
+        "url": "https://www.vivi.lv/lv/sadarbiba/atvertie-dati/"
+      }
+    }
+  ]
+}
+>>>>>>> eadfe8686e15976f92f9f892b70fa0357311d713

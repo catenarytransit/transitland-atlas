@@ -1,3 +1,5 @@
+#!/usr/bin/env -S uv run --script
+
 import subprocess
 import sys
 import os
@@ -6,6 +8,13 @@ import json
 import glob
 
 fail_the_build = False
+
+# check that all files in feeds/ have a .dmfr.json extension
+all_feed_files = glob.glob("../feeds/*")
+for file_path in all_feed_files:
+    if os.path.isfile(file_path) and not file_path.endswith(".dmfr.json"):
+        print(f"ERROR: {file_path} does not have a .dmfr.json extension (all files under feeds/ must end in .dmfr.json)")
+        fail_the_build = True
 
 # validate DMFR schema version consistency
 # Get schema version from environment variable, default to v0.6.0

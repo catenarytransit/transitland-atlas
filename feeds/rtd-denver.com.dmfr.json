@@ -35,6 +35,10 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-denver~rtd~bustang~rt"
+            },
+            {
+              "gtfs_agency_id": "66",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         }
@@ -49,6 +53,13 @@
       },
       "license": {
         "url": "https://www.rtd-denver.com/business-center/open-spatial-data/gtfs-realtime-license-agreement"
+      }
+    },
+    {
+      "id": "f-denver~rtd~flex",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://www.rtd-denver.com/files/gtfs/google_transit_flex.zip"
       }
     },
     {
@@ -67,11 +78,14 @@
   "operators": [
     {
       "onestop_id": "o-9xj-regionaltransportationdistrict",
-      "name": "Regional Transportation District",
+      "name": "Denver Regional Transportation District",
       "short_name": "RTD",
       "associated_feeds": [
         {
           "feed_onestop_id": "f-9xj-rtd"
+        },
+        {
+          "feed_onestop_id": "f-denver~rtd~flex"
         },
         {
           "feed_onestop_id": "f-rtddenver~rt"

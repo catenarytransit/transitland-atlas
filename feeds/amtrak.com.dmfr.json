@@ -3,6 +3,9 @@
   "feeds": [
     {
       "id": "f-9-amtrak~amtrakcalifornia~amtrakcharteredvehicle",
+      "supersedes_ids": [
+        "f-drk-wwwshorelineeastcom"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://github.com/catenarytransit/amtrak-schedule-fixer/releases/download/latest/amtrak-gtfs-fixed.zip",
@@ -125,6 +128,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "16"
+            },
+            {
+              "gtfs_agency_id": "18",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         },
@@ -134,6 +141,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "155"
+            },
+            {
+              "gtfs_agency_id": "3",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -147,6 +158,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "196"
+            },
+            {
+              "gtfs_agency_id": "59",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -170,6 +185,10 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "112"
+            },
+            {
+              "gtfs_agency_id": "53",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         },
@@ -180,11 +199,32 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "108"
+            },
+            {
+              "gtfs_agency_id": "34",
+              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
             "twitter_general": "martztrailways",
             "wikidata_id": "Q42377159"
+          }
+        },
+        {
+          "onestop_id": "o-drk-shorelineeast",
+          "name": "Shore Line East",
+          "short_name": "SLE",
+          "website": "http://www.shorelineeast.com/",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "1230"
+            }
+          ],
+          "tags": {
+            "developer_site": "https://www.cttransit.com/about/developers",
+            "twitter_general": "ShoreLineEast",
+            "us_ntd_id": "10102",
+            "wikidata_id": "Q7501304"
           }
         }
       ]
