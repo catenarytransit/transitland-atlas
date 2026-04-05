@@ -1231,12 +1231,33 @@
       "id": "f-semop~seau~rezo~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/777bdff5-01ee-4f45-aaed-177cbca9a087"
+        "static_current": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs/pub"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
         "url": "https://transport.data.gouv.fr/datasets/reseau-urbain-caux-seine-mobilite-rezobus",
         "share_alike_optional": "no"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-semop~seau~rezo~fr",
+          "name": "Caux Seine Agglo - Rezobus",
+          "website": "https://transports.cauxseine.fr/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-semop~seau~rezo~fr~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-semop~seau~rezo~fr~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
+        "realtime_trip_updates": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt",
+        "realtime_alerts": "https://app.pysae.com/api/v4/groups/caux-seine-agglo/gtfs-rt"
       }
     },
     {
