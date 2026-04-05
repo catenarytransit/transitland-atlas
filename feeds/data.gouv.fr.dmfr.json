@@ -123,14 +123,14 @@
       "id": "f-capa~muvitarra~corse~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/3f08460c-8ec7-4b9e-a244-8855292b9e24"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/5021a054-43c8-49b7-9166-832f2af6c8f0"
       }
     },
     {
       "id": "f-a~balanina~corse~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/97dffc79-5284-4da7-b4f0-6dcea3b53f01"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/f88c086a-4fe1-4af1-a027-f809d4422b65"
       }
     },
     {

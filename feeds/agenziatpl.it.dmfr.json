@@ -43,7 +43,7 @@
       "id": "f-movibus~srl",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/n7kERAaGMqfJwDJ/download/2025-10-17_Movibus.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/awc5jWSoEmdxA7c/download/2026-03-06_Movibus.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/awfA3t8jy3D46dM",
           "https://usbshare.agenziatpl.it/index.php/s/sQagm5K9qnnodjM",
@@ -59,7 +59,7 @@
       "id": "f-net~nord~est~trasporti",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/sNoDQbfM3c5wxdn/download/2025-10-10_NET.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/K3KETNoyT6C6moz/download/2026-02-20_NET.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/Ps6wzT2aqEQk64r/download",
           "https://usbshare.agenziatpl.it/index.php/s/XFHHHckZCs96XyR",
@@ -76,7 +76,7 @@
       "id": "f-stav~spa",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://usbshare.agenziatpl.it/index.php/s/d9pCjM5rJiBCzcD/download/2025-09-30_STAV.zip",
+        "static_current": "https://usbshare.agenziatpl.it/index.php/s/38n2e7DAKdFTapn/download/2026-01-30_STAV.zip",
         "static_historic": [
           "https://usbshare.agenziatpl.it/index.php/s/T6WcmLD523eFEDZ",
           "https://usbshare.agenziatpl.it/index.php/s/7TrBKenKYt9abnH/download"
