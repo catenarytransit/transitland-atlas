@@ -21,17 +21,15 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-omniride~va~us~flex"
+            },
+            {
+              "feed_onestop_id": "f-omniride~rt"
             }
           ],
           "tags": {
             "us_ntd_id": "30070",
             "wikidata_id": "Q7235095"
-          },
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-omniride~rt"
-            }
-          ]
+          }
         }
       ]
     },
