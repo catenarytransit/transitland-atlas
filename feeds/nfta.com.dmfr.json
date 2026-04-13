@@ -22,6 +22,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-dpx-wwwnftacom~rail"
+            },
+            {
+              "feed_onestop_id": "f-dpx-wwwnftacom~realtime"
             }
           ],
           "tags": {
@@ -40,6 +43,15 @@
       },
       "license": {
         "url": "https://metro.nfta.com/contact-us/developer-tools"
+      }
+    },
+    {
+      "id": "f-dpx-wwwnftacom~realtime",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://gtfsr.nfta.com/api/tripupdates?format=gtfs.proto",
+        "realtime_vehicle_positions": "https://gtfsr.nfta.com/api/vehiclepositions?format=gtfs.proto",
+        "realtime_alerts": "https://gtfsr.nfta.com/api/servicealerts?format=gtfs.prot"
       }
     }
   ]
