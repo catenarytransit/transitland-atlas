@@ -25,16 +25,14 @@
       "id": "f-buenosaires~colectivos",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://apitransporte.buenosaires.gob.ar/colectivos/feed-gtfs?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
-      },
-      "license": {
-        "url": "https://api-transporte.buenosaires.gob.ar/console"
+        "static_current": "https://github.com/ethanc8/buenos-aires-colectivos-gtfs/releases/download/latest/gtfs.zip"
       }
     },
     {
       "id": "f-buenosaires~colectivos~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_trip_updates": "https://apitransporte.buenosaires.gob.ar/colectivos/tripUpdates?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147",
         "realtime_vehicle_positions": "https://apitransporte.buenosaires.gob.ar/colectivos/vehiclePositions?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147",
         "realtime_alerts": "https://apitransporte.buenosaires.gob.ar/colectivos/serviceAlerts?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
       },
