@@ -25,10 +25,7 @@
       "id": "f-buenosaires~colectivos",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://apitransporte.buenosaires.gob.ar/colectivos/feed-gtfs?client_id=cb06cd7ce48946838040ee1b0d43cccd&client_secret=c1f92D4fC8cf4ad3AafbDabE92756147"
-      },
-      "license": {
-        "url": "https://api-transporte.buenosaires.gob.ar/console"
+        "static_current": "https://github.com/ethanc8/buenos-aires-colectivos-gtfs/releases/download/latest/gtfs.zip"
       }
     },
     {
