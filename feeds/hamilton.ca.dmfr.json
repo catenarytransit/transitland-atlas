@@ -30,7 +30,8 @@
           "tags": {
             "wikidata_id": "Q3126462"
           },
-          "associated_feeds": {
+          "associated_feeds": [
+            {
             "onestop_feed_id": "f-dpxj-hamiltonstreetrailway~rt"
           }
         }
