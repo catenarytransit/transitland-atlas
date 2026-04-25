@@ -29,6 +29,9 @@
           "website": "http://www.hamilton.ca/hsr",
           "tags": {
             "wikidata_id": "Q3126462"
+          },
+          "associated_feeds": {
+            "onestop_feed_id": "f-dpxj-hamiltonstreetrailway~rt"
           }
         }
       ]
