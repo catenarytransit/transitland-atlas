@@ -11,7 +11,6 @@ An open catalog of transit/mobility data feeds and operators. This will merge in
 <!-- TOC created and updated by VSCode Markdown All in One extension -->
 - [Feeds](#feeds)
 - [How to Add a New Feed](#how-to-add-a-new-feed)
-- [Opinionated DMFR file format](#opinionated-dmfr-file-format)
 - [How to Update an Existing Feed](#how-to-update-an-existing-feed)
 - [Operators](#operators)
 - [Onestop IDs](#onestop-ids)
