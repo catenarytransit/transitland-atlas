@@ -10,6 +10,16 @@
       "license": {
         "url": "https://github.com/croyla/pmpml-gtfs"
       }
+    },
+    {
+      "id": "f-mumbai~croyla",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/croyla/mumbai-gtfs/raw/main/gtfs_compat.zip"
+      },
+      "license": {
+        "url": "https://github.com/croyla/mumbai-gtfs"
+      }
     }
   ],
   "operators": [
@@ -20,6 +30,36 @@
         {
           "gtfs_agency_id": "PMPML",
           "feed_onestop_id": "f-pune~pmpml"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-mumbai~kdmt",
+      "name": "Kalyan Dombivali Municipal Transport",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "KDMT",
+          "feed_onestop_id": "f-mumbai~croyla"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-mumbai~tmt",
+      "name": "Thane Municipal Transport",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "TMT",
+          "feed_onestop_id": "f-mumbai~croyla"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-mumbai~best",
+      "name": "Brihanmumbai Electric Supply and Transport",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "BEST",
+          "feed_onestop_id": "f-mumbai~croyla"
         }
       ]
     }
