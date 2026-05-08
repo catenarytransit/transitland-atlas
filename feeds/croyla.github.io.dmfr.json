@@ -20,6 +20,36 @@
       "license": {
         "url": "https://github.com/croyla/mumbai-gtfs"
       }
+    },
+    {
+      "id": "f-ahmedabad~croyla",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/croyla/amd-gtfs/raw/main/gtfs_compat.zip"
+      },
+      "license": {
+        "url": "https://github.com/croyla/amd-gtfs"
+      }
+    },
+    {
+      "id": "f-rajkot~rrl",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/croyla/rrl-gtfs/raw/main/gtfs_compat.zip"
+      },
+      "license": {
+        "url": "https://github.com/croyla/rrl-gtfs"
+      }
+    },
+    {
+      "id": "f-hubli~dharwad~hdbrts",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/croyla/hdbrts-gtfs/raw/main/gtfs_compat.zip"
+      },
+      "license": {
+        "url": "https://github.com/croyla/hdbrts-gtfs"
+      }
     }
   ],
   "operators": [
@@ -60,6 +90,46 @@
         {
           "gtfs_agency_id": "BEST",
           "feed_onestop_id": "f-mumbai~croyla"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-ahmedabad~amts",
+      "name": "Ahmedabad Municipal Transport Services",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "AMTS",
+          "feed_onestop_id": "f-ahmedabad~croyla"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-ahmedabad~ajl",
+      "name": "Ahmedabad Janmarg Limited",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "AJL",
+          "feed_onestop_id": "f-ahmedabad~croyla"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-rajkot~rrl",
+      "name": "Rajkot Rajpath Limited",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "AJL",
+          "feed_onestop_id": "f-rajkot~rrl"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-hubli~dharwad~hdbrts",
+      "name": "Hubli-Dharwad Bus Rapid Transit System Company Limited",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "HDBRTS",
+          "feed_onestop_id": "f-hubli~dharwad~hdbrts"
         }
       ]
     }
