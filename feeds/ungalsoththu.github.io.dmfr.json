@@ -1,0 +1,47 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-chennai~mtc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ungalsoththu/ChennaiGTFS/raw/main/data/mtc-gtfs.zip"
+      },
+      "license": {
+        "url": "https://github.com/ungalsoththu/ChennaiGTFS"
+      }
+    },
+    {
+      "id": "f-chennai~cmrl",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ungalsoththu/ChennaiGTFS/raw/main/data/cmrl-gtfs.zip"
+      },
+      "license": {
+        "url": "https://github.com/ungalsoththu/ChennaiGTFS"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-chennai~mtc",
+      "name": "MTC",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "69",
+          "feed_onestop_id": "f-chennai~mtc"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-chennai~cmrl",
+      "name": "Chennai Metro Rail Limited",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "CMRL",
+          "feed_onestop_id": "f-chennai~cmrl"
+        }
+      ]
+    }
+  ]
+}
