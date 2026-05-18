@@ -23,9 +23,23 @@
           "tags": {
             "us_ntd_id": "30006",
             "wikidata_id": "Q5600732"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-grtc~va~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-grtc~va~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://grtcbustracker.com/gtfsrt/vehicles",
+        "realtime_trip_updates": "https://grtcbustracker.com/gtfsrt/trips",
+        "realtime_alerts": "https://grtcbustracker.com/gtfsrt/alerts"
+      }
     }
   ]
 }
