@@ -71,7 +71,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         }
     }
 
-    
     for (url, feed_ids) in &url_to_feed_ids {
         if feed_ids.len() > 1 {
             println!("{:?} are sharing {}", feed_ids, url);

@@ -23,7 +23,16 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
-        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr",
+        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/lirr%2Fgtfs-lirr"
+      },
+      "license": {
+        "url": "https://api.mta.info/#/DataFeedAgreement"
+      }
+    },
+    {
+      "id": "f-mta~nyc~rt~lirr~alerts",
+      "spec": "gtfs-rt",
+      "urls": {
         "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Flirr-alerts"
       },
       "license": {
@@ -52,7 +61,16 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
-        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr",
+        "realtime_trip_updates": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/mnr%2Fgtfs-mnr"
+      },
+      "license": {
+        "url": "https://api.mta.info/#/DataFeedAgreement"
+      }
+    },
+    {
+      "id": "f-mta~nyc~rt~mnr~alerts",
+      "spec": "gtfs-rt",
+      "urls": {
         "realtime_alerts": "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fmnr-alerts"
       },
       "license": {
@@ -326,6 +344,9 @@
         },
         {
           "feed_onestop_id": "f-mta~nyc~rt~lirr"
+        },
+        {
+          "feed_onestop_id": "f-mta~nyc~rt~lirr~alerts"
         }
       ],
       "tags": {
@@ -419,6 +440,9 @@
         },
         {
           "feed_onestop_id": "f-mta~nyc~rt~mnr"
+        },
+        {
+          "feed_onestop_id": "f-mta~nyc~rt~mnr~alerts"
         }
       ],
       "tags": {
