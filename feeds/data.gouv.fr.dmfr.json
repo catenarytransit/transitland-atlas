@@ -945,7 +945,7 @@
       "id": "f-muvitarra~seau~duajaccien~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/3f08460c-8ec7-4b9e-a244-8855292b9e24"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/5021a054-43c8-49b7-9166-832f2af6c8f0"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
@@ -1149,7 +1149,7 @@
       "id": "f-reseau~maelis~montlucon~communaute",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/d352885f-3d43-43f8-b0c6-caa1a8313f56",
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/1ee93a61-23e0-49f0-bf76-b5c367d5e42c",
         "static_historic": [
           "https://www.data.gouv.fr/fr/datasets/r/9d38fdb9-0e19-4a38-a22a-2f91f10da415"
         ]
@@ -1844,7 +1844,7 @@
       "id": "f-tlphriquedufaron~rique~mont~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/65bb47dd-28de-43c0-92b9-f3208b5f8295"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/9bba0b17-2863-4ee1-a38a-c7a445f820d1"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
