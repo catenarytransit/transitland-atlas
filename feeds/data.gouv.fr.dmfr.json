@@ -581,7 +581,7 @@
       "id": "f-estival~seau~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/919b4ca6-11e3-4156-bf59-5c0e7f25d929"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/3b659ebb-8c17-46f4-a8ac-78c4129a4a29"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
@@ -1164,7 +1164,7 @@
       "id": "f-retz~en~valois~fr",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/eff9558e-4575-429f-bbe1-0cd37f1e6432"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/39bc7064-a387-4eef-9fb3-05fe3c00782b"
       },
       "license": {
         "spdx_identifier": "ODbL-1.0",
