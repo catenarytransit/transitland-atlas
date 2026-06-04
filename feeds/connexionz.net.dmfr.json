@@ -339,6 +339,45 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-dr7-nywaterway",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/nywaterway-nj-us/nywaterway-nj-us.zip",
+        "static_historic": [
+          "https://s3.amazonaws.com/data.bytemark.co/nywaterway/nywaterway.zip"
+        ]
+      },
+      "tags": {
+        "gtfs_data_exchange": "ny-waterway"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dr7-nywaterway",
+          "name": "NY Waterway",
+          "website": "http://www.nywaterway.com",
+          "tags": {
+            "twitter_general": "ridetheferry",
+            "us_ntd_id": "20190",
+            "wikidata_id": "Q6956135"
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-dr7-nywaterway~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-dr7-nywaterway~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://nywaterway.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+        "realtime_trip_updates": "https://nywaterway.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
+        "realtime_alerts": "https://nywaterway.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/alert"
+      }
     }
   ]
 }
