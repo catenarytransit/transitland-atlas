@@ -13,7 +13,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut is_err = false;
 
     let mut url_to_feed_ids: HashMap<String, HashSet<String>> = HashMap::new();
-    let mut feed_id_to_file_name: HashMap<String, String> = HashMap::new();
+    let mut feed_id_to_file_names: HashMap<String, Vec<String>> = HashMap::new();
 
     for entry in feed_entries {
         if let Ok(entry) = entry {
@@ -47,7 +47,10 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
                             }
                         }
 
-                        feed_id_to_file_name.insert(feed.id.clone(), file_name.to_string());
+                        feed_id_to_file_names
+                            .entry(feed.id.clone())
+                            .or_default()
+                            .push(file_name.to_string());
 
                         for url in &feed.urls.static_current {
                             if feed.urls.static_current.is_some() {
@@ -74,6 +77,15 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     for (url, feed_ids) in &url_to_feed_ids {
         if feed_ids.len() > 1 {
             println!("{:?} are sharing {}", feed_ids, url);
+        }
+    }
+
+    for (feed_id, file_names) in &feed_id_to_file_names {
+        if file_names.len() > 1 {
+            eprintln!(
+                "Warning: Feed ID {} is shared by 2 or more feed entries: {:?}",
+                feed_id, file_names
+            );
         }
     }
 

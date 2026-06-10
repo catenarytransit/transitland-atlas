@@ -660,19 +660,6 @@
       ]
     },
     {
-      "id": "f-laxflyaway",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://laxflyaway.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-laxflyaway",
-          "name": "LAX Flyaway"
-        }
-      ]
-    },
-    {
       "id": "f-life~ga~us",
       "spec": "gtfs",
       "urls": {
