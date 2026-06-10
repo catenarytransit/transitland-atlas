@@ -192,8 +192,7 @@
         {
           "onestop_id": "o-9q5cp-downeylink",
           "name": "DowneyLINK",
-          "associated_feeds": [
-          ],
+          "associated_feeds": [],
           "tags": {
             "us_ntd_id": "90263"
           }
@@ -651,6 +650,48 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-tahoe~ca~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://tahoe.syncromatics.com/gtfs"
+      },
+      "license": {
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9qft-tahoetransportationdistrict",
+          "name": "Tahoe Transportation District",
+          "website": "https://www.tahoetransportation.org/",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "933"
+            },
+            {
+              "feed_onestop_id": "f-tahoe~ca~rt"
+            },
+            {
+              "feed_onestop_id": "f-tahoe~ca~rt~alerts"
+            }
+          ],
+          "tags": {
+            "us_ntd_id": "91092",
+            "wikidata_id": "Q7568609"
+          }
+        }
+      ]
+    },
+    {
+      "id": "f-tahoe~ca~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://tahoe.syncromatics.com/gtfs-rt/vehiclepositions",
+        "realtime_trip_updates": "https://tahoe.syncromatics.com/gtfs-rt/tripupdates",
+        "realtime_alerts": "https://tahoe.syncromatics.com/gtfs-rt/alerts"
+      }
     }
   ]
 }
