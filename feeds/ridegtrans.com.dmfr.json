@@ -20,9 +20,23 @@
             "twitter_general": "RideGTrans",
             "us_ntd_id": "90042",
             "wikidata_id": "Q5522428"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_id": "f-gtrans~ca~us~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-gtrans~ca~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://mygtbus.ridegtrans.com/gtfsrt/vehicles",
+        "realtime_trip_updates": "https://mygtbus.ridegtrans.com/gtfsrt/trips",
+        "realtime_service_alerts": "https://mygtbus.ridegtrans.com/gtfsrt/alerts"
+      }
     }
   ]
 }
