@@ -629,19 +629,6 @@
       }
     },
     {
-      "id": "f-lax~flyaway",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://laxtransportation.ridesystems.net/Secure/Admin/Reports/GTFSDownload.aspx",
-        "static_historic": [
-          "https://www.flylax.com/-/media/flylax/flyaway/gtfs/google_transit.ashx"
-        ]
-      },
-      "license": {
-        "url": "https://www.flylax.com/flyaway-bus/faqs"
-      }
-    },
-    {
       "id": "f-mcallen~tx~us",
       "spec": "gtfs",
       "urls": {
@@ -903,6 +890,31 @@
           }
         }
       ]
+    },
+    {
+      "id": "f-los~angeles~international~airport~shuttle",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://laxtransportation.ridesystems.net/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-losangeles~international~airport~shuttle",
+          "name": "Los Angeles International Airport Shuttle",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-los~angeles~international~airport~shuttle~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-los~angeles~international~airport~shuttle~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://laxtransportation.ridesystems.net/subscriptions/gtfsrt/vehicles.ashx"
+      }
     }
   ]
 }
