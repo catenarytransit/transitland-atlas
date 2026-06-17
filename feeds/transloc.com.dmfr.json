@@ -1016,19 +1016,6 @@
     },
     {
       "id": "f-university~of~virginia",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://umkc.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-umkc~mo~us",
-          "name": "University of Missouri - Kansas City"
-        }
-      ]
-    },
-    {
-      "id": "f-university~of~virginia",
       "supersedes_ids": [
         "f-uva~va~us"
       ],
