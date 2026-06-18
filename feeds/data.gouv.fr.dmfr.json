@@ -39,7 +39,7 @@
       "id": "f-grand~dole",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/a8c743ee-e2d4-408c-ac4b-6434b6eaadf9"
+        "static_current": "https://transport.data.gouv.fr/resources/81254/download"
       },
       "license": {
         "url": "https://transport.data.gouv.fr/datasets/reseau-de-transport-du-grand-dole"
@@ -158,7 +158,7 @@
         }
       ],
       "urls": {
-        "static_current": "https://www.data.gouv.fr/fr/datasets/r/0ccbfe4d-4e30-4aca-bde4-4ab2508c4b2f"
+        "static_current": "https://www.data.gouv.fr/api/1/datasets/r/69c3db8a-a5fd-471f-b59f-46b9faded381"
       }
     },
     {
