@@ -11,7 +11,7 @@
         ]
       },
       "license": {
-        "url": "https://open.toronto.ca/dataset/ttc-routes-and-schedules/",
+        "url": "https://open.toronto.ca/dataset/merged-gtfs-ttc-routes-and-schedules/",
         "use_without_attribution": "no",
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
@@ -21,57 +21,42 @@
       }
     },
     {
-      "id": "f-dpz8-ttc~surface",
-      "spec": "gtfs",
+      "id": "f-dpz8-ttc~alerts~rt",
+      "spec": "gtfs-rt",
       "urls": {
-        "static_current": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/bd4809dd-e289-4de8-bbde-c5c00dafbf4f/resource/28514055-d011-4ed7-8bb0-97961dfe2b66/download/SurfaceGTFS.zip"
+        "realtime_alerts": "https://gtfsrt.ttc.ca/alerts/all?format=binary"
       },
       "license": {
-        "url": "https://open.toronto.ca/dataset/surface-routes-and-schedules-for-bustime/",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Contains information licensed under the Open Government Licence - Toronto"
-      },
-      "tags": {
-        "notes": "static feed to go along with real-time feed; limited to buses and surface trains; for subways see f-dpz8-ttc"
+        "url": "https://gtfsrt.ttc.ca/"
       }
     },
     {
       "id": "f-dpz8-ttc~surface~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://bustime.ttc.ca/gtfsrt/vehicles",
-        "realtime_trip_updates": "https://bustime.ttc.ca/gtfsrt/trips",
-        "realtime_alerts": "https://bustime.ttc.ca/gtfsrt/alerts"
+        "realtime_vehicle_positions": "https://gtfsrt.ttc.ca/vehicles/position?format=binary",
+        "realtime_trip_updates": "https://gtfsrt.ttc.ca/trips/modified_update?format=binary",
+        "realtime_trip_modifications": "https://gtfsrt.ttc.ca/trips/detour?format=binary"
       },
       "license": {
-        "url": "https://open.toronto.ca/dataset/ttc-bustime-real-time-next-vehicle-arrival-nvas/",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes",
-        "share_alike_optional": "yes",
-        "attribution_text": "Contains information licensed under the Open Government Licence - Toronto"
+        "url": "https://gtfsrt.ttc.ca/"
       },
       "tags": {
-        "notes": "matches with static data in f-dpz8-ttc~surface"
+        "notes": "Trip updates use \"modified update\" feed which includes the trip modification IDs"
+      }
+    },
+    {
+      "id": "f-dpz8-ttc~subway~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://gtfsrt.ttc.ca/trips/subway?format=binary"
+      },
+      "license": {
+        "url": "https://gtfsrt.ttc.ca/"
       }
     }
   ],
   "operators": [
-    {
-      "onestop_id": "o-dpz8-ttc~notbustime",
-      "name": "TTC Subway",
-      "short_name": "TTC",
-      "associated_feeds": [
-        {
-          "feed_onestop_id": "f-dpz8-ttc"
-        }
-      ]
-    },
     {
       "onestop_id": "o-dpz8-ttc",
       "name": "Toronto Transit Commission",
@@ -79,10 +64,16 @@
       "website": "http://www.ttc.ca",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-dpz8-ttc~surface"
+          "feed_onestop_id": "f-dpz8-ttc"
+        },
+        {
+          "feed_onestop_id": "f-dpz8-ttc~alerts~rt"
         },
         {
           "feed_onestop_id": "f-dpz8-ttc~surface~rt"
+        },
+        {
+          "feed_onestop_id": "f-dpz8-ttc~subway~rt"
         }
       ],
       "tags": {

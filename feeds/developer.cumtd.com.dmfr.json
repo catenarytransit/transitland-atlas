@@ -5,10 +5,10 @@
       "id": "f-dp1h-champaignurbanamasstransitdistrict",
       "spec": "gtfs",
       "urls": {
-        "static_current": "http://developer.cumtd.com/gtfs/google_transit.zip"
+        "static_current": "https://mtd.dev/gtfs.zip"
       },
       "license": {
-        "url": "https://developer.cumtd.com/terms-of-use/"
+        "url": "https://mtd.dev/"
       },
       "tags": {
         "gtfs_data_exchange": "champaign-urbana-mass-transit-district"
@@ -23,6 +23,39 @@
             "us_ntd_id": "50060",
             "wikidata_id": "Q5069909"
           }
+        }
+      ]
+    },
+    {
+      "id": "f-dp1h-champaignurbanamasstransitdistrict~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gtfs-rt.mtd.org/vehicle-positions",
+        "realtime_trip_updates": "https://gtfs-rt.mtd.org/trip-updates",
+        "realtime_alerts": "https://gtfs-rt.mtd.org/service-alerts"
+      },
+      "license": {
+        "url": "https://gtfs-rt.mtd.org/index.html"
+      }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-dp1h-champaignurbanamasstransitdistrict",
+      "name": "Champaign Urbana Mass Transit District",
+      "short_name": "MTD",
+      "tags": {
+        "twitter_general": "rideMTD",
+        "us_ntd_id": "50060",
+        "wikidata_id": "Q5069909"
+      },
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "CUMTD",
+          "feed_onestop_id": "f-dp1h-champaignurbanamasstransitdistrict"
+        },
+        {
+          "feed_onestop_id": "f-dp1h-champaignurbanamasstransitdistrict~rt"
         }
       ]
     }
