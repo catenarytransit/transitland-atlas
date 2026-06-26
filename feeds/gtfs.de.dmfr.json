@@ -2,10 +2,129 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-gtfs~de~baden~württemberg",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/baden_wuerttemberg.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~bayern",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/bayern.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~berlin",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/berlin.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~brandenburg",
+      "spec": "gbfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/brandenburg.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~bremen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/bremen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~hamburg",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/hamburg.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~hessen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/hessen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~mecklenburg~vorpommern",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/mecklenburg_vorpommern.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~niedersachsen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/niedersachsen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~nordrhein~westfalen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/nordrhein_westfalen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~rheinland~pfalz",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/rheinland_pfalz.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~saarland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/saarland.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~sachsen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/sachsen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~sachsen~anhalt",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/sachsen_anhalt.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~schleswig~holstein",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/schleswig_holstein.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~thüringen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/thueringen.zip"
+      }
+    },
+    {
+      "id": "f-gtfs~de~deutsche~bahn",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/deutsche_bahn.zip"
+      }
+    },
+    {
       "id": "f-gtfs~de",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/fahrplaene_gesamtdeutschland_gtfs_raw.zip"
+        "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/other.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -49,7 +168,7 @@
           "feed_onestop_id": "f-tlms~rt"
         },
         {
-          "feed_onestop_id": "f-gtfs~de"
+          "feed_onestop_id": "f-gtfs~de~sachsen"
         }
       ]
     },
@@ -67,6 +186,54 @@
         },
         {
           "feed_onestop_id": "f-delfi~de~motis~rt"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~baden~württemberg"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~bayern"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~berlin"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~brandenburg"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~bremen"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~hamburg"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~hessen"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~mecklenburg~vorpommern"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~niedersachsen"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~nordrhein~westfalen"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~rheinland~pfalz"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~saarland"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~sachsen~anhalt"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~schleswig~holstein"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~thüringen"
+        },
+        {
+          "feed_onestop_id": "f-gtfs~de~deutsche~bahn"
         }
       ]
     }
