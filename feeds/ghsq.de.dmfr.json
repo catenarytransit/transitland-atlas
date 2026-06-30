@@ -1,0 +1,26 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+        {
+            "id": "f-hellenic~train",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://jbb.ghsq.de/gtfs/gr-hellenic-train.gtfs.zip"
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-hellenic~train",
+                    "name": "Hellenic Train"
+                }
+            ]
+        },
+        {
+            "id": "f-hellenic~train~rt",
+            "spec": "gtfs-rt",
+            "urls": {
+                "realtime_vehicle_positions": "https://jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions",
+                "realtime_trip_updates": "https://jbb.ghsq.de/gtfs/railway-gov-gr/VehiclePositions"
+            }
+        }
+    ]
+}

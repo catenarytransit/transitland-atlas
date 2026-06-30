@@ -9,6 +9,10 @@
       },
       "license": {
         "url": "https://data.gov.rs/sr/datasets/gtfs-kragujevats/"
+      },
+      "tags": {
+        "skip": true,
+        "skip-reason": "Currently expired for multiple years"
       }
     },
     {
@@ -19,6 +23,11 @@
       },
       "license": {
         "url": "https://data.gov.rs/sr/datasets/javni-prevoz-i-gtfs/"
+      },
+      "tags": {
+        "fix": true,
+        "skip": true,
+        "skip-reason": "Currently expired for multiple years"
       }
     },
     {
@@ -50,6 +59,9 @@
       },
       "license": {
         "url": "https://data.gov.rs/sr/datasets/gtfs-subotitsa/"
+      },
+      "tags": {
+        "extend-calendar": true
       }
     },
     {
@@ -60,6 +72,132 @@
       },
       "license": {
         "url": "https://data.gov.rs/sr/datasets/gtfs-uzhitse/"
+      },
+      "tags": {
+        "skip": true,
+        "skip-reason": "Currently expired for multiple years"
+      }
+    },
+    {
+      "id": "f-srbijavoz~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/srbijavoz-merged-gtfs/latest/srbijavoz_merged.zip"
+      },
+      "tags": {
+        "fix": true
+      }
+    },
+    {
+      "id": "f-srbijavoz~rs~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "http://rt.gtfs.baguette.pirnet.si/gtfs-rt/Srbijavoz_ghl/trip_updates.pb"
+      }
+    },
+    {
+      "id": "f-beograd-prigrad~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.gov.rs/sr/datasets/r/60f82229-16c7-4939-961b-2c24873d3e06"
+      }
+    },
+    {
+      "id": "f-beograd~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://rt.buslogic.baguette.pirnet.si/beograd/rt.pb"
+      },
+      "tags": {
+        "use-feed-proxy": true
+      }
+    },
+    {
+      "id": "f-beograd-prigrad~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://rt.buslogic.baguette.pirnet.si/beograd/rt.pb"
+      },
+      "tags": {
+        "use-feed-proxy": true
+      }
+    },
+    {
+      "id": "f-novisad~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/novi_sad-gtfs/latest/novi_sad_gtfs.zip"
+      },
+      "tags": {
+        "fix": true
+      }
+    },
+    {
+      "id": "f-novisad~rs~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://rt.buslogic.baguette.pirnet.si/jgsp_ns/rt.pb"
+      },
+      "tags": {
+        "use-feed-proxy": true
+      }
+    },
+    {
+      "id": "f-litas~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/litas_rs-gtfs/latest/litas_gtfs.zip"
+      }
+    },
+    {
+      "id": "f-pantransport~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/pancevo-gtfs/latest/pancevo_gtfs.zip"
+      },
+      "tags": {
+        "drop-too-fast-trips": false
+      }
+    },
+    {
+      "id": "f-autoprevoz-cacak~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/cacak-gtfs/latest/apcacak_gtfs.zip"
+      }
+    },
+    {
+      "id": "f-kavim-jedinstvo-vranje~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/vranje-gtfs/latest/kjvranje_gtfs.zip"
+      },
+      "tags": {
+        "drop-too-fast-trips": false
+      }
+    },
+    {
+      "id": "f-kgbus-kragujevac~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/kragujevac-gtfs/latest/kragujevac_gtfs.zip"
+      }
+    },
+    {
+      "id": "f-nis-gitlab~rs",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/nis-gtfs/latest/nis_gtfs.zip"
+      }
+    },
+    {
+      "id": "f-nis~rs~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://rt.buslogic.baguette.pirnet.si/nis/rt.pb"
+      },
+      "tags": {
+        "use-feed-proxy": true
       }
     }
   ]

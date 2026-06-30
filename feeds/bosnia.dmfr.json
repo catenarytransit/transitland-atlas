@@ -1,0 +1,53 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+        {
+            "id": "f-sarajevo",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/sarajevo-gtfs/latest/sarajevo_gtfs.zip"
+            }
+        },
+        {
+            "id": "f-centrotrans",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/centrotrans-gtfs/latest/centrotrans_gtfs.zip"
+            },
+            "operators": [
+                {
+                    "onestop_id": "o-centrotrans",
+                    "name": "Centrotrans",
+                    "short_name": "Centrotrans",
+                    "website": "https://centrotrans.com",
+                    "associated_feeds": [
+                        {
+                            "feed_onestop_id": "f-centrotrans~rt"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "f-centrotrans~rt",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://rt-misc.ojpp-http.pirnet.si/centrotrans/trip-updates.pb"
+            }
+        },
+        {
+            "id": "f-zfbih",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://owncloud.cesnet.cz/index.php/s/yWJhi9wjUIc3IC2/download"
+            }
+        },
+        {
+            "id": "f-mostar",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packages/generic/mostar-gtfs/latest/mobus_gtfs.zip"
+            }
+        }
+    ]
+}
