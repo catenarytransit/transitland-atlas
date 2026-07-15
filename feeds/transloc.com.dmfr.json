@@ -609,19 +609,6 @@
       ]
     },
     {
-      "id": "f-lagunabeachtransit",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://lagunabeachtransit.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-lagunabeachtransit",
-          "name": "City of Laguna Beach"
-        }
-      ]
-    },
-    {
       "id": "f-lasc~ca~us",
       "spec": "gtfs",
       "urls": {

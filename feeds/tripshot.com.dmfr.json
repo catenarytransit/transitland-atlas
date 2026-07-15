@@ -22,6 +22,19 @@
       ]
     },
     {
+      "id": "f-lagunabeachtransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://lagunabeach.tripshot.com/v1/gtfs.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-lagunabeachtransit",
+          "name": "City of Laguna Beach"
+        }
+      ]
+    },
+    {
       "id": "f-genentech~rt",
       "spec": "gtfs-rt",
       "urls": {
@@ -36,7 +49,7 @@
       "urls": {
         "static_current": "https://ucsf.tripshot.com/v1/gtfs.zip"
       },
-       "operators": [
+      "operators": [
         {
           "onestop_id": "o-university~california~san~francisco",
           "name": "University of California San Francisco",
@@ -202,7 +215,7 @@
         "realtime_alerts": "https://calabasas.tripshot.com/v1/gtfs/realtime/serviceAlert"
       }
     },
-      {
+    {
       "id": "f-cgcta~mo~us",
       "spec": "gtfs",
       "urls": {
@@ -262,7 +275,6 @@
         }
       ]
     },
-
     {
       "id": "f-lawrence~berkeley~national~lab",
       "spec": "gtfs",

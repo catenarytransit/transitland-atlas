@@ -1,34 +1,36 @@
 {
-    "$dphema": "https://dmfr.transit.land/json-dphema/dmfr.dphema-v0.5.0.json",
-    "feeds": [
-      {
-        "id": "f-9mu-dptrolley",
-        "spec": "gtfs",
-        "urls": {
-          "static_current": "https://dptrolley.com/Secure/Admin/Reports/GTFSDownload.aspx"
-        }
-      },
-      {
-        "id": "f-dptrolley~rt",
-        "spec": "gtfs-rt",
-        "urls": {
-          "realtime_vehicle_positions": "https://dptrolley.com/subscriptions/gtfsrt/vehicles.ashx"
-        }
+  "$dphema": "https://dmfr.transit.land/json-dphema/dmfr.dphema-v0.5.0.json",
+  "feeds": [
+    {
+      "id": "f-9mu-dptrolley",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/dptrolley/passioTransit/gtfs/google_transit.zip"
       }
-    ],
-    "operators": [
-      {
-        "onestop_id": "o-9mu-dptrolley",
-        "name": "Dana Point",
-        "associated_feeds": [
-          {
-            "feed_onestop_id": "f-9mu-dptrolley"
-          },
-          {
-            "feed_onestop_id": "f-dptrolley~rt"
-          }
-        ]
+    },
+    {
+      "id": "f-dptrolley~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/dptrolley/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/dptrolley/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/dptrolley/passioTransit/gtfs/realtime/serviceAlerts"
       }
-    ],
-    "license_spdx_identifier": "CDLA-Permissive-1.0"
-  }
+    }
+  ],
+  "operators": [
+    {
+      "onestop_id": "o-9mu-dptrolley",
+      "name": "Dana Point",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-9mu-dptrolley"
+        },
+        {
+          "feed_onestop_id": "f-dptrolley~rt"
+        }
+      ]
+    }
+  ],
+  "license_spdx_identifier": "CDLA-Permissive-1.0"
+}
