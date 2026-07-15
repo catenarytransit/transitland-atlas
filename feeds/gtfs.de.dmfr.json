@@ -24,7 +24,7 @@
     },
     {
       "id": "f-gtfs~de~brandenburg",
-      "spec": "gbfs",
+      "spec": "gtfs",
       "urls": {
         "static_current": "https://github.com/catenarytransit/gtfs-de-splitter/releases/download/latest/brandenburg.zip"
       }
