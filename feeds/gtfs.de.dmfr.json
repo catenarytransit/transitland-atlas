@@ -224,6 +224,9 @@
           "feed_onestop_id": "f-gtfs~de~saarland"
         },
         {
+          "feed_onestop_id": "f-gtfs~de~sachsen"
+        },
+        {
           "feed_onestop_id": "f-gtfs~de~sachsen~anhalt"
         },
         {
