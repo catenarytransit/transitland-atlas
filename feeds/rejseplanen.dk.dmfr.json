@@ -10,6 +10,30 @@
       "license": {
         "spdx_identifier": "CC-BY-4.0",
         "url": "https://labs.rejseplanen.dk/hc/en-us/articles/24750139021341-Oversigt-over-udstillede-data"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dsb~dk",
+          "name": "DSB",
+          "website": "https://www.dsb.dk/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-rejseplanen~dk~gtfs-rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-rejseplanen~dk~gtfs-rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://placeholder.catenarymaps.org",
+        "realtime_vehicle_positions": "https://placeholder.catenarymaps.org"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "url": "https://labs.rejseplanen.dk/hc/en-us/articles/24750139021341-Oversigt-over-udstillede-data"
       }
     }
   ]
