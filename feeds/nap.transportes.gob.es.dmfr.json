@@ -29,7 +29,7 @@
       "id": "f-alsa~autobuses",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://nap.transportes.gob.es/api/Fichero/download/1133"
+        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/alsa_bus_pfaedle.zip"
       },
       "license": {
         "url": "https://nap.transportes.gob.es/licencia-datos",
